@@ -1,0 +1,106 @@
+ClassName,WeaponType,MaxWeaponRank
+Hoshido Noble,Sword,A
+Hoshido Noble,Staff,B
+Hoshido Noble,Dragonstone,A
+Samurai,Sword,B
+Swordmaster,Sword,S
+Master of Arms,Sword,A
+Master of Arms,Lance,B
+Master of Arms,Axe,B
+Oni Savage,Axe,B
+Oni Chieftain,Axe,A
+Oni Chieftain,Tome,B
+Blacksmith,Sword,B
+Blacksmith,Axe,A
+Spear Fighter,Lance,B
+Spear Master,Lance,S
+Basara,Lance,A
+Basara,Tome,B
+Diviner,Tome,B
+Onmyoji,Tome,A
+Onmyoji,Staff,B
+Monk,Staff,B
+Shrine Maiden,Staff,B
+Great Master,Lance,B
+Great Master,Staff,A
+Priestess,Bow,B
+Priestess,Staff,A
+Sky Knight,Lance,B
+Falcon Knight,Lance,A
+Falcon Knight,Staff,B
+Kinshi Knight,Lance,B
+Kinshi Knight,Bow,A
+Archer,Bow,B
+Sniper,Bow,S
+Ninja,Dagger,B
+Master Ninja,Sword,B
+Master Ninja,Dagger,S
+Mechanist,Dagger,A
+Mechanist,Bow,B
+Apothecary,Bow,B
+Merchant,Lance,B
+Merchant,Bow,A
+Kitsune,Beaststone,B
+Nine-Tails,Beaststone,S
+Songstress,Lance,C
+Villager,Lance,C
+Nohr Prince,Sword,B
+Nohr Prince,Dragonstone,B
+Nohr Princess,Sword,B
+Nohr Princess,Dragonstone,B
+Nohr Noble,Sword,A
+Nohr Noble,Tome,B
+Nohr Noble,Dragonstone,A
+Cavalier,Sword,B
+Cavalier,Lance,B
+Paladin,Sword,A
+Paladin,Lance,A
+Great Knight,Sword,B
+Great Knight,Lance,A
+Great Knight,Axe,B
+Knight,Lance,A
+General,Lance,A
+General,Axe,B
+Fighter,Axe,B
+Berserker,Axe,S
+Mercenary,Sword,B
+Hero,Sword,A
+Hero,Axe,B
+Bow Knight,Sword,B
+Bow Knight,Bow,A
+Outlaw,Bow,B
+Adventurer,Bow,A
+Adventurer,Staff,B
+Wyvern Rider,Axe,B
+Wyvern Lord,Lance,B
+Wyvern Lord,Axe,A
+Malig Knight,Axe,A
+Malig Knight,Tome,B
+Dark Mage,Tome,B
+Sorcerer,Tome,S
+Dark Knight,Sword,B
+Dark Knight,Tome,A
+Troubadour,Staff,B
+Strategist,Tome,B
+Strategist,Staff,A
+Maid,Dagger,B
+Maid,Staff,S
+Butler,Dagger,B
+Butler,Staff,S
+Wolfskin,Beaststone,B
+Wolfssegner,Beaststone,S
+Dread Fighter,Sword,A
+Dread Fighter,Axe,B
+Dread Fighter,Dagger,B
+Dark Falcon,Lance,B
+Dark Falcon,Tome,A
+Ballistician,Bow,B
+Witch,Tome,S
+Lodestar,Sword,S
+Vanguard,Sword,A
+Vanguard,Axe,B
+Great Lord,Sword,A
+Great Lord,Lance,B
+Grandmaster,Sword,B
+Grandmaster,Tome,A
+Pegasus Knight,Lance,S

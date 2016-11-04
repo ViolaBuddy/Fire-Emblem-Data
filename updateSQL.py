@@ -29,9 +29,29 @@ with open('password.txt', 'r') as f:
 STRING_T = 'VARCHAR(64)' # for names
 LONG_STRING_T = 'VARCHAR(1024)' # for descriptions
 BOOLEAN_T = 'BOOLEAN'
+CHAR_T = 'CHAR(1)'
 INT_T = 'INTEGER'
 
 SQL_FILES = [
+	{
+		'tableName': 'Classes',
+		'sourceFile': os.path.join('FE14', 'classes.csv'),
+		'schema': {
+			'types': OrderedDict([
+				('ClassName', (STRING_T, 'NOT NULL') ),
+				('isHoshidan', (BOOLEAN_T, 'NOT NULL') ),
+				('isNohrian', (BOOLEAN_T, 'NOT NULL') ),
+				('isPromoted', (BOOLEAN_T, 'NOT NULL') ),
+				('isSpecial', (BOOLEAN_T, 'NOT NULL') ),
+				('canBeMale', (BOOLEAN_T, 'NOT NULL') ),
+				('canBeFemale', (BOOLEAN_T, 'NOT NULL') ),
+				('Description', (LONG_STRING_T, 'NOT NULL') )
+				]),
+			'primaryKey': 'ClassName',
+			'foreignKey': {}
+		},
+		'triggers': []
+	},
 	{
 		'tableName': 'Characters',
 		'sourceFile': os.path.join('FE14', 'characters.csv'),
@@ -40,6 +60,8 @@ SQL_FILES = [
 				# a dict mapping from CharId -> (data type, constraint string)
 				('CharId', (STRING_T, 'NOT NULL')),
 				('EnglishName', (STRING_T, 'NOT NULL')),
+				('isMale', (BOOLEAN_T, 'NOT NULL')),
+				('isFemale', (BOOLEAN_T, 'NOT NULL')),
 				('Birthright', (BOOLEAN_T, 'NOT NULL')),
 				('Conquest', (BOOLEAN_T, 'NOT NULL')),
 				('Revelation', (BOOLEAN_T, 'NOT NULL')),
@@ -50,8 +72,31 @@ SQL_FILES = [
 				('Description', (LONG_STRING_T, 'NOT NULL'))
 				]),
 			'primaryKey': 'CharId',
+			'foreignKey': {
+				'ClassName': ('Classes', 'ClassName')
+			}
+		},
+		'triggers': [
+			'''CREATE TRIGGER Characters_oneGender
+				BEFORE INSERT ON Characters FOR EACH ROW
+				IF NOT (NEW.isMale XOR NEW.isFemale)
+				THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Every character must have a single gender.';
+				END IF;'''# only one gender at a time
+		]
+	},
+	{
+		'tableName': 'WeaponTypes',
+		'sourceFile': os.path.join('FE14', 'weapontypes.csv'),
+		'schema': {
+			'types': OrderedDict([
+				('WeaponType', (STRING_T, 'NOT NULL')),
+				('NohrName', (STRING_T, 'NOT NULL')),
+				('HoshidoName', (STRING_T, 'NOT NULL'))
+				]),
+			'primaryKey': 'WeaponType',
 			'foreignKey': {}
-		}
+		},
+		'triggers': []
 	},
 	{
 		'tableName': 'PersonalSkills',
@@ -66,7 +111,114 @@ SQL_FILES = [
 			'foreignKey': {
 				'CharId': ('Characters', 'CharId')
 			}
-		}
+		},
+		'triggers': []
+	},
+	{
+		'tableName': 'Reclasses',
+		'sourceFile': os.path.join('FE14', 'reclasses.csv'),
+		'schema': {
+			'types': OrderedDict([
+				('CharId', (STRING_T, 'NOT NULL')),
+				('BaseClassName', (STRING_T, 'NOT NULL'))
+				]),
+			'primaryKey': 'CharId,BaseClassName', # neither name nor class alone is unique
+			'foreignKey': {
+				'CharId': ('Characters', 'CharId'),
+				'BaseClassName': ('Classes',  'ClassName')
+			}
+		},
+		'triggers': [
+			'''CREATE TRIGGER Reclasses_Baseclass
+				BEFORE INSERT ON Reclasses FOR EACH ROW
+				IF (SELECT NOT EXISTS(SELECT * FROM Classes C WHERE NOT C.isPromoted AND C.ClassName = NEW.BaseClassName))
+				THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Characters can only reclass to a base class.';
+				END IF;'''# reclasses must be to a base class
+		]
+	},
+	{
+		'tableName': 'ClassPromotions',
+		'sourceFile': os.path.join('FE14', 'classpromotions.csv'),
+		'schema': {
+			'types': OrderedDict([
+				('PromotedClass', (STRING_T, 'NOT NULL')),
+				('BaseClass', (STRING_T, 'NOT NULL'))
+				]),
+			'primaryKey': 'PromotedClass,BaseClass', # neither promoted nor base classes are unique
+			'foreignKey': {
+				'PromotedClass': ('Classes',  'ClassName'),
+				'BaseClass': ('Classes',  'ClassName')
+			}
+		},
+		'triggers': [
+			'''CREATE TRIGGER ClassPromotions_Baseclass
+				BEFORE INSERT ON ClassPromotions FOR EACH ROW
+				IF (SELECT NOT EXISTS(SELECT * FROM Classes C WHERE NOT C.isPromoted AND C.ClassName = NEW.BaseClass))
+				THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Characters can only promote from a base class.';
+				ELSEIF (SELECT NOT EXISTS(SELECT * FROM Classes C WHERE C.isPromoted AND C.ClassName = NEW.PromotedClass))
+				THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Characters can only promote to a promoted class.';
+				END IF;''',
+		]
+	},
+	{
+		'tableName': 'ClassStats',
+		'sourceFile': os.path.join('FE14', 'classstats.csv'),
+		'schema': {
+			'types': OrderedDict([
+				('ClassName', (STRING_T, 'NOT NULL')),
+				('BaseHP', (INT_T, 'NOT NULL')),
+				('BaseStr', (INT_T, 'NOT NULL')),
+				('BaseMag', (INT_T, 'NOT NULL')),
+				('BaseSkl', (INT_T, 'NOT NULL')),
+				('BaseSpd', (INT_T, 'NOT NULL')),
+				('BaseLck', (INT_T, 'NOT NULL')),
+				('BaseDef', (INT_T, 'NOT NULL')),
+				('BaseRes', (INT_T, 'NOT NULL')),
+				('BaseMov', (INT_T, 'NOT NULL')),
+				('HitBoost', (INT_T, 'NOT NULL')),
+				('AvoBoost', (INT_T, 'NOT NULL')),
+				('CrtBoost', (INT_T, 'NOT NULL')),
+				('CEvBoost', (INT_T, 'NOT NULL')),
+				('GrowthHP', (INT_T, 'NOT NULL')),
+				('GrowthStr', (INT_T, 'NOT NULL')),
+				('GrowthMag', (INT_T, 'NOT NULL')),
+				('GrowthSkl', (INT_T, 'NOT NULL')),
+				('GrowthSpd', (INT_T, 'NOT NULL')),
+				('GrowthLck', (INT_T, 'NOT NULL')),
+				('GrowthDef', (INT_T, 'NOT NULL')),
+				('GrowthRes', (INT_T, 'NOT NULL')),
+				('MaxHP', (INT_T, 'NOT NULL')),
+				('MaxStr', (INT_T, 'NOT NULL')),
+				('MaxMag', (INT_T, 'NOT NULL')),
+				('MaxSkl', (INT_T, 'NOT NULL')),
+				('MaxSpd', (INT_T, 'NOT NULL')),
+				('MaxLck', (INT_T, 'NOT NULL')),
+				('MaxDef', (INT_T, 'NOT NULL')),
+				('MaxRes', (INT_T, 'NOT NULL'))
+				]),
+			'primaryKey': 'ClassName',
+			'foreignKey': {
+				'ClassName': ('Classes',  'ClassName')
+			}
+		},
+		'triggers': []
+	},
+	{
+		'tableName': 'ClassWeapons',
+		'sourceFile': os.path.join('FE14', 'classweapons.csv'),
+		'schema': {
+			'types': OrderedDict([
+				('ClassName', (STRING_T, 'NOT NULL')),
+				('WeaponType', (STRING_T, 'NOT NULL')),
+				('MaxWeaponRank', (CHAR_T, 'NOT NULL'))
+				]),
+			'primaryKey': 'ClassName,WeaponType',
+			'foreignKey': {
+				'ClassName': ('Classes',  'ClassName'),
+				'WeaponType': ('WeaponTypes',  'WeaponType')
+			}
+		},
+		'triggers': []
 	}
 ]
 
@@ -121,9 +273,16 @@ try:
 	print('successfully dropped and recreated the database')
 
 	for tableData in SQL_FILES:
+		# create the table
 		sql = schema_to_SQL_query(tableData['tableName'], tableData['schema'])
 		print(sql); cur.execute(sql)
 
+		# run any triggers
+		for trigger in tableData['triggers']:
+			sql = trigger
+			print(sql); cur.execute(sql)
+
+		# insert values
 		baseSql = ['INSERT INTO ', tableData['tableName'], ' (']
 		for jtem in tableData['schema']['types']:
 			baseSql.append(jtem)
@@ -136,10 +295,11 @@ try:
 			for row in reader:
 				sql = [baseSql]
 				for jtem in tableData['schema']['types']:
-					if tableData['schema']['types'][jtem][0] == STRING_T or tableData['schema']['types'][jtem][0] == LONG_STRING_T:
+					# escape strings
+					if tableData['schema']['types'][jtem][0] in [STRING_T, LONG_STRING_T, CHAR_T]:
 						sql.append('\'')
 					sql.append(row[jtem].replace('\'', '\'\'') if row[jtem] != '' else 'null')
-					if tableData['schema']['types'][jtem][0] == STRING_T or tableData['schema']['types'][jtem][0] == LONG_STRING_T:
+					if tableData['schema']['types'][jtem][0] in [STRING_T, LONG_STRING_T, CHAR_T]:
 						sql.append('\'')
 					sql.append(', ')
 				sql[-1] = ')'#delete the final comma-space and replace it with what's necessary

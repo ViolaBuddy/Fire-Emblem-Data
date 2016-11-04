@@ -7,3 +7,6 @@ The [updateSQL.py](updateSQL.py) file, when run (with Python 3), will create a M
 ## Data source
 
 The data is (almost) entirely from [Serenes Forest](http://serenesforest.net/); see also [their data usage policy](http://serenesforest.net/general/about-us/) - basically, they're OK with pretty much anything, but if you're making an English-language Fire Emblem website, you should contact them first.
+
+## Misc.
+On [this Serenes Forest page](http://serenesforest.net/fire-emblem-fates/nohrian-characters/class-sets/), Siegbert's name is misspelled as "Siegert" (without a b)
