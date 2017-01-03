@@ -15,6 +15,63 @@ from collections import OrderedDict
 	password, e.g. with newlines or something, you may need to do weirder things here)
 """
 
+	# SET m_small = 0;
+	# outerloop: LOOP
+	# 	SET k = m_small;
+	# 	innerloop1: LOOP
+	# 		SET result1 = NFactorial(N_u) / NFactorial(k) / NFactorial(N_u - k);
+ #            SET result1  = 1 * POWER(1 - (u/100), N_u - k) * POWER(u/100, k);
+
+	# 		SET k = k + 1;
+	# 		IF k > N_u THEN
+	# 			LEAVE innerloop1;
+	# 		END IF;
+	# 	END LOOP innerloop1;
+
+	# 	SET overallresult = overallresult + result1;
+
+	# 	SET m_small = m_small+1;
+	# 	IF m_small > M THEN
+	# 		LEAVE outerloop;
+	# 	END IF;
+	# END LOOP outerloop;
+import math
+def fact(n):
+	if n <= 1:
+		return 1
+	else:
+		return n * fact(n-1)
+
+
+def AtLeastMLevelUps(M, N_u, N_p, u, p):
+	m_small = 0
+	overallresult = 0.0
+
+	while True:
+		k = m_small
+		while True:
+			result1 = fact(N_u) / fact(k) / fact(N_u - k)
+			try:
+				result1 = result1 * math.pow(1 - u/100, N_u - k) * math.pow(u/100, k)
+			except ValueError as e:
+				print(k, N_u)
+				raise e
+
+			k = k+1
+			if k > N_u:
+				break
+		overallresult = overallresult + result1
+
+		m_small = m_small+1
+		if m_small > M:
+			break
+	return overallresult
+
+print(AtLeastMLevelUps(3, 5, 0, 100, 0))
+
+
+exit()
+
 DATABASE_NAME = 'FireEmblemData'
 
 # read password file
@@ -144,7 +201,7 @@ SQL_FILES = [
 				('PromotedClass', (STRING_T, 'NOT NULL')),
 				('BaseClass', (STRING_T, 'NOT NULL'))
 				]),
-			'primaryKey': 'PromotedClass,BaseClass', # neither promoted nor base classes are unique
+			'primaryKey': 'PromotedClass,BaseClass', # neither promoted nor base classes alone are unique
 			'foreignKey': {
 				'PromotedClass': ('Classes',  'ClassName'),
 				'BaseClass': ('Classes',  'ClassName')
@@ -219,6 +276,136 @@ SQL_FILES = [
 			}
 		},
 		'triggers': []
+	},
+	{
+		'tableName': 'CharacterStats',
+		'sourceFile': os.path.join('FE14', 'characterstats.csv'),
+		'schema': {
+			'types': OrderedDict([
+				('CharId', (STRING_T, 'NOT NULL')),
+				('GrowthHP', (INT_T, 'NOT NULL')),
+				('GrowthStr', (INT_T, 'NOT NULL')),
+				('GrowthMag', (INT_T, 'NOT NULL')),
+				('GrowthSkl', (INT_T, 'NOT NULL')),
+				('GrowthSpd', (INT_T, 'NOT NULL')),
+				('GrowthLck', (INT_T, 'NOT NULL')),
+				('GrowthDef', (INT_T, 'NOT NULL')),
+				('GrowthRes', (INT_T, 'NOT NULL')),
+				('ModifierMaxStr', (INT_T, 'NOT NULL')),
+				('ModifierMaxMag', (INT_T, 'NOT NULL')),
+				('ModifierMaxSkl', (INT_T, 'NOT NULL')),
+				('ModifierMaxSpd', (INT_T, 'NOT NULL')),
+				('ModifierMaxLck', (INT_T, 'NOT NULL')),
+				('ModifierMaxDef', (INT_T, 'NOT NULL')),
+				('ModifierMaxRes', (INT_T, 'NOT NULL'))
+				]),
+			'primaryKey': 'CharId',
+			'foreignKey': {
+				'CharId': ('Characters',  'CharId')
+			}
+		},
+		'triggers': [
+			'''CREATE TRIGGER CharacterStats_NoChildren
+				BEFORE INSERT ON CharacterStats FOR EACH ROW
+				IF (SELECT EXISTS(SELECT * FROM Characters C WHERE C.isChild AND C.CharId = NEW.CharId))
+				THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'CharacterStats can only hold non-child characters.';
+				END IF;''',
+		]
+	},
+	{
+		'tableName': 'ChildrenStats',
+		'sourceFile': os.path.join('FE14', 'childrenstats.csv'),
+		'schema': {
+			'types': OrderedDict([
+				('CharId', (STRING_T, 'NOT NULL')),
+				('GrowthHP', (INT_T, 'NOT NULL')),
+				('GrowthStr', (INT_T, 'NOT NULL')),
+				('GrowthMag', (INT_T, 'NOT NULL')),
+				('GrowthSkl', (INT_T, 'NOT NULL')),
+				('GrowthSpd', (INT_T, 'NOT NULL')),
+				('GrowthLck', (INT_T, 'NOT NULL')),
+				('GrowthDef', (INT_T, 'NOT NULL')),
+				('GrowthRes', (INT_T, 'NOT NULL'))
+				]),
+			'primaryKey': 'CharId',
+			'foreignKey': {
+				'CharId': ('Characters',  'CharId')
+			}
+		},
+		'triggers': [
+			'''CREATE TRIGGER ChildrenStats_OnlyChildren
+				BEFORE INSERT ON ChildrenStats FOR EACH ROW
+				IF (SELECT NOT EXISTS(SELECT * FROM Characters C WHERE C.isChild AND C.CharId = NEW.CharId))
+				THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'ChildrenStats can only hold child characters.';
+				END IF;''',
+		]
+	},
+	{
+		'tableName': 'CharacterBaseStats',
+		'sourceFile': os.path.join('FE14', 'characterbasestats.csv'),
+		'schema': {
+			'types': OrderedDict([
+				('CharId', (STRING_T, 'NOT NULL')),
+				('inBirthright', (BOOLEAN_T, 'NOT NULL')),
+				('inConquest', (BOOLEAN_T, 'NOT NULL')),
+				('inRevelation', (BOOLEAN_T, 'NOT NULL')),
+				('Chapter', (STRING_T, 'NOT NULL')),
+				('Class', (STRING_T, 'NOT NULL')),
+				('BaseLevel', (INT_T, 'NOT NULL')),
+				('BaseHP', (INT_T, 'NOT NULL')),
+				('BaseStr', (INT_T, 'NOT NULL')),
+				('BaseMag', (INT_T, 'NOT NULL')),
+				('BaseSkl', (INT_T, 'NOT NULL')),
+				('BaseSpd', (INT_T, 'NOT NULL')),
+				('BaseLck', (INT_T, 'NOT NULL')),
+				('BaseDef', (INT_T, 'NOT NULL')),
+				('BaseRes', (INT_T, 'NOT NULL'))
+				]),
+			'primaryKey': 'CharId,inBirthright,inConquest,inRevelation,Chapter',
+			'foreignKey': {
+				'CharId': ('Characters',  'CharId'),
+				'Class': ('Classes',  'ClassName')
+			}
+		},
+		'triggers': [
+			'''CREATE TRIGGER CharacterBaseStats_NoChildren
+				BEFORE INSERT ON CharacterBaseStats FOR EACH ROW
+				IF (SELECT EXISTS(SELECT * FROM Characters C WHERE C.isChild AND C.CharId = NEW.CharId))
+				THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'CharacterBaseStats can only hold non-child characters.';
+				END IF;''',
+		]
+	},
+	{
+		'tableName': 'ChildrenBaseStats',
+		'sourceFile': os.path.join('FE14', 'childrenbasestats.csv'),
+		'schema': {
+			'types': OrderedDict([
+				('CharId', (STRING_T, 'NOT NULL')),
+				('Chapter', (STRING_T, 'NOT NULL')),
+				('Class', (STRING_T, 'NOT NULL')),
+				('BaseLevel', (INT_T, 'NOT NULL')),
+				('BaseHP', (INT_T, 'NOT NULL')),
+				('BaseStr', (INT_T, 'NOT NULL')),
+				('BaseMag', (INT_T, 'NOT NULL')),
+				('BaseSkl', (INT_T, 'NOT NULL')),
+				('BaseSpd', (INT_T, 'NOT NULL')),
+				('BaseLck', (INT_T, 'NOT NULL')),
+				('BaseDef', (INT_T, 'NOT NULL')),
+				('BaseRes', (INT_T, 'NOT NULL'))
+				]),
+			'primaryKey': 'CharId',
+			'foreignKey': {
+				'CharId': ('Characters',  'CharId'),
+				'Class': ('Classes',  'ClassName')
+			}
+		},
+		'triggers': [
+			'''CREATE TRIGGER ChildrenBaseStats_OnlyChildren
+				BEFORE INSERT ON ChildrenBaseStats FOR EACH ROW
+				IF (SELECT NOT EXISTS(SELECT * FROM Characters C WHERE C.isChild AND C.CharId = NEW.CharId))
+				THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'ChildrenBaseStats can only hold child characters.';
+				END IF;''',
+		]
 	}
 ]
 

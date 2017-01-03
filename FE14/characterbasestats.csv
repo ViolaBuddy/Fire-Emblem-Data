@@ -1,0 +1,60 @@
+CharId,inBirthright,inConquest,inRevelation,Chapter,Class,BaseLevel,BaseHP,BaseStr,BaseMag,BaseSkl,BaseSpd,BaseLck,BaseDef,BaseRes
+Avatar (F),1,1,1,0,Nohr Princess,1,19,7,4,7,6,5,6,2
+Avatar (M),1,1,1,0,Nohr Prince,1,19,7,4,7,6,5,6,2
+Gunter,1,1,1,2,Great Knight,3,24,10,0,15,8,9,10,4
+Felicia,1,1,1,2,Maid,1,19,5,9,10,10,12,5,9
+Felicia,1,1,1,15,Maid,13,24,7,14,15,17,20,7,14
+Jakob,1,1,1,2,Butler,1,21,8,6,12,9,10,7,6
+Jakob,1,1,1,15,Butler,13,27,13,9,19,15,17,11,10
+Kaze,1,1,1,4,Ninja,3,19,7,0,9,12,4,5,10
+Rinkah,1,0,0,4,Oni Savage,4,20,8,2,6,8,5,10,3
+Azura,1,1,1,5,Songstress,1,16,5,2,8,8,6,4,7
+Sakura,1,0,0,5,Shrine Maiden,1,16,3,6,5,7,9,5,7
+Mozu,1,1,1,1x,Villager,1,16,6,0,5,7,3,4,1
+Hana,1,0,0,7,Samurai,4,20,9,0,11,11,5,6,9
+Subaki,1,0,0,7,Sky Knight,5,22,8,0,13,10,7,9,10
+Saizo,1,0,0,7,Ninja,7,23,11,3,14,11,9,9,7
+Orochi,1,0,0,7,Diviner,5,20,0,9,11,7,6,5,10
+Silas,1,0,0,7,Cavalier,6,22,11,0,9,8,7,10,5
+Hinoka,1,0,0,8,Sky Knight,8,23,9,4,13,16,12,9,15
+Azama,1,0,0,8,Monk,7,24,9,7,9,10,12,10,8
+Setsuna,1,0,0,8,Archer,3,19,8,0,9,10,6,5,3
+Hayato,1,0,0,8,Diviner,1,16,1,4,5,7,8,4,5
+Oboro,1,0,0,9,Spear Fighter,10,25,13,0,11,12,11,13,8
+Hinata,1,0,0,9,Samurai,10,26,11,0,9,14,10,12,4
+Takumi,1,0,0,10,Archer,11,26,13,0,17,11,13,10,4
+Kagero,1,0,0,10,Ninja,10,22,15,0,10,12,7,9,10
+Reina,1,0,0,11,Kinshi Knight,1,28,17,5,14,20,14,10,13
+Kaden,1,0,0,12,Kitsune,14,30,15,1,12,19,14,9,14
+Ryoma,1,0,0,13,Swordmaster,4,36,20,2,18,24,20,16,13
+Scarlet,1,0,0,13,Wyvern Lord,1,30,23,4,17,19,14,22,6
+Shura,1,0,0,22,Adventurer,2,31,18,10,21,24,13,13,21
+Izana,1,1,1,19,Onmyoji,5,31,8,23,25,18,17,14,24
+Yukimura,1,0,0,23,Mechanist,10,38,25,3,29,23,18,21,22
+Elise,1,1,1,7,Troubadour,5,19,2,11,5,10,14,4,11
+Silas,0,1,0,7,Cavalier,6,22,11,0,9,8,7,10,5
+Arthur,1,1,1,7,Fighter,7,24,12,0,9,8,1,9,4
+Effie,1,1,1,7,Knight,6,23,13,0,8,5,10,12,4
+Odin,1,1,1,8,Dark Mage,5,21,5,8,10,7,9,6,7
+Niles,1,1,1,8,Outlaw,8,22,9,5,9,15,6,7,12
+Nyx,1,1,1,9,Dark Mage,9,20,1,12,5,11,3,4,8
+Camilla,1,1,1,10,Malig Knight,1,30,19,11,15,19,12,18,15
+Selena,1,1,1,10,Mercenary,10,24,12,3,12,15,9,11,8
+Beruka,1,1,1,10,Wyvern Rider,9,23,13,0,14,9,10,14,7
+Kaze,1,1,1,11,Ninja,9,22,9,0,12,16,6,7,13
+Laslow,1,1,1,12,Mercenary,12,28,15,0,16,13,14,10,7
+Peri,1,1,1,12,Cavalier,10,25,13,0,9,13,9,10,10
+Benny,1,1,1,13,Knight,15,31,15,0,15,6,12,19,10
+Charlotte,1,1,1,13,Fighter,10,28,15,0,10,13,9,8,2
+Leo,1,1,1,14,Dark Knight,2,34,14,20,14,15,15,16,20
+Keaton,1,1,1,14,Wolfskin,15,35,19,0,10,13,9,16,7
+Gunter,1,1,1,15,Great Knight,10,34,17,0,24,10,13,20,6
+Xander,1,1,1,16,Paladin,4,38,23,4,18,15,20,23,11
+Shura,1,0,0,16,Adventurer,2,31,18,10,21,24,13,13,21
+Flora,1,1,1,19,Maid,5,29,18,16,25,15,11,14,23
+Izana,1,1,1,23,Onmyoji,5,31,8,23,25,18,17,14,24
+Anna,1,1,1,DLC,Outlaw,10,23,9,11,10,14,15,6,15
+Marth,1,1,1,DLC,Lodestar,15,29,15,2,23,22,24,15,10
+Ike,1,1,1,DLC,Vanguard,15,32,20,0,15,14,16,18,8
+Lucina,1,1,1,DLC,Great Lord,15,28,17,3,19,21,20,14,13
+Robin,1,1,1,DLC,Grandmaster,15,25,14,17,20,13,10,13,17
