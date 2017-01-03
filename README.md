@@ -16,9 +16,9 @@ Additional thanks to ByaKudo on Reddit; see also [his/her Github repository for 
 
 ## Misc.
 
-- On [this Serenes Forest page](http://serenesforest.net/fire-emblem-fates/nohrian-characters/class-sets/), Siegbert's name is misspelled as "Siegert" (without a b).
+- ~~On [this Serenes Forest page](http://serenesforest.net/fire-emblem-fates/nohrian-characters/class-sets/), Siegbert's name is misspelled as "Siegert" (without a b).~~ Apparently, this has been fixed since I first accessed this page.
 - On Serenes Forest, Kaze, Rinkah, Azura, and Sakura (whom you control from Chapter 4 for the first two, and Chapter 5 for the second two respectively) are listed as joining on Chapter 6 instead (when your path splits, since they don't stay with you if you choose Nohr). In this database (see [characterbasestats.csv](FE14/characterbasestats.csv)) I write their original starting chapters, even for Rinkah and Sakura in Conquest even though they never rejoin. Kaze has a second entry for when he rejoins the party in Chapter 11 of Conquest with new stats; Azura rejoins with the same stats in Chapter 9 of Conquest, so does not get another entry.
-- The og:description HTML meta field of [the official Fire Emblem page](http://fireemblemfates.nintendo.com/dlc/) calls the third path "Revelations" (with an extra S).
+- The og:description HTML meta field of [the official Fire Emblem page](http://fireemblemfates.nintendo.com/dlc/) calls the third path "Revelations" (with an extra S), which you can see in the HTML source. In fact, more visibly, the title of the page also calls it Revelations (usually visible if you mouse over the tab or top ribbon of your browser).
 
 ## TODOs and Known Issues
 
