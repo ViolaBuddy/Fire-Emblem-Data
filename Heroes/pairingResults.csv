@@ -262,9 +262,9 @@ Ranking,"Male Character","Male Character Game","Female Character","Male Characte
 261,Galle,"The Binding Blade",Jeanne,"Genealogy of the Holy War"
 262,Hans,Fates,Safy,"Thracia 776"
 263,Saleh,"The Sacred Stones",Edain,"Genealogy of the Holy War"
-264,Nichol,Fates,Asaello,"Genealogy of the Holy War"
-265,Bantu,"Shadow Dragon and the Blade of Light / Shadow Dragon",Hermina,"Genealogy of the Holy War"
-266,Karel,"The Binding Blade",Hilda,"Genealogy of the Holy War"
+264,Nichol,Fates,Hermina,"Genealogy of the Holy War"
+265,Bantu,"Shadow Dragon and the Blade of Light / Shadow Dragon",Hilda,"Genealogy of the Holy War"
+266,Karel,"The Binding Blade",NULL,NULL
 267,Geese,"The Binding Blade",NULL,NULL
 268,Vyland,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
 269,Naoise,"Genealogy of the Holy War",NULL,NULL
@@ -494,30 +494,31 @@ Ranking,"Male Character","Male Character Game","Female Character","Male Characte
 493,Dalsin,"Thracia 776",NULL,NULL
 494,Gotoh,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
 495,Dolph,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-496,Amid,"Genealogy of the Holy War",NULL,NULL
-497,Fred,"Thracia 776",NULL,NULL
-498,Boah,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-499,Coirpre,"Genealogy of the Holy War",NULL,NULL
-500,Chagall,"Genealogy of the Holy War",NULL,NULL
-501,Dalvin,"Genealogy of the Holy War",NULL,NULL
-502,Izuka,"Radiant Dawn",NULL,NULL
-503,Troude,"Thracia 776",NULL,NULL
-504,Hetzel,"Radiant Dawn",NULL,NULL
-505,Lester,"Genealogy of the Holy War",NULL,NULL
-506,Hayden,"The Sacred Stones",NULL,NULL
-507,Sleuf,"Thracia 776",NULL,NULL
-508,Daniel,"Radiant Dawn",NULL,NULL
-509,Frost,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-510,Charlot,"Genealogy of the Holy War",NULL,NULL
-511,Scipio,"Genealogy of the Holy War",NULL,NULL
-512,Deimne,"Genealogy of the Holy War",NULL,NULL
-513,Darros,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-514,Cimbaeth,"Genealogy of the Holy War",NULL,NULL
-515,Conomor,"Thracia 776",NULL,NULL
-516,Ymir,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-517,Beck,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-518,Roger,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-519,Macellan,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-520,Danann,"Genealogy of the Holy War",NULL,NULL
-521,Bloom,"Genealogy of the Holy War",NULL,NULL
-522,Glade,"Thracia 776",NULL,NULL
+496,Asaello,"Genealogy of the Holy War",NULL,NULL
+497,Amid,"Genealogy of the Holy War",NULL,NULL
+498,Fred,"Thracia 776",NULL,NULL
+499,Boah,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+500,Coirpre,"Genealogy of the Holy War",NULL,NULL
+501,Chagall,"Genealogy of the Holy War",NULL,NULL
+502,Dalvin,"Genealogy of the Holy War",NULL,NULL
+503,Izuka,"Radiant Dawn",NULL,NULL
+504,Troude,"Thracia 776",NULL,NULL
+505,Hetzel,"Radiant Dawn",NULL,NULL
+506,Lester,"Genealogy of the Holy War",NULL,NULL
+507,Hayden,"The Sacred Stones",NULL,NULL
+508,Sleuf,"Thracia 776",NULL,NULL
+509,Daniel,"Radiant Dawn",NULL,NULL
+510,Frost,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+511,Charlot,"Genealogy of the Holy War",NULL,NULL
+512,Scipio,"Genealogy of the Holy War",NULL,NULL
+513,Deimne,"Genealogy of the Holy War",NULL,NULL
+514,Darros,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+515,Cimbaeth,"Genealogy of the Holy War",NULL,NULL
+516,Conomor,"Thracia 776",NULL,NULL
+517,Ymir,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+518,Beck,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+519,Roger,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+520,Macellan,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+521,Danann,"Genealogy of the Holy War",NULL,NULL
+522,Bloom,"Genealogy of the Holy War",NULL,NULL
+523,Glade,"Thracia 776",NULL,NULL
