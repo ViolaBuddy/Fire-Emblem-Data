@@ -385,7 +385,7 @@ SQL_FILES_HEROES = [
 	},
 ]
 
-SQL_FILES = SQL_FILES_HEROES
+SQL_FILES = SQL_FILES_FE14 + SQL_FILES_HEROES
 
 def schema_to_SQL_query(tablename, schema):
 	"""take in an OrderedDict schema and returns a MYSQL query string that creates such a table
