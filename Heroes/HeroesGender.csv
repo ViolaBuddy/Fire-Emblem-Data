@@ -85,7 +85,7 @@ CharId,Game,isMale,isFemale
 "Velouria","Fates",0,1
 "Setsuna","Fates",0,1
 "Kagero","Fates",0,1
-"Odin","Fates",0,1
+"Odin","Fates",1,0
 "Lot","The Binding Blade",1,0
 "Amelia","The Sacred Stones",0,1
 "Sophia","The Binding Blade",0,1
@@ -220,7 +220,7 @@ CharId,Game,isMale,isFemale
 "Lugh","The Binding Blade",1,0
 "Gangrel","Awakening",1,0
 "Vaike","Awakening",1,0
-"Garcia","The Sacred Stones",0,1
+"Garcia","The Sacred Stones",1,0
 "Layla","Fates",0,1
 "Catria","Mystery of the Emblem / New Mystery of the Emblem",0,1
 "Leila","The Blazing Blade",0,1

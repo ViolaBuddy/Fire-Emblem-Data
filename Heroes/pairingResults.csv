@@ -37,485 +37,487 @@ Ranking,"Male Character","Male Character Game","Female Character","Male Characte
 36,Keaton,Fates,Tiki,"Shadow Dragon and the Blade of Light / Shadow Dragon"
 37,Matthew,"The Blazing Blade",Mia,"Path of Radiance"
 38,Soren,"Radiant Dawn",Soleil,Fates
-39,Lot,"The Binding Blade",Florina,"The Blazing Blade"
-40,Arden,"Genealogy of the Holy War",Charlotte,Fates
-41,Sothe,"Radiant Dawn",Peri,Fates
-42,Seliph,"Genealogy of the Holy War",Maribelle,Awakening
-43,Silas,Fates,Ophelia,Fates
-44,Haar,"Radiant Dawn",Hana,Fates
-45,Stahl,Awakening,Velouria,Fates
-46,Canas,"The Blazing Blade",Setsuna,Fates
-47,Navarre,"Shadow Dragon and the Blade of Light / Shadow Dragon",Kagero,Fates
-48,Lyon,"The Sacred Stones",Odin,Fates
-49,Forrest,Fates,Amelia,"The Sacred Stones"
-50,Wrys,"Shadow Dragon and the Blade of Light / Shadow Dragon",Sophia,"The Binding Blade"
-51,Rutger,"The Binding Blade",Caeldori,Fates
-52,Eldigan,"Genealogy of the Holy War",Rinkah,Fates
-53,Ross,"The Sacred Stones",Panne,Awakening
-54,Raven,"The Blazing Blade",Sumia,Awakening
-55,Ogma,"Shadow Dragon and the Blade of Light / Shadow Dragon",Flora,Fates
-56,Saizo,Fates,Tana,"The Sacred Stones"
-57,"Morgan (M)",Awakening,"Kana (F)",Fates
-58,Lucius,"The Blazing Blade",Ninian,"The Blazing Blade"
-59,Kellam,Awakening,Noire,Awakening
-60,Dwyer,Fates,Rhajat,Fates
-61,Sain,"The Blazing Blade",Titania,"Path of Radiance"
-62,Erk,"The Blazing Blade",Nyx,Fates
-63,Alm,Gaiden,Beruka,Fates
-64,Guy,"The Blazing Blade",Minerva,"Shadow Dragon and the Blade of Light / Shadow Dragon"
-65,Tibarn,"Radiant Dawn",Aversa,Awakening
-66,Gerome,Awakening,Elincia,"Radiant Dawn"
-67,Subaki,Fates,L'Arachel,"The Sacred Stones"
-68,Leif,"Thracia 776",Rebecca,"The Blazing Blade"
-69,Arthur,Fates,Celica,Gaiden
-70,Libra,Awakening,Myrrh,"The Sacred Stones"
-71,Merric,"Shadow Dragon and the Blade of Light / Shadow Dragon",Tiki,"Mystery of the Emblem / New Mystery of the Emblem"
-72,Lewyn,"Genealogy of the Holy War",Lilith,Fates
-73,Lloyd,"The Blazing Blade",Serra,"The Blazing Blade"
-74,Ranulf,"Radiant Dawn",Katarina,"Mystery of the Emblem / New Mystery of the Emblem"
-75,Priam,Awakening,Ishtar,"Genealogy of the Holy War"
-76,Shinon,"Radiant Dawn",Cynthia,Awakening
-77,Ranulf,"Path of Radiance",Nah,Awakening
-78,Finn,"Genealogy of the Holy War",Mozu,Fates
-79,Virion,Awakening,Effie,Fates
-80,Rath,"The Blazing Blade",Sully,Awakening
-81,Shigure,Fates,Larcei,"Genealogy of the Holy War"
-82,Innes,"The Sacred Stones",Ilyana,"Path of Radiance"
-83,Gerik,"The Sacred Stones",Scarlet,Fates
-84,Gregor,Awakening,Fir,"The Binding Blade"
-85,Edward,"Radiant Dawn",Nina,Fates
-86,Hinata,Fates,Lethe,"Path of Radiance"
-87,Yarne,Awakening,Say'ri,Awakening
-88,Camus,"Shadow Dragon and the Blade of Light / Shadow Dragon",Caeda,"Mystery of the Emblem / New Mystery of the Emblem"
-89,"Kana (M)",Fates,Ilyana,"Radiant Dawn"
-90,Pent,"The Blazing Blade",Orochi,Fates
-91,Cormag,"The Sacred Stones",Shanna,"The Binding Blade"
-92,Anankos,Fates,Mist,"Path of Radiance"
-93,Shura,Fates,Jill,"Path of Radiance"
-94,Colm,"The Sacred Stones",Ursula,"The Blazing Blade"
-95,Ricken,Awakening,Catria,"Shadow Dragon and the Blade of Light / Shadow Dragon"
-96,Zelgius,"Radiant Dawn",Jill,"Radiant Dawn"
-97,Shinon,"Path of Radiance",Miriel,Awakening
-98,Azama,Fates,Linde,"Shadow Dragon and the Blade of Light / Shadow Dragon"
-99,Dieck,"The Binding Blade",Lachesis,"Genealogy of the Holy War"
-100,Cain,"Shadow Dragon and the Blade of Light / Shadow Dragon",Mist,"Radiant Dawn"
-101,Legault,"The Blazing Blade",Priscilla,"The Blazing Blade"
-102,Arvis,"Genealogy of the Holy War",Midori,Fates
-103,Gilliam,"The Sacred Stones",Fae,"The Binding Blade"
-104,Volke,"Radiant Dawn",Emmeryn,Awakening
-105,Naesala,"Radiant Dawn",Sanaki,"Radiant Dawn"
-106,Lugh,"The Binding Blade",Fiora,"The Blazing Blade"
-107,Gangrel,Awakening,Mikoto,Fates
-108,Vaike,Awakening,Nailah,"Radiant Dawn"
-109,Narcian,"The Binding Blade",Titania,"Radiant Dawn"
-110,Benny,Fates,Naga,Awakening
-111,"Finn (2)","Genealogy of the Holy War",Anna,"Shadow Dragon and the Blade of Light / Shadow Dragon"
-112,Walhart,Awakening,Garcia,"The Sacred Stones"
-113,Ced,"Genealogy of the Holy War",Layla,Fates
-114,Brady,Awakening,Catria,"Mystery of the Emblem / New Mystery of the Emblem"
-115,Mustafa,Awakening,Leila,"The Blazing Blade"
-116,Wil,"The Blazing Blade",Mitama,Fates
-117,Finn,"Thracia 776",Clarine,"The Binding Blade"
-118,Knoll,"The Sacred Stones",Flavia,Awakening
-119,Basilio,Awakening,Cecilia,"The Binding Blade"
-120,Kent,"The Blazing Blade",Idunn,"The Binding Blade"
-121,Zihark,"Radiant Dawn",Neimi,"The Sacred Stones"
-122,Wolt,"The Binding Blade",Reina,Fates
-123,Abel,"Shadow Dragon and the Blade of Light / Shadow Dragon",Sophie,Fates
-124,Ogma,"Mystery of the Emblem / New Mystery of the Emblem",Olwen,"Thracia 776"
-125,Raigh,"The Binding Blade",Minerva,"Mystery of the Emblem / New Mystery of the Emblem"
-126,Navarre,"Mystery of the Emblem / New Mystery of the Emblem",Lucia,"Radiant Dawn"
-127,Shiro,Fates,Elincia,"Path of Radiance"
-128,Ewan,"The Sacred Stones",Lethe,"Radiant Dawn"
-129,Heath,"The Blazing Blade",Mareeta,"Thracia 776"
-130,Oliver,"Radiant Dawn",Marcia,"Path of Radiance"
-131,Kiragi,Fates,Kjelle,Awakening
-132,Haar,"Path of Radiance",Leanne,"Radiant Dawn"
-133,Cervantes,Awakening,Vanessa,"The Sacred Stones"
-134,Merric,"Mystery of the Emblem / New Mystery of the Emblem",Farina,"The Blazing Blade"
-135,Tibarn,"Path of Radiance",Astrid,"Path of Radiance"
-136,Volug,"Radiant Dawn",Athena,"Shadow Dragon and the Blade of Light / Shadow Dragon"
-137,Asugi,Fates,Palla,"Mystery of the Emblem / New Mystery of the Emblem"
-138,Quan,"Genealogy of the Holy War",Thite,"The Binding Blade"
-139,Hector,"The Binding Blade",Vika,"Radiant Dawn"
-140,Gunter,Fates,Sonia,"The Blazing Blade"
-141,Jeorge,"Mystery of the Emblem / New Mystery of the Emblem",Echidna,"The Binding Blade"
-142,Zephiel,"The Binding Blade",Louise,"The Blazing Blade"
-143,Izana,Fates,Karla,"The Blazing Blade"
-144,Karel,"The Blazing Blade",Leanne,"Path of Radiance"
-145,Gonzalez,"The Binding Blade",Gwendolyn,"The Binding Blade"
-146,Greil,"Path of Radiance",Julia,"Genealogy of the Holy War"
-147,Sirius,"Mystery of the Emblem / New Mystery of the Emblem",Linde,"Mystery of the Emblem / New Mystery of the Emblem"
-148,Leif,"Genealogy of the Holy War",Selena,"The Sacred Stones"
-149,"Kris (M)","Mystery of the Emblem / New Mystery of the Emblem",Heather,"Radiant Dawn"
-150,Nils,"The Blazing Blade",Sheena,"Mystery of the Emblem / New Mystery of the Emblem"
-151,Jagen,"Shadow Dragon and the Blade of Light / Shadow Dragon",Arete,Fates
-152,Wolf,"Shadow Dragon and the Blade of Light / Shadow Dragon",Nagi,"Shadow Dragon and the Blade of Light / Shadow Dragon"
-153,Artur,"The Sacred Stones",Sue,"The Binding Blade"
-154,Arthur,"Genealogy of the Holy War",Erinys,"Genealogy of the Holy War"
-155,Tailtiu,"Genealogy of the Holy War",Melady,"The Binding Blade"
-156,Garon,Fates,Palla,"Shadow Dragon and the Blade of Light / Shadow Dragon"
-157,Xane,"Shadow Dragon and the Blade of Light / Shadow Dragon",Anna,"Radiant Dawn"
-158,Barst,"Shadow Dragon and the Blade of Light / Shadow Dragon",Sanaki,"Path of Radiance"
-159,Perceval,"The Binding Blade",Tethys,"The Sacred Stones"
-160,Stefan,"Radiant Dawn",Marcia,"Radiant Dawn"
-161,Tormod,"Radiant Dawn",Meg,"Radiant Dawn"
-162,Oscar,"Path of Radiance",Deirdre,"Genealogy of the Holy War"
-163,Aran,"Radiant Dawn",Lucia,"Path of Radiance"
-164,Hayato,Fates,Tine,"Genealogy of the Holy War"
-165,Mordecai,"Path of Radiance",Lyre,"Radiant Dawn"
-166,Moulder,"The Sacred Stones",Patty,"Genealogy of the Holy War"
-167,Valter,"The Sacred Stones",Yune,"Radiant Dawn"
-168,Caineghis,"Radiant Dawn",Candace,Fates
-169,Franz,"The Sacred Stones",Natasha,"The Sacred Stones"
-170,Boyd,"Path of Radiance",Nanna,"Thracia 776"
-171,Pelleas,"Radiant Dawn",Malice,"Mystery of the Emblem / New Mystery of the Emblem"
-172,Draug,"Shadow Dragon and the Blade of Light / Shadow Dragon",Elice,"Shadow Dragon and the Blade of Light / Shadow Dragon"
-173,Oswin,"The Blazing Blade","Kris (F)","Mystery of the Emblem / New Mystery of the Emblem"
-174,Athos,"The Blazing Blade",Lena,"Shadow Dragon and the Blade of Light / Shadow Dragon"
-175,Boyd,"Radiant Dawn",Norne,"Shadow Dragon and the Blade of Light / Shadow Dragon"
-176,Zihark,"Path of Radiance",Guinivere,"The Blazing Blade"
-177,Laurent,Awakening,Amy,"Radiant Dawn"
-178,Ares,"Genealogy of the Holy War",Delthea,Gaiden
-179,Forde,"The Sacred Stones",Nyna,"Shadow Dragon and the Blade of Light / Shadow Dragon"
-180,Stefan,"Path of Radiance",Sara,"Thracia 776"
-181,Azelle,"Genealogy of the Holy War",Petrine,"Path of Radiance"
-182,Hugh,"The Binding Blade",Sigrun,"Radiant Dawn"
-183,Shannan,"Genealogy of the Holy War",Igrene,"The Binding Blade"
-184,Naesala,"Path of Radiance",Astrid,"Radiant Dawn"
-185,Gordin,"Shadow Dragon and the Blade of Light / Shadow Dragon",Ashera,"Radiant Dawn"
-186,Reyson,"Path of Radiance",Mathilda,Gaiden
-187,Sumeragi,Fates,Laura,"Radiant Dawn"
-188,Iago,Fates,Ismaire,"The Sacred Stones"
-189,Julian,"Shadow Dragon and the Blade of Light / Shadow Dragon",Cath,"The Binding Blade"
-190,Volke,"Path of Radiance",Altena,"Genealogy of the Holy War"
-191,Cain,"Mystery of the Emblem / New Mystery of the Emblem",Anna,"Mystery of the Emblem / New Mystery of the Emblem"
-192,Rolf,"Path of Radiance",Brunnya,"The Binding Blade"
-193,Rhys,"Path of Radiance",Maria,"Shadow Dragon and the Blade of Light / Shadow Dragon"
-194,Chad,"The Binding Blade",Sigrun,"Path of Radiance"
-195,Merlinus,"The Blazing Blade",Isadora,"The Blazing Blade"
-196,Dart,"The Blazing Blade",Dorothy,"The Binding Blade"
-197,Sothe,"Path of Radiance",Machyua,"Thracia 776"
-198,Ethlyn,"Genealogy of the Holy War",Elena,"Path of Radiance"
-199,Ashnard,"Path of Radiance",Miranda,"Thracia 776"
-200,Reyson,"Radiant Dawn",Norne,"Mystery of the Emblem / New Mystery of the Emblem"
-201,Siegbert,Fates,Lara,"Thracia 776"
-202,Gordin,"Mystery of the Emblem / New Mystery of the Emblem",Tanith,"Path of Radiance"
-203,Hawkeye,"The Blazing Blade",Fee,"Genealogy of the Holy War"
-204,Etzel,"Shadow Dragon and the Blade of Light / Shadow Dragon",Guinivere,"The Binding Blade"
-205,Wallace,"The Blazing Blade",Linoan,"Thracia 776"
-206,Camus,"Mystery of the Emblem / New Mystery of the Emblem",Athena,"Mystery of the Emblem / New Mystery of the Emblem"
-207,Yen'fay,Awakening,Ashunera,"Radiant Dawn"
-208,Rolf,"Radiant Dawn",Est,"Shadow Dragon and the Blade of Light / Shadow Dragon"
-209,Marty,"Thracia 776",Fiona,"Radiant Dawn"
-210,Kieran,"Path of Radiance",Nagi,"Mystery of the Emblem / New Mystery of the Emblem"
-211,Ulster,"Genealogy of the Holy War",Syrene,"The Sacred Stones"
-212,"Rainbow Sage",Fates,Silvia,"Genealogy of the Holy War"
-213,Lex,"Genealogy of the Holy War",Catria,Gaiden
-214,Validar,Awakening,Lana,"Genealogy of the Holy War"
-215,Geoffrey,"Radiant Dawn",Phina,"Mystery of the Emblem / New Mystery of the Emblem"
-216,Marcus,"The Blazing Blade",Cecil,"Mystery of the Emblem / New Mystery of the Emblem"
-217,Duessel,"The Sacred Stones",Nanna,"Genealogy of the Holy War"
-218,Vyland,"Shadow Dragon and the Blade of Light / Shadow Dragon",Silque,Gaiden
-219,Jeorge,"Shadow Dragon and the Blade of Light / Shadow Dragon",Karin,"Thracia 776"
-220,Leonardo,"Radiant Dawn",Niime,"The Binding Blade"
-221,Dozla,"The Sacred Stones",Misha,"Thracia 776"
-222,Ced,"Thracia 776",Eyvel,"Thracia 776"
-223,Hisame,Fates,Elen,"The Binding Blade"
-224,Zola,Fates,Brigid,"Genealogy of the Holy War"
-225,Percy,Fates,Lene,"Genealogy of the Holy War"
-226,Sephiran,"Radiant Dawn",Tanya,"Thracia 776"
-227,Michalis,"Shadow Dragon and the Blade of Light / Shadow Dragon",Genny,Gaiden
-228,Hardin,"Shadow Dragon and the Blade of Light / Shadow Dragon",Ena,"Path of Radiance"
-229,Julius,"Genealogy of the Holy War",Maria,"Mystery of the Emblem / New Mystery of the Emblem"
-230,Lowen,"The Blazing Blade",Calill,"Path of Radiance"
-231,Noah,"The Binding Blade",Mae,Gaiden
-232,Tormod,"Path of Radiance",Larum,"The Binding Blade"
-233,Caineghis,"Path of Radiance",Tanith,"Radiant Dawn"
-234,Xane,"Mystery of the Emblem / New Mystery of the Emblem",Calill,"Radiant Dawn"
-235,Clarisse,"Mystery of the Emblem / New Mystery of the Emblem",Elice,"Mystery of the Emblem / New Mystery of the Emblem"
-236,Wrys,"Mystery of the Emblem / New Mystery of the Emblem",Vaida,"The Blazing Blade"
-237,Dew,"Genealogy of the Holy War",Eremiya,"Mystery of the Emblem / New Mystery of the Emblem"
-238,Merlinus,"The Binding Blade",Clair,Gaiden
-239,Eliwood,"The Binding Blade",Lena,"Mystery of the Emblem / New Mystery of the Emblem"
-240,Oscar,"Radiant Dawn",Aimee,"Radiant Dawn"
-241,Yukimura,Fates,Nyna,"Mystery of the Emblem / New Mystery of the Emblem"
-242,Zeiss,"The Binding Blade",Eda,"Thracia 776"
-243,Lance,"The Binding Blade",Muirne,"Genealogy of the Holy War"
-244,Ephidel,"The Blazing Blade",Marisha,"Mystery of the Emblem / New Mystery of the Emblem"
-245,Harken,"The Blazing Blade",Annand,"Genealogy of the Holy War"
-246,Janaff,"Path of Radiance",Juno,"The Binding Blade"
-247,Nolan,"Radiant Dawn",Midia,"Shadow Dragon and the Blade of Light / Shadow Dragon"
-248,Muarim,"Path of Radiance",Daisy,"Genealogy of the Holy War"
-249,Lorenz,"Shadow Dragon and the Blade of Light / Shadow Dragon",Est,Gaiden
-250,Saul,"The Binding Blade",Palla,Gaiden
-251,Alen,"The Binding Blade",Ena,"Radiant Dawn"
-252,Zelgius,"Path of Radiance",Almedha,"Radiant Dawn"
-253,Linus,"The Blazing Blade",Est,"Mystery of the Emblem / New Mystery of the Emblem"
-254,Gatrie,"Radiant Dawn",Aida,"Genealogy of the Holy War"
-255,Gharnef,"Shadow Dragon and the Blade of Light / Shadow Dragon",Linda,"Genealogy of the Holy War"
-256,Gatrie,"Path of Radiance",Laylea,"Genealogy of the Holy War"
-257,Asbel,"Thracia 776",Tina,"Thracia 776"
-258,Muarim,"Radiant Dawn",Creidne,"Genealogy of the Holy War"
-259,Galle,"The Binding Blade",Midia,"Mystery of the Emblem / New Mystery of the Emblem"
-260,Hans,Fates,Tatiana,Gaiden
-261,Saleh,"The Sacred Stones",Amalda,"Thracia 776"
-262,Nichol,Fates,Selphina,"Thracia 776"
-263,Bantu,"Shadow Dragon and the Blade of Light / Shadow Dragon",Jeanne,"Genealogy of the Holy War"
-264,Karel,"The Binding Blade",Safy,"Thracia 776"
-265,Geese,"The Binding Blade",Edain,"Genealogy of the Holy War"
-266,Vyland,"Mystery of the Emblem / New Mystery of the Emblem",Asaello,"Genealogy of the Holy War"
-267,Naoise,"Genealogy of the Holy War",Hermina,"Genealogy of the Holy War"
-268,Nergal,"The Blazing Blade",Hilda,"Genealogy of the Holy War"
-269,Kyle,"The Sacred Stones",NULL,NULL
-270,Arlen,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-271,Klein,"The Binding Blade",NULL,NULL
-272,Rhys,"Radiant Dawn",NULL,NULL
-273,Chulainn,"Genealogy of the Holy War",NULL,NULL
-274,Michalis,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-275,Orson,"The Sacred Stones",NULL,NULL
-276,Excellus,Awakening,NULL,NULL
-277,Radd,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
-278,Mordecai,"Radiant Dawn",NULL,NULL
-279,Kurthnaga,"Radiant Dawn",NULL,NULL
-280,Valbar,Gaiden,NULL,NULL
-281,Kieran,"Radiant Dawn",NULL,NULL
-282,Brom,"Path of Radiance",NULL,NULL
-283,Jamke,"Genealogy of the Holy War",NULL,NULL
-284,Castor,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
-285,Skrimir,"Radiant Dawn",NULL,NULL
-286,Glen,"The Sacred Stones",NULL,NULL
-287,Zeke,Gaiden,NULL,NULL
-288,Osian,"Thracia 776",NULL,NULL
-289,Kliff,Gaiden,NULL,NULL
-290,Sin,"The Binding Blade",NULL,NULL
-291,Marcus,"The Binding Blade",NULL,NULL
-292,Travant,"Genealogy of the Holy War",NULL,NULL
-293,Ogier,"The Binding Blade",NULL,NULL
-294,Hardin,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-295,Bartre,"The Blazing Blade",NULL,NULL
-296,Fuga,Fates,NULL,NULL
-297,Carrion,"Thracia 776",NULL,NULL
-298,Devdan,"Path of Radiance",NULL,NULL
-299,Brom,"Radiant Dawn",NULL,NULL
-300,Draug,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-301,Geitz,"The Blazing Blade",NULL,NULL
-302,Legion,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-303,Febail,"Genealogy of the Holy War",NULL,NULL
-304,Etzel,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-305,Ignatius,Fates,NULL,NULL
-306,Rennac,"The Sacred Stones",NULL,NULL
-307,Bors,"The Binding Blade",NULL,NULL
-308,Sedgar,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
-309,Julian,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-310,Frey,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
-311,Trec,"The Binding Blade",NULL,NULL
-312,Wolf,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-313,Janaff,"Radiant Dawn",NULL,NULL
-314,Jagen,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-315,Bord,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
-316,Lifis,"Thracia 776",NULL,NULL
-317,Wendell,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
-318,Dheginsea,"Radiant Dawn",NULL,NULL
-319,Abel,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-320,Midir,"Genealogy of the Holy War",NULL,NULL
-321,Caellach,"The Sacred Stones",NULL,NULL
-322,Cord,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
-323,Sonya,Gaiden,NULL,NULL
-324,Oifey,"Genealogy of the Holy War",NULL,NULL
-325,Yuliya,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-326,Geoffrey,"Path of Radiance",NULL,NULL
-327,Barst,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-328,Jake,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
-329,Bartre,"The Binding Blade",NULL,NULL
-330,Kempf,"Thracia 776",NULL,NULL
-331,Saber,Gaiden,NULL,NULL
-332,Shiva,"Thracia 776",NULL,NULL
-333,Saias,"Thracia 776",NULL,NULL
-334,Roshea,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
-335,Douglas,"The Binding Blade",NULL,NULL
-336,Galzus,"Thracia 776",NULL,NULL
-337,Largo,"Path of Radiance",NULL,NULL
-338,Rafiel,"Radiant Dawn",NULL,NULL
-339,Samuel,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-340,Kamui,Gaiden,NULL,NULL
-341,Jarod,"Radiant Dawn",NULL,NULL
-342,Lukas,Gaiden,NULL,NULL
-343,Renault,"The Blazing Blade",NULL,NULL
-344,Kyza,"Radiant Dawn",NULL,NULL
-345,Matthis,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
-346,Alec,"Genealogy of the Holy War",NULL,NULL
-347,Ryan,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-348,Beowolf,"Genealogy of the Holy War",NULL,NULL
-349,Astram,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
-350,Danved,"Radiant Dawn",NULL,NULL
-351,Horace,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
-352,Boey,Gaiden,NULL,NULL
-353,Arran,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
-354,Tauroneo,"Radiant Dawn",NULL,NULL
-355,Reinhardt,"Thracia 776",NULL,NULL
-356,Castor,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-357,Jubelo,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-358,Ronan,"Thracia 776",NULL,NULL
-359,Makalov,"Path of Radiance",NULL,NULL
-360,Caesar,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
-361,Darros,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
-362,Sedgar,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-363,Nasir,"Path of Radiance",NULL,NULL
-364,Gareth,"Radiant Dawn",NULL,NULL
-365,Murdock,"The Binding Blade",NULL,NULL
-366,Salem,"Thracia 776",NULL,NULL
-367,Ulki,"Radiant Dawn",NULL,NULL
-368,Barthe,"The Binding Blade",NULL,NULL
-369,Gray,Gaiden,NULL,NULL
-370,Ymir,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
-371,Bastian,"Radiant Dawn",NULL,NULL
-372,Ulki,"Path of Radiance",NULL,NULL
-373,Medeus,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
-374,Ilios,"Thracia 776",NULL,NULL
-375,Reptor,"Genealogy of the Holy War",NULL,NULL
-376,Diarmuid,"Genealogy of the Holy War",NULL,NULL
-377,Fado,"The Sacred Stones",NULL,NULL
-378,Zephiel,"The Blazing Blade",NULL,NULL
-379,Hannibal,"Genealogy of the Holy War",NULL,NULL
-380,Luthier,Gaiden,NULL,NULL
-381,Samson,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
-382,Halvan,"Thracia 776",NULL,NULL
-383,Caesar,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-384,Arion,"Genealogy of the Holy War",NULL,NULL
-385,Lorenz,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-386,Andrey,"Genealogy of the Holy War",NULL,NULL
-387,Kurthnaga,"Path of Radiance",NULL,NULL
-388,Iucharba,"Genealogy of the Holy War",NULL,NULL
-389,Tobin,Gaiden,NULL,NULL
-390,Nomah,Gaiden,NULL,NULL
-391,Bertram,"Path of Radiance",NULL,NULL
-392,Dagdar,"Thracia 776",NULL,NULL
-393,Astram,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-394,Beck,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
-395,Fergus,"Thracia 776",NULL,NULL
-396,Lang,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-397,Rudolf,Gaiden,NULL,NULL
-398,Gotoh,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
-399,Nasir,"Radiant Dawn",NULL,NULL
-400,Iuchar,"Genealogy of the Holy War",NULL,NULL
-401,Giffca,"Path of Radiance",NULL,NULL
-402,Bord,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-403,Giffca,"Radiant Dawn",NULL,NULL
-404,Python,Gaiden,NULL,NULL
-405,Roshea,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-406,Mycen,Gaiden,NULL,NULL
-407,Makalov,"Radiant Dawn",NULL,NULL
-408,Renning,"Radiant Dawn",NULL,NULL
-409,Elffin,"The Binding Blade",NULL,NULL
-410,Boah,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
-411,Tauroneo,"Path of Radiance",NULL,NULL
-412,Dice,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-413,Bastian,"Path of Radiance",NULL,NULL
-414,Sephiran,"Path of Radiance",NULL,NULL
-415,Bantu,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-416,Gareth,"Path of Radiance",NULL,NULL
-417,Hawk,"Genealogy of the Holy War",NULL,NULL
-418,Luke,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-419,Clive,Gaiden,NULL,NULL
-420,Lombard,"Genealogy of the Holy War",NULL,NULL
-421,Arran,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-422,Matthis,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-423,Dolph,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
-424,Wade,"The Binding Blade",NULL,NULL
-425,Manfroy,"Genealogy of the Holy War",NULL,NULL
-426,Roderick,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-427,Radd,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-428,Tomas,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
-429,Renning,"Path of Radiance",NULL,NULL
-430,Macellan,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
-431,Atlas,Gaiden,NULL,NULL
-432,Roger,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
-433,Homer,"Thracia 776",NULL,NULL
-434,Deen,Gaiden,NULL,NULL
-435,Cord,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-436,Gharnef,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-437,Horace,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-438,Sandima,"Genealogy of the Holy War",NULL,NULL
-439,Astolfo,"The Binding Blade",NULL,NULL
-440,Shannam,"Thracia 776",NULL,NULL
-441,Rickard,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
-442,Perne,"Thracia 776",NULL,NULL
-443,Belf,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-444,Medeus,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-445,Brighton,"Thracia 776",NULL,NULL
-446,Ishtore,"Genealogy of the Holy War",NULL,NULL
-447,Jahn,"The Binding Blade",NULL,NULL
-448,Zelot,"The Binding Blade",NULL,NULL
-449,Desaix,Gaiden,NULL,NULL
-450,Samson,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-451,Kutuzov,"Genealogy of the Holy War",NULL,NULL
-452,Alva,"Thracia 776",NULL,NULL
-453,Tomas,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-454,Dheginsea,"Path of Radiance",NULL,NULL
-455,Wendell,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-456,Deen,"Thracia 776",NULL,NULL
-457,Xavier,"Thracia 776",NULL,NULL
-458,Cain,"Thracia 776",NULL,NULL
-459,Valtome,"Radiant Dawn",NULL,NULL
-460,Forsyth,Gaiden,NULL,NULL
-461,Ralf,"Thracia 776",NULL,NULL
-462,Leon,Gaiden,NULL,NULL
-463,Garret,"The Binding Blade",NULL,NULL
-464,Yoder,"The Binding Blade",NULL,NULL
-465,Frey,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-466,Raydrik,"Thracia 776",NULL,NULL
-467,Roberto,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-468,Tristan,"Genealogy of the Holy War",NULL,NULL
-469,Jake,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-470,Robert,"Thracia 776",NULL,NULL
-471,Riev,"The Sacred Stones",NULL,NULL
-472,Warren,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-473,Nealuchi,"Radiant Dawn",NULL,NULL
-474,Largo,"Radiant Dawn",NULL,NULL
-475,Reiden,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-476,Veld,"Thracia 776",NULL,NULL
-477,Byron,"Genealogy of the Holy War",NULL,NULL
-478,Nealuchi,"Path of Radiance",NULL,NULL
-479,Munnir,"Genealogy of the Holy War",NULL,NULL
-480,Jesse,Gaiden,NULL,NULL
-481,Grieth,Gaiden,NULL,NULL
-482,Malledus,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
-483,Diarmuid,"Thracia 776",NULL,NULL
-484,Hicks,"Thracia 776",NULL,NULL
-485,Claud,"Genealogy of the Holy War",NULL,NULL
-486,Brian,"Genealogy of the Holy War",NULL,NULL
-487,Dayan,"The Binding Blade",NULL,NULL
-488,Rickard,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-489,Muston,"Radiant Dawn",NULL,NULL
-490,Jorge,"Radiant Dawn",NULL,NULL
-491,Dalsin,"Thracia 776",NULL,NULL
-492,Gotoh,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-493,Dolph,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-494,Amid,"Genealogy of the Holy War",NULL,NULL
-495,Fred,"Thracia 776",NULL,NULL
-496,Boah,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-497,Coirpre,"Genealogy of the Holy War",NULL,NULL
-498,Chagall,"Genealogy of the Holy War",NULL,NULL
-499,Dalvin,"Genealogy of the Holy War",NULL,NULL
-500,Izuka,"Radiant Dawn",NULL,NULL
-501,Troude,"Thracia 776",NULL,NULL
-502,Hetzel,"Radiant Dawn",NULL,NULL
-503,Lester,"Genealogy of the Holy War",NULL,NULL
-504,Hayden,"The Sacred Stones",NULL,NULL
-505,Sleuf,"Thracia 776",NULL,NULL
-506,Daniel,"Radiant Dawn",NULL,NULL
-507,Frost,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-508,Charlot,"Genealogy of the Holy War",NULL,NULL
-509,Scipio,"Genealogy of the Holy War",NULL,NULL
-510,Deimne,"Genealogy of the Holy War",NULL,NULL
-511,Darros,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-512,Cimbaeth,"Genealogy of the Holy War",NULL,NULL
-513,Conomor,"Thracia 776",NULL,NULL
-514,Ymir,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-515,Beck,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-516,Roger,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-517,Macellan,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
-518,Danann,"Genealogy of the Holy War",NULL,NULL
-519,Bloom,"Genealogy of the Holy War",NULL,NULL
-520,Glade,"Thracia 776",NULL,NULL
+39,Odin,Fates,Florina,"The Blazing Blade"
+40,Lot,"The Binding Blade",Charlotte,Fates
+41,Arden,"Genealogy of the Holy War",Peri,Fates
+42,Sothe,"Radiant Dawn",Maribelle,Awakening
+43,Seliph,"Genealogy of the Holy War",Ophelia,Fates
+44,Silas,Fates,Hana,Fates
+45,Haar,"Radiant Dawn",Velouria,Fates
+46,Stahl,Awakening,Setsuna,Fates
+47,Canas,"The Blazing Blade",Kagero,Fates
+48,Navarre,"Shadow Dragon and the Blade of Light / Shadow Dragon",Amelia,"The Sacred Stones"
+49,Lyon,"The Sacred Stones",Sophia,"The Binding Blade"
+50,Forrest,Fates,Caeldori,Fates
+51,Wrys,"Shadow Dragon and the Blade of Light / Shadow Dragon",Rinkah,Fates
+52,Rutger,"The Binding Blade",Panne,Awakening
+53,Eldigan,"Genealogy of the Holy War",Sumia,Awakening
+54,Ross,"The Sacred Stones",Flora,Fates
+55,Raven,"The Blazing Blade",Tana,"The Sacred Stones"
+56,Ogma,"Shadow Dragon and the Blade of Light / Shadow Dragon","Kana (F)",Fates
+57,Saizo,Fates,Ninian,"The Blazing Blade"
+58,"Morgan (M)",Awakening,Noire,Awakening
+59,Lucius,"The Blazing Blade",Rhajat,Fates
+60,Kellam,Awakening,Titania,"Path of Radiance"
+61,Dwyer,Fates,Nyx,Fates
+62,Sain,"The Blazing Blade",Beruka,Fates
+63,Erk,"The Blazing Blade",Minerva,"Shadow Dragon and the Blade of Light / Shadow Dragon"
+64,Alm,Gaiden,Aversa,Awakening
+65,Guy,"The Blazing Blade",Elincia,"Radiant Dawn"
+66,Tibarn,"Radiant Dawn",L'Arachel,"The Sacred Stones"
+67,Gerome,Awakening,Rebecca,"The Blazing Blade"
+68,Subaki,Fates,Celica,Gaiden
+69,Leif,"Thracia 776",Myrrh,"The Sacred Stones"
+70,Arthur,Fates,Tiki,"Mystery of the Emblem / New Mystery of the Emblem"
+71,Libra,Awakening,Lilith,Fates
+72,Merric,"Shadow Dragon and the Blade of Light / Shadow Dragon",Serra,"The Blazing Blade"
+73,Lewyn,"Genealogy of the Holy War",Katarina,"Mystery of the Emblem / New Mystery of the Emblem"
+74,Lloyd,"The Blazing Blade",Ishtar,"Genealogy of the Holy War"
+75,Ranulf,"Radiant Dawn",Cynthia,Awakening
+76,Priam,Awakening,Nah,Awakening
+77,Shinon,"Radiant Dawn",Mozu,Fates
+78,Ranulf,"Path of Radiance",Effie,Fates
+79,Finn,"Genealogy of the Holy War",Sully,Awakening
+80,Virion,Awakening,Larcei,"Genealogy of the Holy War"
+81,Rath,"The Blazing Blade",Ilyana,"Path of Radiance"
+82,Shigure,Fates,Scarlet,Fates
+83,Innes,"The Sacred Stones",Fir,"The Binding Blade"
+84,Gerik,"The Sacred Stones",Nina,Fates
+85,Gregor,Awakening,Lethe,"Path of Radiance"
+86,Edward,"Radiant Dawn",Say'ri,Awakening
+87,Hinata,Fates,Caeda,"Mystery of the Emblem / New Mystery of the Emblem"
+88,Yarne,Awakening,Ilyana,"Radiant Dawn"
+89,Camus,"Shadow Dragon and the Blade of Light / Shadow Dragon",Orochi,Fates
+90,"Kana (M)",Fates,Shanna,"The Binding Blade"
+91,Pent,"The Blazing Blade",Mist,"Path of Radiance"
+92,Cormag,"The Sacred Stones",Jill,"Path of Radiance"
+93,Anankos,Fates,Ursula,"The Blazing Blade"
+94,Shura,Fates,Catria,"Shadow Dragon and the Blade of Light / Shadow Dragon"
+95,Colm,"The Sacred Stones",Jill,"Radiant Dawn"
+96,Ricken,Awakening,Miriel,Awakening
+97,Zelgius,"Radiant Dawn",Linde,"Shadow Dragon and the Blade of Light / Shadow Dragon"
+98,Shinon,"Path of Radiance",Lachesis,"Genealogy of the Holy War"
+99,Azama,Fates,Mist,"Radiant Dawn"
+100,Dieck,"The Binding Blade",Priscilla,"The Blazing Blade"
+101,Cain,"Shadow Dragon and the Blade of Light / Shadow Dragon",Midori,Fates
+102,Legault,"The Blazing Blade",Fae,"The Binding Blade"
+103,Arvis,"Genealogy of the Holy War",Emmeryn,Awakening
+104,Gilliam,"The Sacred Stones",Sanaki,"Radiant Dawn"
+105,Volke,"Radiant Dawn",Fiora,"The Blazing Blade"
+106,Naesala,"Radiant Dawn",Mikoto,Fates
+107,Lugh,"The Binding Blade",Nailah,"Radiant Dawn"
+108,Gangrel,Awakening,Titania,"Radiant Dawn"
+109,Vaike,Awakening,Naga,Awakening
+110,Garcia,"The Sacred Stones",Anna,"Shadow Dragon and the Blade of Light / Shadow Dragon"
+111,Narcian,"The Binding Blade",Layla,Fates
+112,Benny,Fates,Catria,"Mystery of the Emblem / New Mystery of the Emblem"
+113,"Finn (2)","Genealogy of the Holy War",Leila,"The Blazing Blade"
+114,Walhart,Awakening,Mitama,Fates
+115,Ced,"Genealogy of the Holy War",Clarine,"The Binding Blade"
+116,Brady,Awakening,Flavia,Awakening
+117,Mustafa,Awakening,Cecilia,"The Binding Blade"
+118,Wil,"The Blazing Blade",Idunn,"The Binding Blade"
+119,Finn,"Thracia 776",Neimi,"The Sacred Stones"
+120,Knoll,"The Sacred Stones",Reina,Fates
+121,Basilio,Awakening,Sophie,Fates
+122,Kent,"The Blazing Blade",Olwen,"Thracia 776"
+123,Zihark,"Radiant Dawn",Minerva,"Mystery of the Emblem / New Mystery of the Emblem"
+124,Wolt,"The Binding Blade",Lucia,"Radiant Dawn"
+125,Abel,"Shadow Dragon and the Blade of Light / Shadow Dragon",Elincia,"Path of Radiance"
+126,Ogma,"Mystery of the Emblem / New Mystery of the Emblem",Lethe,"Radiant Dawn"
+127,Raigh,"The Binding Blade",Mareeta,"Thracia 776"
+128,Navarre,"Mystery of the Emblem / New Mystery of the Emblem",Marcia,"Path of Radiance"
+129,Shiro,Fates,Kjelle,Awakening
+130,Ewan,"The Sacred Stones",Leanne,"Radiant Dawn"
+131,Heath,"The Blazing Blade",Vanessa,"The Sacred Stones"
+132,Oliver,"Radiant Dawn",Farina,"The Blazing Blade"
+133,Kiragi,Fates,Astrid,"Path of Radiance"
+134,Haar,"Path of Radiance",Athena,"Shadow Dragon and the Blade of Light / Shadow Dragon"
+135,Cervantes,Awakening,Palla,"Mystery of the Emblem / New Mystery of the Emblem"
+136,Merric,"Mystery of the Emblem / New Mystery of the Emblem",Thite,"The Binding Blade"
+137,Tibarn,"Path of Radiance",Vika,"Radiant Dawn"
+138,Volug,"Radiant Dawn",Sonia,"The Blazing Blade"
+139,Asugi,Fates,Echidna,"The Binding Blade"
+140,Quan,"Genealogy of the Holy War",Louise,"The Blazing Blade"
+141,Hector,"The Binding Blade",Karla,"The Blazing Blade"
+142,Gunter,Fates,Leanne,"Path of Radiance"
+143,Jeorge,"Mystery of the Emblem / New Mystery of the Emblem",Gwendolyn,"The Binding Blade"
+144,Zephiel,"The Binding Blade",Julia,"Genealogy of the Holy War"
+145,Izana,Fates,Linde,"Mystery of the Emblem / New Mystery of the Emblem"
+146,Karel,"The Blazing Blade",Selena,"The Sacred Stones"
+147,Gonzalez,"The Binding Blade",Heather,"Radiant Dawn"
+148,Greil,"Path of Radiance",Sheena,"Mystery of the Emblem / New Mystery of the Emblem"
+149,Sirius,"Mystery of the Emblem / New Mystery of the Emblem",Arete,Fates
+150,Leif,"Genealogy of the Holy War",Nagi,"Shadow Dragon and the Blade of Light / Shadow Dragon"
+151,"Kris (M)","Mystery of the Emblem / New Mystery of the Emblem",Sue,"The Binding Blade"
+152,Nils,"The Blazing Blade",Erinys,"Genealogy of the Holy War"
+153,Jagen,"Shadow Dragon and the Blade of Light / Shadow Dragon",Melady,"The Binding Blade"
+154,Wolf,"Shadow Dragon and the Blade of Light / Shadow Dragon",Palla,"Shadow Dragon and the Blade of Light / Shadow Dragon"
+155,Artur,"The Sacred Stones",Anna,"Radiant Dawn"
+156,Arthur,"Genealogy of the Holy War",Sanaki,"Path of Radiance"
+157,Tailtiu,"Genealogy of the Holy War",Tethys,"The Sacred Stones"
+158,Garon,Fates,Marcia,"Radiant Dawn"
+159,Xane,"Shadow Dragon and the Blade of Light / Shadow Dragon",Meg,"Radiant Dawn"
+160,Barst,"Shadow Dragon and the Blade of Light / Shadow Dragon",Deirdre,"Genealogy of the Holy War"
+161,Perceval,"The Binding Blade",Lucia,"Path of Radiance"
+162,Stefan,"Radiant Dawn",Tine,"Genealogy of the Holy War"
+163,Tormod,"Radiant Dawn",Lyre,"Radiant Dawn"
+164,Oscar,"Path of Radiance",Patty,"Genealogy of the Holy War"
+165,Aran,"Radiant Dawn",Yune,"Radiant Dawn"
+166,Hayato,Fates,Candace,Fates
+167,Mordecai,"Path of Radiance",Natasha,"The Sacred Stones"
+168,Moulder,"The Sacred Stones",Nanna,"Thracia 776"
+169,Valter,"The Sacred Stones",Malice,"Mystery of the Emblem / New Mystery of the Emblem"
+170,Caineghis,"Radiant Dawn",Elice,"Shadow Dragon and the Blade of Light / Shadow Dragon"
+171,Franz,"The Sacred Stones","Kris (F)","Mystery of the Emblem / New Mystery of the Emblem"
+172,Boyd,"Path of Radiance",Lena,"Shadow Dragon and the Blade of Light / Shadow Dragon"
+173,Pelleas,"Radiant Dawn",Norne,"Shadow Dragon and the Blade of Light / Shadow Dragon"
+174,Draug,"Shadow Dragon and the Blade of Light / Shadow Dragon",Guinivere,"The Blazing Blade"
+175,Oswin,"The Blazing Blade",Amy,"Radiant Dawn"
+176,Athos,"The Blazing Blade",Delthea,Gaiden
+177,Boyd,"Radiant Dawn",Nyna,"Shadow Dragon and the Blade of Light / Shadow Dragon"
+178,Zihark,"Path of Radiance",Sara,"Thracia 776"
+179,Laurent,Awakening,Petrine,"Path of Radiance"
+180,Ares,"Genealogy of the Holy War",Sigrun,"Radiant Dawn"
+181,Forde,"The Sacred Stones",Igrene,"The Binding Blade"
+182,Stefan,"Path of Radiance",Astrid,"Radiant Dawn"
+183,Azelle,"Genealogy of the Holy War",Ashera,"Radiant Dawn"
+184,Hugh,"The Binding Blade",Mathilda,Gaiden
+185,Shannan,"Genealogy of the Holy War",Laura,"Radiant Dawn"
+186,Naesala,"Path of Radiance",Ismaire,"The Sacred Stones"
+187,Gordin,"Shadow Dragon and the Blade of Light / Shadow Dragon",Cath,"The Binding Blade"
+188,Reyson,"Path of Radiance",Altena,"Genealogy of the Holy War"
+189,Sumeragi,Fates,Anna,"Mystery of the Emblem / New Mystery of the Emblem"
+190,Iago,Fates,Brunnya,"The Binding Blade"
+191,Julian,"Shadow Dragon and the Blade of Light / Shadow Dragon",Maria,"Shadow Dragon and the Blade of Light / Shadow Dragon"
+192,Volke,"Path of Radiance",Sigrun,"Path of Radiance"
+193,Cain,"Mystery of the Emblem / New Mystery of the Emblem",Isadora,"The Blazing Blade"
+194,Rolf,"Path of Radiance",Dorothy,"The Binding Blade"
+195,Rhys,"Path of Radiance",Machyua,"Thracia 776"
+196,Chad,"The Binding Blade",Elena,"Path of Radiance"
+197,Merlinus,"The Blazing Blade",Miranda,"Thracia 776"
+198,Dart,"The Blazing Blade",Norne,"Mystery of the Emblem / New Mystery of the Emblem"
+199,Sothe,"Path of Radiance",Lara,"Thracia 776"
+200,Ethlyn,"Genealogy of the Holy War",Tanith,"Path of Radiance"
+201,Ashnard,"Path of Radiance",Fee,"Genealogy of the Holy War"
+202,Reyson,"Radiant Dawn",Guinivere,"The Binding Blade"
+203,Siegbert,Fates,Linoan,"Thracia 776"
+204,Gordin,"Mystery of the Emblem / New Mystery of the Emblem",Athena,"Mystery of the Emblem / New Mystery of the Emblem"
+205,Hawkeye,"The Blazing Blade",Ashunera,"Radiant Dawn"
+206,Etzel,"Shadow Dragon and the Blade of Light / Shadow Dragon",Est,"Shadow Dragon and the Blade of Light / Shadow Dragon"
+207,Wallace,"The Blazing Blade",Fiona,"Radiant Dawn"
+208,Camus,"Mystery of the Emblem / New Mystery of the Emblem",Nagi,"Mystery of the Emblem / New Mystery of the Emblem"
+209,Yen'fay,Awakening,Syrene,"The Sacred Stones"
+210,Rolf,"Radiant Dawn",Silvia,"Genealogy of the Holy War"
+211,Marty,"Thracia 776",Catria,Gaiden
+212,Kieran,"Path of Radiance",Lana,"Genealogy of the Holy War"
+213,Ulster,"Genealogy of the Holy War",Phina,"Mystery of the Emblem / New Mystery of the Emblem"
+214,"Rainbow Sage",Fates,Cecil,"Mystery of the Emblem / New Mystery of the Emblem"
+215,Lex,"Genealogy of the Holy War",Nanna,"Genealogy of the Holy War"
+216,Validar,Awakening,Silque,Gaiden
+217,Geoffrey,"Radiant Dawn",Karin,"Thracia 776"
+218,Marcus,"The Blazing Blade",Niime,"The Binding Blade"
+219,Duessel,"The Sacred Stones",Misha,"Thracia 776"
+220,Vyland,"Shadow Dragon and the Blade of Light / Shadow Dragon",Eyvel,"Thracia 776"
+221,Jeorge,"Shadow Dragon and the Blade of Light / Shadow Dragon",Elen,"The Binding Blade"
+222,Leonardo,"Radiant Dawn",Brigid,"Genealogy of the Holy War"
+223,Dozla,"The Sacred Stones",Lene,"Genealogy of the Holy War"
+224,Ced,"Thracia 776",Tanya,"Thracia 776"
+225,Hisame,Fates,Genny,Gaiden
+226,Zola,Fates,Ena,"Path of Radiance"
+227,Percy,Fates,Maria,"Mystery of the Emblem / New Mystery of the Emblem"
+228,Sephiran,"Radiant Dawn",Calill,"Path of Radiance"
+229,Michalis,"Shadow Dragon and the Blade of Light / Shadow Dragon",Mae,Gaiden
+230,Hardin,"Shadow Dragon and the Blade of Light / Shadow Dragon",Larum,"The Binding Blade"
+231,Julius,"Genealogy of the Holy War",Tanith,"Radiant Dawn"
+232,Lowen,"The Blazing Blade",Calill,"Radiant Dawn"
+233,Noah,"The Binding Blade",Elice,"Mystery of the Emblem / New Mystery of the Emblem"
+234,Tormod,"Path of Radiance",Vaida,"The Blazing Blade"
+235,Caineghis,"Path of Radiance",Eremiya,"Mystery of the Emblem / New Mystery of the Emblem"
+236,Xane,"Mystery of the Emblem / New Mystery of the Emblem",Clair,Gaiden
+237,Clarisse,"Mystery of the Emblem / New Mystery of the Emblem",Lena,"Mystery of the Emblem / New Mystery of the Emblem"
+238,Wrys,"Mystery of the Emblem / New Mystery of the Emblem",Aimee,"Radiant Dawn"
+239,Dew,"Genealogy of the Holy War",Nyna,"Mystery of the Emblem / New Mystery of the Emblem"
+240,Merlinus,"The Binding Blade",Eda,"Thracia 776"
+241,Eliwood,"The Binding Blade",Muirne,"Genealogy of the Holy War"
+242,Oscar,"Radiant Dawn",Marisha,"Mystery of the Emblem / New Mystery of the Emblem"
+243,Yukimura,Fates,Annand,"Genealogy of the Holy War"
+244,Zeiss,"The Binding Blade",Juno,"The Binding Blade"
+245,Lance,"The Binding Blade",Midia,"Shadow Dragon and the Blade of Light / Shadow Dragon"
+246,Ephidel,"The Blazing Blade",Daisy,"Genealogy of the Holy War"
+247,Harken,"The Blazing Blade",Est,Gaiden
+248,Janaff,"Path of Radiance",Palla,Gaiden
+249,Nolan,"Radiant Dawn",Ena,"Radiant Dawn"
+250,Muarim,"Path of Radiance",Almedha,"Radiant Dawn"
+251,Lorenz,"Shadow Dragon and the Blade of Light / Shadow Dragon",Est,"Mystery of the Emblem / New Mystery of the Emblem"
+252,Saul,"The Binding Blade",Aida,"Genealogy of the Holy War"
+253,Alen,"The Binding Blade",Linda,"Genealogy of the Holy War"
+254,Zelgius,"Path of Radiance",Laylea,"Genealogy of the Holy War"
+255,Linus,"The Blazing Blade",Tina,"Thracia 776"
+256,Gatrie,"Radiant Dawn",Creidne,"Genealogy of the Holy War"
+257,Gharnef,"Shadow Dragon and the Blade of Light / Shadow Dragon",Midia,"Mystery of the Emblem / New Mystery of the Emblem"
+258,Gatrie,"Path of Radiance",Tatiana,Gaiden
+259,Asbel,"Thracia 776",Amalda,"Thracia 776"
+260,Muarim,"Radiant Dawn",Selphina,"Thracia 776"
+261,Galle,"The Binding Blade",Jeanne,"Genealogy of the Holy War"
+262,Hans,Fates,Safy,"Thracia 776"
+263,Saleh,"The Sacred Stones",Edain,"Genealogy of the Holy War"
+264,Nichol,Fates,Asaello,"Genealogy of the Holy War"
+265,Bantu,"Shadow Dragon and the Blade of Light / Shadow Dragon",Hermina,"Genealogy of the Holy War"
+266,Karel,"The Binding Blade",Hilda,"Genealogy of the Holy War"
+267,Geese,"The Binding Blade",NULL,NULL
+268,Vyland,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+269,Naoise,"Genealogy of the Holy War",NULL,NULL
+270,Nergal,"The Blazing Blade",NULL,NULL
+271,Kyle,"The Sacred Stones",NULL,NULL
+272,Arlen,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+273,Klein,"The Binding Blade",NULL,NULL
+274,Rhys,"Radiant Dawn",NULL,NULL
+275,Chulainn,"Genealogy of the Holy War",NULL,NULL
+276,Michalis,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+277,Orson,"The Sacred Stones",NULL,NULL
+278,Excellus,Awakening,NULL,NULL
+279,Radd,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
+280,Mordecai,"Radiant Dawn",NULL,NULL
+281,Kurthnaga,"Radiant Dawn",NULL,NULL
+282,Valbar,Gaiden,NULL,NULL
+283,Kieran,"Radiant Dawn",NULL,NULL
+284,Brom,"Path of Radiance",NULL,NULL
+285,Jamke,"Genealogy of the Holy War",NULL,NULL
+286,Castor,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
+287,Skrimir,"Radiant Dawn",NULL,NULL
+288,Glen,"The Sacred Stones",NULL,NULL
+289,Zeke,Gaiden,NULL,NULL
+290,Osian,"Thracia 776",NULL,NULL
+291,Kliff,Gaiden,NULL,NULL
+292,Sin,"The Binding Blade",NULL,NULL
+293,Marcus,"The Binding Blade",NULL,NULL
+294,Travant,"Genealogy of the Holy War",NULL,NULL
+295,Ogier,"The Binding Blade",NULL,NULL
+296,Hardin,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+297,Bartre,"The Blazing Blade",NULL,NULL
+298,Fuga,Fates,NULL,NULL
+299,Carrion,"Thracia 776",NULL,NULL
+300,Devdan,"Path of Radiance",NULL,NULL
+301,Brom,"Radiant Dawn",NULL,NULL
+302,Draug,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+303,Geitz,"The Blazing Blade",NULL,NULL
+304,Legion,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+305,Febail,"Genealogy of the Holy War",NULL,NULL
+306,Etzel,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+307,Ignatius,Fates,NULL,NULL
+308,Rennac,"The Sacred Stones",NULL,NULL
+309,Bors,"The Binding Blade",NULL,NULL
+310,Sedgar,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
+311,Julian,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+312,Frey,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
+313,Trec,"The Binding Blade",NULL,NULL
+314,Wolf,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+315,Janaff,"Radiant Dawn",NULL,NULL
+316,Jagen,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+317,Bord,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
+318,Lifis,"Thracia 776",NULL,NULL
+319,Wendell,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
+320,Dheginsea,"Radiant Dawn",NULL,NULL
+321,Abel,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+322,Midir,"Genealogy of the Holy War",NULL,NULL
+323,Caellach,"The Sacred Stones",NULL,NULL
+324,Cord,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
+325,Sonya,Gaiden,NULL,NULL
+326,Oifey,"Genealogy of the Holy War",NULL,NULL
+327,Yuliya,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+328,Geoffrey,"Path of Radiance",NULL,NULL
+329,Barst,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+330,Jake,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
+331,Bartre,"The Binding Blade",NULL,NULL
+332,Kempf,"Thracia 776",NULL,NULL
+333,Saber,Gaiden,NULL,NULL
+334,Shiva,"Thracia 776",NULL,NULL
+335,Saias,"Thracia 776",NULL,NULL
+336,Roshea,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
+337,Douglas,"The Binding Blade",NULL,NULL
+338,Galzus,"Thracia 776",NULL,NULL
+339,Largo,"Path of Radiance",NULL,NULL
+340,Rafiel,"Radiant Dawn",NULL,NULL
+341,Samuel,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+342,Kamui,Gaiden,NULL,NULL
+343,Jarod,"Radiant Dawn",NULL,NULL
+344,Lukas,Gaiden,NULL,NULL
+345,Renault,"The Blazing Blade",NULL,NULL
+346,Kyza,"Radiant Dawn",NULL,NULL
+347,Matthis,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
+348,Alec,"Genealogy of the Holy War",NULL,NULL
+349,Ryan,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+350,Beowolf,"Genealogy of the Holy War",NULL,NULL
+351,Astram,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
+352,Danved,"Radiant Dawn",NULL,NULL
+353,Horace,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
+354,Boey,Gaiden,NULL,NULL
+355,Arran,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
+356,Tauroneo,"Radiant Dawn",NULL,NULL
+357,Reinhardt,"Thracia 776",NULL,NULL
+358,Castor,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+359,Jubelo,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+360,Ronan,"Thracia 776",NULL,NULL
+361,Makalov,"Path of Radiance",NULL,NULL
+362,Caesar,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
+363,Darros,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
+364,Sedgar,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+365,Nasir,"Path of Radiance",NULL,NULL
+366,Gareth,"Radiant Dawn",NULL,NULL
+367,Murdock,"The Binding Blade",NULL,NULL
+368,Salem,"Thracia 776",NULL,NULL
+369,Ulki,"Radiant Dawn",NULL,NULL
+370,Barthe,"The Binding Blade",NULL,NULL
+371,Gray,Gaiden,NULL,NULL
+372,Ymir,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
+373,Bastian,"Radiant Dawn",NULL,NULL
+374,Ulki,"Path of Radiance",NULL,NULL
+375,Medeus,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
+376,Ilios,"Thracia 776",NULL,NULL
+377,Reptor,"Genealogy of the Holy War",NULL,NULL
+378,Diarmuid,"Genealogy of the Holy War",NULL,NULL
+379,Fado,"The Sacred Stones",NULL,NULL
+380,Zephiel,"The Blazing Blade",NULL,NULL
+381,Hannibal,"Genealogy of the Holy War",NULL,NULL
+382,Luthier,Gaiden,NULL,NULL
+383,Samson,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
+384,Halvan,"Thracia 776",NULL,NULL
+385,Caesar,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+386,Arion,"Genealogy of the Holy War",NULL,NULL
+387,Lorenz,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+388,Andrey,"Genealogy of the Holy War",NULL,NULL
+389,Kurthnaga,"Path of Radiance",NULL,NULL
+390,Iucharba,"Genealogy of the Holy War",NULL,NULL
+391,Tobin,Gaiden,NULL,NULL
+392,Nomah,Gaiden,NULL,NULL
+393,Bertram,"Path of Radiance",NULL,NULL
+394,Dagdar,"Thracia 776",NULL,NULL
+395,Astram,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+396,Beck,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
+397,Fergus,"Thracia 776",NULL,NULL
+398,Lang,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+399,Rudolf,Gaiden,NULL,NULL
+400,Gotoh,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
+401,Nasir,"Radiant Dawn",NULL,NULL
+402,Iuchar,"Genealogy of the Holy War",NULL,NULL
+403,Giffca,"Path of Radiance",NULL,NULL
+404,Bord,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+405,Giffca,"Radiant Dawn",NULL,NULL
+406,Python,Gaiden,NULL,NULL
+407,Roshea,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+408,Mycen,Gaiden,NULL,NULL
+409,Makalov,"Radiant Dawn",NULL,NULL
+410,Renning,"Radiant Dawn",NULL,NULL
+411,Elffin,"The Binding Blade",NULL,NULL
+412,Boah,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
+413,Tauroneo,"Path of Radiance",NULL,NULL
+414,Dice,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+415,Bastian,"Path of Radiance",NULL,NULL
+416,Sephiran,"Path of Radiance",NULL,NULL
+417,Bantu,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+418,Gareth,"Path of Radiance",NULL,NULL
+419,Hawk,"Genealogy of the Holy War",NULL,NULL
+420,Luke,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+421,Clive,Gaiden,NULL,NULL
+422,Lombard,"Genealogy of the Holy War",NULL,NULL
+423,Arran,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+424,Matthis,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+425,Dolph,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
+426,Wade,"The Binding Blade",NULL,NULL
+427,Manfroy,"Genealogy of the Holy War",NULL,NULL
+428,Roderick,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+429,Radd,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+430,Tomas,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
+431,Renning,"Path of Radiance",NULL,NULL
+432,Macellan,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
+433,Atlas,Gaiden,NULL,NULL
+434,Roger,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
+435,Homer,"Thracia 776",NULL,NULL
+436,Deen,Gaiden,NULL,NULL
+437,Cord,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+438,Gharnef,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+439,Horace,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+440,Sandima,"Genealogy of the Holy War",NULL,NULL
+441,Astolfo,"The Binding Blade",NULL,NULL
+442,Shannam,"Thracia 776",NULL,NULL
+443,Rickard,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
+444,Perne,"Thracia 776",NULL,NULL
+445,Belf,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+446,Medeus,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+447,Brighton,"Thracia 776",NULL,NULL
+448,Ishtore,"Genealogy of the Holy War",NULL,NULL
+449,Jahn,"The Binding Blade",NULL,NULL
+450,Zelot,"The Binding Blade",NULL,NULL
+451,Desaix,Gaiden,NULL,NULL
+452,Samson,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+453,Kutuzov,"Genealogy of the Holy War",NULL,NULL
+454,Alva,"Thracia 776",NULL,NULL
+455,Tomas,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+456,Dheginsea,"Path of Radiance",NULL,NULL
+457,Wendell,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+458,Deen,"Thracia 776",NULL,NULL
+459,Xavier,"Thracia 776",NULL,NULL
+460,Cain,"Thracia 776",NULL,NULL
+461,Valtome,"Radiant Dawn",NULL,NULL
+462,Forsyth,Gaiden,NULL,NULL
+463,Ralf,"Thracia 776",NULL,NULL
+464,Leon,Gaiden,NULL,NULL
+465,Garret,"The Binding Blade",NULL,NULL
+466,Yoder,"The Binding Blade",NULL,NULL
+467,Frey,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+468,Raydrik,"Thracia 776",NULL,NULL
+469,Roberto,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+470,Tristan,"Genealogy of the Holy War",NULL,NULL
+471,Jake,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+472,Robert,"Thracia 776",NULL,NULL
+473,Riev,"The Sacred Stones",NULL,NULL
+474,Warren,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+475,Nealuchi,"Radiant Dawn",NULL,NULL
+476,Largo,"Radiant Dawn",NULL,NULL
+477,Reiden,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+478,Veld,"Thracia 776",NULL,NULL
+479,Byron,"Genealogy of the Holy War",NULL,NULL
+480,Nealuchi,"Path of Radiance",NULL,NULL
+481,Munnir,"Genealogy of the Holy War",NULL,NULL
+482,Jesse,Gaiden,NULL,NULL
+483,Grieth,Gaiden,NULL,NULL
+484,Malledus,"Shadow Dragon and the Blade of Light / Shadow Dragon",NULL,NULL
+485,Diarmuid,"Thracia 776",NULL,NULL
+486,Hicks,"Thracia 776",NULL,NULL
+487,Claud,"Genealogy of the Holy War",NULL,NULL
+488,Brian,"Genealogy of the Holy War",NULL,NULL
+489,Dayan,"The Binding Blade",NULL,NULL
+490,Rickard,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+491,Muston,"Radiant Dawn",NULL,NULL
+492,Jorge,"Radiant Dawn",NULL,NULL
+493,Dalsin,"Thracia 776",NULL,NULL
+494,Gotoh,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+495,Dolph,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+496,Amid,"Genealogy of the Holy War",NULL,NULL
+497,Fred,"Thracia 776",NULL,NULL
+498,Boah,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+499,Coirpre,"Genealogy of the Holy War",NULL,NULL
+500,Chagall,"Genealogy of the Holy War",NULL,NULL
+501,Dalvin,"Genealogy of the Holy War",NULL,NULL
+502,Izuka,"Radiant Dawn",NULL,NULL
+503,Troude,"Thracia 776",NULL,NULL
+504,Hetzel,"Radiant Dawn",NULL,NULL
+505,Lester,"Genealogy of the Holy War",NULL,NULL
+506,Hayden,"The Sacred Stones",NULL,NULL
+507,Sleuf,"Thracia 776",NULL,NULL
+508,Daniel,"Radiant Dawn",NULL,NULL
+509,Frost,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+510,Charlot,"Genealogy of the Holy War",NULL,NULL
+511,Scipio,"Genealogy of the Holy War",NULL,NULL
+512,Deimne,"Genealogy of the Holy War",NULL,NULL
+513,Darros,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+514,Cimbaeth,"Genealogy of the Holy War",NULL,NULL
+515,Conomor,"Thracia 776",NULL,NULL
+516,Ymir,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+517,Beck,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+518,Roger,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+519,Macellan,"Mystery of the Emblem / New Mystery of the Emblem",NULL,NULL
+520,Danann,"Genealogy of the Holy War",NULL,NULL
+521,Bloom,"Genealogy of the Holy War",NULL,NULL
+522,Glade,"Thracia 776",NULL,NULL
