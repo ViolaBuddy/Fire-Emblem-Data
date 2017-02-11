@@ -1,0 +1,792 @@
+Ranking,CharId,Game,Votes
+1,"Lyn","The Blazing Blade",49917
+2,"Lucina","Awakening",42875
+3,"Ike","Path of Radiance",33871
+4,"Tharja","Awakening",29540
+5,"Roy","The Binding Blade",28982
+6,"Hector","The Blazing Blade",26557
+7,"Camilla","Fates",25766
+8,"Chrom","Awakening",23803
+9,"Corrin (F)","Fates",19599
+10,"Ike","Radiant Dawn",17684
+11,"Eirika","The Sacred Stones",16423
+12,"Marth","Shadow Dragon and the Blade of Light / Shadow Dragon",15877
+13,"Ephraim","The Sacred Stones",14908
+14,"Cordelia","Awakening",14362
+15,"Azura","Fates",14198
+16,"Robin (M)","Awakening",14149
+17,"Micaiah","Radiant Dawn",13491
+18,"Takumi","Fates",12662
+19,"Leo","Fates",12175
+20,"Henry","Awakening",12131
+21,"Dorcas","The Blazing Blade",12083
+22,"Nowi","Awakening",10571
+23,"Donnel","Awakening",10479
+24,"Robin (F)","Awakening",10387
+25,"Lon'qu","Awakening",10002
+26,"Tiki","Awakening",9794
+27,"Gaius","Awakening",9465
+28,"Lute","The Sacred Stones",9176
+29,"Felicia","Fates",9121
+30,"Elise","Fates",8962
+31,"Mia","Radiant Dawn",8946
+32,"Niles","Fates",8703
+33,"Marth","Mystery of the Emblem / New Mystery of the Emblem",8670
+34,"Joshua","The Sacred Stones",8623
+35,"Anna","Awakening",8431
+36,"Eliwood","The Blazing Blade",8393
+37,"Owain","Awakening",8383
+38,"Nephenee","Path of Radiance",7916
+39,"Nino","The Blazing Blade",7825
+40,"Sakura","Fates",7782
+41,"Corrin (M)","Fates",7691
+42,"Xander","Fates",7511
+43,"Ryoma","Fates",7248
+44,"Hinoka","Fates",6851
+45,"Soren","Path of Radiance",6248
+46,"Morgan (F)","Awakening",6163
+47,"Severa","Awakening",6060
+48,"Olivia","Awakening",5889
+49,"Lilina","The Binding Blade",5730
+50,"Nephenee","Radiant Dawn",5557
+51,"Caeda","Shadow Dragon and the Blade of Light / Shadow Dragon",5496
+52,"Masked Marth","Awakening",5420
+53,"Marisa","The Sacred Stones",5398
+54,"Black Knight","Path of Radiance",5317
+55,"Sigurd","Genealogy of the Holy War",5282
+56,"Lissa","Awakening",5279
+57,"Anna","Fates",5065
+58,"Black Knight","Radiant Dawn",4878
+59,"Selkie","Fates",4800
+60,"Oboro","Fates",4783
+61,"Selena","Fates",4683
+62,"Jakob","Fates",4681
+63,"Inigo","Awakening",4599
+64,"Cherche","Awakening",4498
+65,"Ayra","Genealogy of the Holy War",4489
+66,"Tiki","Shadow Dragon and the Blade of Light / Shadow Dragon",4431
+67,"Mia","Path of Radiance",4408
+68,"Soleil","Fates",4333
+69,"Laslow","Fates",4287
+70,"Kaze","Fates",4069
+71,"Florina","The Blazing Blade",4012
+72,"Charlotte","Fates",3924
+73,"Jaffar","The Blazing Blade",3921
+74,"Frederick","Awakening",3913
+75,"Peri","Fates",3892
+76,"Kaden","Fates",3836
+77,"Seth","The Sacred Stones",3763
+78,"Keaton","Fates",3724
+79,"Maribelle","Awakening",3701
+80,"Ophelia","Fates",3639
+81,"Matthew","The Blazing Blade",3565
+82,"Soren","Radiant Dawn",3470
+83,"Hana","Fates",3394
+84,"Velouria","Fates",3339
+85,"Setsuna","Fates",3292
+86,"Kagero","Fates",3265
+87,"Odin","Fates",3256
+88,"Lot","The Binding Blade",3218
+89,"Amelia","The Sacred Stones",3214
+90,"Sophia","The Binding Blade",3150
+91,"Caeldori","Fates",3149
+92,"Rinkah","Fates",3142
+93,"Arden","Genealogy of the Holy War",3094
+94,"Panne","Awakening",3061
+95,"Sumia","Awakening",2982
+96,"Flora","Fates",2939
+97,"Sothe","Radiant Dawn",2863
+98,"Tana","The Sacred Stones",2849
+99,"Kana (F)","Fates",2837
+100,"Ninian","The Blazing Blade",2799
+101,"Noire","Awakening",2786
+102,"Seliph","Genealogy of the Holy War",2695
+103,"Silas","Fates",2683
+104,"Haar","Radiant Dawn",2678
+105,"Rhajat","Fates",2640
+106,"Stahl","Awakening",2611
+107,"Titania","Path of Radiance",2588
+108,"Nyx","Fates",2562
+109,"Beruka","Fates",2561
+110,"Minerva","Shadow Dragon and the Blade of Light / Shadow Dragon",2561
+111,"Aversa","Awakening",2538
+112,"Elincia","Radiant Dawn",2502
+113,"Canas","The Blazing Blade",2450
+114,"Navarre","Shadow Dragon and the Blade of Light / Shadow Dragon",2439
+115,"Lyon","The Sacred Stones",2434
+116,"L'Arachel","The Sacred Stones",2425
+117,"Rebecca","The Blazing Blade",2414
+118,"Celica","Gaiden",2374
+119,"Forrest","Fates",2356
+120,"Wrys","Shadow Dragon and the Blade of Light / Shadow Dragon",2336
+121,"Grima","Awakening",2333
+122,"Myrrh","The Sacred Stones",2317
+123,"Tiki","Mystery of the Emblem / New Mystery of the Emblem",2298
+124,"Rutger","The Binding Blade",2297
+125,"Lilith","Fates",2279
+126,"Eldigan","Genealogy of the Holy War",2256
+127,"Ross","The Sacred Stones",2234
+128,"Raven","The Blazing Blade",2233
+129,"Ogma","Shadow Dragon and the Blade of Light / Shadow Dragon",2229
+130,"Saizo","Fates",2221
+131,"Morgan (M)","Awakening",2216
+132,"Lucius","The Blazing Blade",2204
+133,"Serra","The Blazing Blade",2203
+134,"Katarina","Mystery of the Emblem / New Mystery of the Emblem",2162
+135,"Kellam","Awakening",2129
+136,"Ishtar","Genealogy of the Holy War",2076
+137,"Cynthia","Awakening",2069
+138,"Dwyer","Fates",2048
+139,"Sain","The Blazing Blade",2031
+140,"Nah","Awakening",2003
+141,"Mozu","Fates",1990
+142,"Effie","Fates",1974
+143,"Erk","The Blazing Blade",1951
+144,"Sully","Awakening",1938
+145,"Alm","Gaiden",1907
+146,"Guy","The Blazing Blade",1889
+147,"Larcei","Genealogy of the Holy War",1876
+148,"Tibarn","Radiant Dawn",1872
+149,"Gerome","Awakening",1867
+150,"Ilyana","Path of Radiance",1858
+151,"Scarlet","Fates",1848
+152,"Fir","The Binding Blade",1818
+153,"Nina","Fates",1784
+154,"Lethe","Path of Radiance",1780
+155,"Subaki","Fates",1768
+156,"Say'ri","Awakening",1756
+157,"Leif","Thracia 776",1751
+158,"Caeda","Mystery of the Emblem / New Mystery of the Emblem",1747
+159,"Arthur","Fates",1704
+160,"Ilyana","Radiant Dawn",1696
+161,"Libra","Awakening",1668
+162,"Merric","Shadow Dragon and the Blade of Light / Shadow Dragon",1639
+163,"Lewyn","Genealogy of the Holy War",1626
+164,"Orochi","Fates",1617
+165,"Lloyd","The Blazing Blade",1617
+166,"Shanna","The Binding Blade",1609
+167,"Mist","Path of Radiance",1581
+168,"Ranulf","Radiant Dawn",1578
+169,"Priam","Awakening",1556
+170,"Shinon","Radiant Dawn",1553
+171,"Ranulf","Path of Radiance",1550
+172,"Finn","Genealogy of the Holy War",1550
+173,"Virion","Awakening",1548
+174,"Rath","The Blazing Blade",1544
+175,"Jill","Path of Radiance",1538
+176,"Ursula","The Blazing Blade",1534
+177,"Shigure","Fates",1524
+178,"Innes","The Sacred Stones",1499
+179,"Gerik","The Sacred Stones",1489
+180,"Gregor","Awakening",1456
+181,"Catria","Shadow Dragon and the Blade of Light / Shadow Dragon",1455
+182,"Edward","Radiant Dawn",1446
+183,"Jill","Radiant Dawn",1437
+184,"Miriel","Awakening",1437
+185,"Hinata","Fates",1427
+186,"Yarne","Awakening",1405
+187,"Linde","Shadow Dragon and the Blade of Light / Shadow Dragon",1396
+188,"Lachesis","Genealogy of the Holy War",1394
+189,"Mist","Radiant Dawn",1391
+190,"Camus","Shadow Dragon and the Blade of Light / Shadow Dragon",1389
+191,"Kana (M)","Fates",1380
+192,"Priscilla","The Blazing Blade",1334
+193,"Midori","Fates",1333
+194,"Fae","The Binding Blade",1332
+195,"Pent","The Blazing Blade",1331
+196,"Emmeryn","Awakening",1325
+197,"Cormag","The Sacred Stones",1308
+198,"Sanaki","Radiant Dawn",1308
+199,"Anankos","Fates",1293
+200,"Shura","Fates",1281
+201,"Colm","The Sacred Stones",1267
+202,"Fiora","The Blazing Blade",1246
+203,"Ricken","Awakening",1235
+204,"Mikoto","Fates",1228
+205,"Nailah","Radiant Dawn",1206
+206,"Zelgius","Radiant Dawn",1202
+207,"Shinon","Path of Radiance",1200
+208,"Azama","Fates",1180
+209,"Dieck","The Binding Blade",1176
+210,"Cain","Shadow Dragon and the Blade of Light / Shadow Dragon",1172
+211,"Titania","Radiant Dawn",1169
+212,"Legault","The Blazing Blade",1162
+213,"Naga","Awakening",1150
+214,"Arvis","Genealogy of the Holy War",1150
+215,"Gilliam","The Sacred Stones",1142
+216,"Anna","Shadow Dragon and the Blade of Light / Shadow Dragon",1135
+217,"Volke","Radiant Dawn",1131
+218,"Naesala","Radiant Dawn",1128
+219,"Lugh","The Binding Blade",1119
+220,"Gangrel","Awakening",1101
+221,"Vaike","Awakening",1096
+222,"Garcia","The Sacred Stones",1093
+223,"Layla","Fates",1090
+224,"Catria","Mystery of the Emblem / New Mystery of the Emblem",1079
+225,"Leila","The Blazing Blade",1069
+226,"Narcian","The Binding Blade",1060
+227,"Benny","Fates",1055
+228,"Finn (2)","Genealogy of the Holy War",1053
+229,"Mitama","Fates",1051
+230,"Walhart","Awakening",1045
+231,"Clarine","The Binding Blade",1044
+232,"Ced","Genealogy of the Holy War",1042
+233,"Brady","Awakening",1040
+234,"Flavia","Awakening",1036
+235,"Cecilia","The Binding Blade",1029
+236,"Idunn","The Binding Blade",1026
+237,"Mustafa","Awakening",1017
+238,"Wil","The Blazing Blade",1007
+239,"Finn","Thracia 776",1003
+240,"Neimi","The Sacred Stones",999
+241,"Knoll","The Sacred Stones",997
+242,"Basilio","Awakening",994
+243,"Kent","The Blazing Blade",991
+244,"Zihark","Radiant Dawn",975
+245,"Wolt","The Binding Blade",969
+246,"Abel","Shadow Dragon and the Blade of Light / Shadow Dragon",961
+247,"Ogma","Mystery of the Emblem / New Mystery of the Emblem",960
+248,"Raigh","The Binding Blade",940
+249,"Navarre","Mystery of the Emblem / New Mystery of the Emblem",935
+250,"Shiro","Fates",932
+251,"Reina","Fates",931
+252,"Ewan","The Sacred Stones",930
+253,"Sophie","Fates",913
+254,"Heath","The Blazing Blade",908
+255,"Oliver","Radiant Dawn",902
+256,"Olwen","Thracia 776",885
+257,"Kiragi","Fates",881
+258,"Haar","Path of Radiance",880
+259,"Cervantes","Awakening",864
+260,"Minerva","Mystery of the Emblem / New Mystery of the Emblem",861
+261,"Lucia","Radiant Dawn",861
+262,"Elincia","Path of Radiance",858
+263,"Merric","Mystery of the Emblem / New Mystery of the Emblem",854
+264,"Tibarn","Path of Radiance",838
+265,"Volug","Radiant Dawn",838
+266,"Lethe","Radiant Dawn",836
+267,"Mareeta","Thracia 776",836
+268,"Marcia","Path of Radiance",835
+269,"Asugi","Fates",823
+270,"Quan","Genealogy of the Holy War",823
+271,"Hector","The Binding Blade",815
+272,"Gunter","Fates",813
+273,"Jeorge","Mystery of the Emblem / New Mystery of the Emblem",810
+274,"Zephiel","The Binding Blade",808
+275,"Kjelle","Awakening",791
+276,"Izana","Fates",790
+277,"Leanne","Radiant Dawn",788
+278,"Vanessa","The Sacred Stones",784
+279,"Karel","The Blazing Blade",770
+280,"Gonzalez","The Binding Blade",767
+281,"Greil","Path of Radiance",762
+282,"Sirius","Mystery of the Emblem / New Mystery of the Emblem",742
+283,"Leif","Genealogy of the Holy War",738
+284,"Kris (M)","Mystery of the Emblem / New Mystery of the Emblem",736
+285,"Nils","The Blazing Blade",730
+286,"Jagen","Shadow Dragon and the Blade of Light / Shadow Dragon",724
+287,"Farina","The Blazing Blade",719
+288,"Wolf","Shadow Dragon and the Blade of Light / Shadow Dragon",719
+289,"Artur","The Sacred Stones",712
+290,"Arthur","Genealogy of the Holy War",707
+291,"Tailtiu","Genealogy of the Holy War",703
+292,"Astrid","Path of Radiance",697
+293,"Athena","Shadow Dragon and the Blade of Light / Shadow Dragon",697
+294,"Palla","Mystery of the Emblem / New Mystery of the Emblem",695
+295,"Limstella","The Blazing Blade",690
+296,"Garon","Fates",689
+297,"Xane","Shadow Dragon and the Blade of Light / Shadow Dragon",688
+298,"Thite","The Binding Blade",685
+299,"Barst","Shadow Dragon and the Blade of Light / Shadow Dragon",681
+300,"Vika","Radiant Dawn",681
+301,"Perceval","The Binding Blade",677
+302,"Stefan","Radiant Dawn",675
+303,"Tormod","Radiant Dawn",668
+304,"Sonia","The Blazing Blade",665
+305,"Echidna","The Binding Blade",662
+306,"Louise","The Blazing Blade",659
+307,"Karla","The Blazing Blade",653
+308,"Oscar","Path of Radiance",652
+309,"Leanne","Path of Radiance",649
+310,"Gwendolyn","The Binding Blade",648
+311,"Aran","Radiant Dawn",648
+312,"Hayato","Fates",644
+313,"Mordecai","Path of Radiance",635
+314,"Moulder","The Sacred Stones",635
+315,"Julia","Genealogy of the Holy War",624
+316,"Linde","Mystery of the Emblem / New Mystery of the Emblem",622
+317,"Valter","The Sacred Stones",619
+318,"Selena","The Sacred Stones",619
+319,"Caineghis","Radiant Dawn",616
+320,"Franz","The Sacred Stones",615
+321,"Boyd","Path of Radiance",614
+322,"Pelleas","Radiant Dawn",608
+323,"Heather","Radiant Dawn",599
+324,"Draug","Shadow Dragon and the Blade of Light / Shadow Dragon",599
+325,"Oswin","The Blazing Blade",598
+326,"Athos","The Blazing Blade",591
+327,"Sheena","Mystery of the Emblem / New Mystery of the Emblem",590
+328,"Boyd","Radiant Dawn",587
+329,"Arete","Fates",579
+330,"Zihark","Path of Radiance",577
+331,"Laurent","Awakening",577
+332,"Nagi","Shadow Dragon and the Blade of Light / Shadow Dragon",573
+333,"Ares","Genealogy of the Holy War",564
+334,"Forde","The Sacred Stones",563
+335,"Sue","The Binding Blade",562
+336,"Stefan","Path of Radiance",550
+337,"Erinys","Genealogy of the Holy War",545
+338,"Melady","The Binding Blade",545
+339,"Azelle","Genealogy of the Holy War",542
+340,"Hugh","The Binding Blade",538
+341,"Shannan","Genealogy of the Holy War",531
+342,"Naesala","Path of Radiance",528
+343,"Gordin","Shadow Dragon and the Blade of Light / Shadow Dragon",526
+344,"Palla","Shadow Dragon and the Blade of Light / Shadow Dragon",524
+345,"Anna","Radiant Dawn",523
+346,"Sanaki","Path of Radiance",520
+347,"Reyson","Path of Radiance",520
+348,"Sumeragi","Fates",520
+349,"Iago","Fates",518
+350,"Tethys","The Sacred Stones",518
+351,"Marcia","Radiant Dawn",517
+352,"Meg","Radiant Dawn",516
+353,"Julian","Shadow Dragon and the Blade of Light / Shadow Dragon",515
+354,"Volke","Path of Radiance",501
+355,"Deirdre","Genealogy of the Holy War",492
+356,"Lucia","Path of Radiance",491
+357,"Cain","Mystery of the Emblem / New Mystery of the Emblem",491
+358,"Tine","Genealogy of the Holy War",490
+359,"Rolf","Path of Radiance",482
+360,"Rhys","Path of Radiance",476
+361,"Chad","The Binding Blade",475
+362,"Merlinus","The Blazing Blade",474
+363,"Dart","The Blazing Blade",470
+364,"Sothe","Path of Radiance",469
+365,"Ethlyn","Genealogy of the Holy War",465
+366,"Ashnard","Path of Radiance",465
+367,"Reyson","Radiant Dawn",462
+368,"Lyre","Radiant Dawn",460
+369,"Siegbert","Fates",459
+370,"Gordin","Mystery of the Emblem / New Mystery of the Emblem",456
+371,"Hawkeye","The Blazing Blade",456
+372,"Etzel","Shadow Dragon and the Blade of Light / Shadow Dragon",452
+373,"Patty","Genealogy of the Holy War",448
+374,"Wallace","The Blazing Blade",442
+375,"Camus","Mystery of the Emblem / New Mystery of the Emblem",440
+376,"Yen'fay","Awakening",436
+377,"Rolf","Radiant Dawn",434
+378,"Marty","Thracia 776",433
+379,"Kieran","Path of Radiance",431
+380,"Ulster","Genealogy of the Holy War",430
+381,"Yune","Radiant Dawn",428
+382,"Rainbow Sage","Fates",428
+383,"Candace","Fates",426
+384,"Lex","Genealogy of the Holy War",426
+385,"Validar","Awakening",425
+386,"Geoffrey","Radiant Dawn",422
+387,"Natasha","The Sacred Stones",421
+388,"Marcus","The Blazing Blade",414
+389,"Nanna","Thracia 776",412
+390,"Duessel","The Sacred Stones",412
+391,"Vyland","Shadow Dragon and the Blade of Light / Shadow Dragon",409
+392,"Jeorge","Shadow Dragon and the Blade of Light / Shadow Dragon",404
+393,"Leonardo","Radiant Dawn",398
+394,"Dozla","The Sacred Stones",397
+395,"Malice","Mystery of the Emblem / New Mystery of the Emblem",397
+396,"Elice","Shadow Dragon and the Blade of Light / Shadow Dragon",392
+397,"Ced","Thracia 776",380
+398,"Hisame","Fates",378
+399,"Zola","Fates",375
+400,"Kris (F)","Mystery of the Emblem / New Mystery of the Emblem",373
+401,"Percy","Fates",373
+402,"Lena","Shadow Dragon and the Blade of Light / Shadow Dragon",372
+403,"Norne","Shadow Dragon and the Blade of Light / Shadow Dragon",371
+404,"Sephiran","Radiant Dawn",367
+405,"Guinivere","The Blazing Blade",367
+406,"Amy","Radiant Dawn",364
+407,"Michalis","Shadow Dragon and the Blade of Light / Shadow Dragon",354
+408,"Hardin","Shadow Dragon and the Blade of Light / Shadow Dragon",352
+409,"Julius","Genealogy of the Holy War",349
+410,"Lowen","The Blazing Blade",349
+411,"Noah","The Binding Blade",347
+412,"Tormod","Path of Radiance",347
+413,"Delthea","Gaiden",346
+414,"Caineghis","Path of Radiance",345
+415,"Xane","Mystery of the Emblem / New Mystery of the Emblem",344
+416,"Clarisse","Mystery of the Emblem / New Mystery of the Emblem",335
+417,"Wrys","Mystery of the Emblem / New Mystery of the Emblem",333
+418,"Nyna","Shadow Dragon and the Blade of Light / Shadow Dragon",331
+419,"Sara","Thracia 776",330
+420,"Dew","Genealogy of the Holy War",326
+421,"Petrine","Path of Radiance",325
+422,"Sigrun","Radiant Dawn",323
+423,"Igrene","The Binding Blade",322
+424,"Astrid","Radiant Dawn",321
+425,"Merlinus","The Binding Blade",318
+426,"Ashera","Radiant Dawn",316
+427,"Eliwood","The Binding Blade",316
+428,"Oscar","Radiant Dawn",315
+429,"Mathilda","Gaiden",313
+430,"Laura","Radiant Dawn",312
+431,"Yukimura","Fates",310
+432,"Ismaire","The Sacred Stones",308
+433,"Zeiss","The Binding Blade",308
+434,"Lance","The Binding Blade",303
+435,"Ephidel","The Blazing Blade",301
+436,"Cath","The Binding Blade",300
+437,"Harken","The Blazing Blade",299
+438,"Janaff","Path of Radiance",299
+439,"Nolan","Radiant Dawn",297
+440,"Muarim","Path of Radiance",295
+441,"Altena","Genealogy of the Holy War",294
+442,"Lorenz","Shadow Dragon and the Blade of Light / Shadow Dragon",292
+443,"Saul","The Binding Blade",290
+444,"Alen","The Binding Blade",290
+445,"Anna","Mystery of the Emblem / New Mystery of the Emblem",287
+446,"Zelgius","Path of Radiance",286
+447,"Linus","The Blazing Blade",284
+448,"Gatrie","Radiant Dawn",282
+449,"Gharnef","Shadow Dragon and the Blade of Light / Shadow Dragon",281
+450,"Brunnya","The Binding Blade",280
+451,"Gatrie","Path of Radiance",280
+452,"Asbel","Thracia 776",279
+453,"Muarim","Radiant Dawn",279
+454,"Maria","Shadow Dragon and the Blade of Light / Shadow Dragon",278
+455,"Sigrun","Path of Radiance",276
+456,"Isadora","The Blazing Blade",274
+457,"Galle","The Binding Blade",273
+458,"Hans","Fates",272
+459,"Saleh","The Sacred Stones",272
+460,"Nichol","Fates",271
+461,"Dorothy","The Binding Blade",271
+462,"Bantu","Shadow Dragon and the Blade of Light / Shadow Dragon",270
+463,"Karel","The Binding Blade",270
+464,"Geese","The Binding Blade",267
+465,"Vyland","Mystery of the Emblem / New Mystery of the Emblem",266
+466,"Naoise","Genealogy of the Holy War",262
+467,"Nergal","The Blazing Blade",262
+468,"Kyle","The Sacred Stones",262
+469,"Arlen","Mystery of the Emblem / New Mystery of the Emblem",261
+470,"Klein","The Binding Blade",258
+471,"Rhys","Radiant Dawn",258
+472,"Chulainn","Genealogy of the Holy War",256
+473,"Michalis","Mystery of the Emblem / New Mystery of the Emblem",256
+474,"Machyua","Thracia 776",256
+475,"Orson","The Sacred Stones",255
+476,"Excellus","Awakening",254
+477,"Radd","Shadow Dragon and the Blade of Light / Shadow Dragon",252
+478,"Mordecai","Radiant Dawn",250
+479,"Elena","Path of Radiance",250
+480,"Kurthnaga","Radiant Dawn",247
+481,"Valbar","Gaiden",247
+482,"Kieran","Radiant Dawn",246
+483,"Brom","Path of Radiance",245
+484,"Jamke","Genealogy of the Holy War",245
+485,"Castor","Shadow Dragon and the Blade of Light / Shadow Dragon",244
+486,"Skrimir","Radiant Dawn",244
+487,"Glen","The Sacred Stones",242
+488,"Zeke","Gaiden",240
+489,"Osian","Thracia 776",240
+490,"Kliff","Gaiden",239
+491,"Miranda","Thracia 776",238
+492,"Sin","The Binding Blade",237
+493,"Norne","Mystery of the Emblem / New Mystery of the Emblem",236
+494,"Lara","Thracia 776",233
+495,"Marcus","The Binding Blade",232
+496,"Travant","Genealogy of the Holy War",232
+497,"Ogier","The Binding Blade",232
+498,"Tanith","Path of Radiance",230
+499,"Fee","Genealogy of the Holy War",228
+500,"Hardin","Mystery of the Emblem / New Mystery of the Emblem",228
+501,"Bartre","The Blazing Blade",228
+502,"Guinivere","The Binding Blade",227
+503,"Fuga","Fates",225
+504,"Carrion","Thracia 776",224
+505,"Linoan","Thracia 776",223
+506,"Athena","Mystery of the Emblem / New Mystery of the Emblem",223
+507,"Devdan","Path of Radiance",223
+508,"Brom","Radiant Dawn",221
+509,"Ashunera","Radiant Dawn",221
+510,"Draug","Mystery of the Emblem / New Mystery of the Emblem",220
+511,"Geitz","The Blazing Blade",219
+512,"Legion","Mystery of the Emblem / New Mystery of the Emblem",218
+513,"Febail","Genealogy of the Holy War",217
+514,"Est","Shadow Dragon and the Blade of Light / Shadow Dragon",217
+515,"Etzel","Mystery of the Emblem / New Mystery of the Emblem",214
+516,"Ignatius","Fates",214
+517,"Fiona","Radiant Dawn",212
+518,"Nagi","Mystery of the Emblem / New Mystery of the Emblem",211
+519,"Syrene","The Sacred Stones",208
+520,"Rennac","The Sacred Stones",206
+521,"Bors","The Binding Blade",205
+522,"Silvia","Genealogy of the Holy War",203
+523,"Catria","Gaiden",202
+524,"Sedgar","Shadow Dragon and the Blade of Light / Shadow Dragon",201
+525,"Julian","Mystery of the Emblem / New Mystery of the Emblem",200
+526,"Lana","Genealogy of the Holy War",199
+527,"Frey","Shadow Dragon and the Blade of Light / Shadow Dragon",197
+528,"Phina","Mystery of the Emblem / New Mystery of the Emblem",196
+529,"Trec","The Binding Blade",192
+530,"Wolf","Mystery of the Emblem / New Mystery of the Emblem",187
+531,"Janaff","Radiant Dawn",187
+532,"Cecil","Mystery of the Emblem / New Mystery of the Emblem",186
+533,"Nanna","Genealogy of the Holy War",184
+534,"Jagen","Mystery of the Emblem / New Mystery of the Emblem",183
+535,"Bord","Shadow Dragon and the Blade of Light / Shadow Dragon",180
+536,"Lifis","Thracia 776",179
+537,"Wendell","Shadow Dragon and the Blade of Light / Shadow Dragon",178
+538,"Dheginsea","Radiant Dawn",174
+539,"Abel","Mystery of the Emblem / New Mystery of the Emblem",173
+540,"Midir","Genealogy of the Holy War",173
+541,"Caellach","The Sacred Stones",171
+542,"Silque","Gaiden",169
+543,"Karin","Thracia 776",168
+544,"Cord","Shadow Dragon and the Blade of Light / Shadow Dragon",168
+545,"Sonya","Gaiden",167
+546,"Niime","The Binding Blade",167
+547,"Misha","Thracia 776",166
+548,"Eyvel","Thracia 776",165
+549,"Oifey","Genealogy of the Holy War",165
+550,"Elen","The Binding Blade",162
+551,"Yuliya","Mystery of the Emblem / New Mystery of the Emblem",161
+552,"Geoffrey","Path of Radiance",161
+553,"Barst","Mystery of the Emblem / New Mystery of the Emblem",160
+554,"Jake","Shadow Dragon and the Blade of Light / Shadow Dragon",160
+555,"Bartre","The Binding Blade",159
+556,"Brigid","Genealogy of the Holy War",158
+557,"Kempf","Thracia 776",157
+558,"Saber","Gaiden",156
+559,"Shiva","Thracia 776",155
+560,"Saias","Thracia 776",155
+561,"Roshea","Shadow Dragon and the Blade of Light / Shadow Dragon",154
+562,"Douglas","The Binding Blade",152
+563,"Galzus","Thracia 776",152
+564,"Largo","Path of Radiance",150
+565,"Rafiel","Radiant Dawn",149
+566,"Samuel","Mystery of the Emblem / New Mystery of the Emblem",148
+567,"Kamui","Gaiden",147
+568,"Jarod","Radiant Dawn",146
+569,"Lukas","Gaiden",146
+570,"Renault","The Blazing Blade",143
+571,"Lene","Genealogy of the Holy War",143
+572,"Tanya","Thracia 776",143
+573,"Kyza","Radiant Dawn",142
+574,"Matthis","Shadow Dragon and the Blade of Light / Shadow Dragon",142
+575,"Alec","Genealogy of the Holy War",142
+576,"Ryan","Mystery of the Emblem / New Mystery of the Emblem",141
+577,"Beowolf","Genealogy of the Holy War",141
+578,"Astram","Shadow Dragon and the Blade of Light / Shadow Dragon",140
+579,"Danved","Radiant Dawn",140
+580,"Horace","Shadow Dragon and the Blade of Light / Shadow Dragon",139
+581,"Boey","Gaiden",138
+582,"Arran","Shadow Dragon and the Blade of Light / Shadow Dragon",138
+583,"Tauroneo","Radiant Dawn",137
+584,"Reinhardt","Thracia 776",137
+585,"Castor","Mystery of the Emblem / New Mystery of the Emblem",136
+586,"Genny","Gaiden",135
+587,"Ena","Path of Radiance",135
+588,"Jubelo","Mystery of the Emblem / New Mystery of the Emblem",135
+589,"Maria","Mystery of the Emblem / New Mystery of the Emblem",134
+590,"Ronan","Thracia 776",133
+591,"Calill","Path of Radiance",132
+592,"Mae","Gaiden",131
+593,"Makalov","Path of Radiance",131
+594,"Larum","The Binding Blade",131
+595,"Caesar","Shadow Dragon and the Blade of Light / Shadow Dragon",130
+596,"Darros","Shadow Dragon and the Blade of Light / Shadow Dragon",130
+597,"Tanith","Radiant Dawn",129
+598,"Calill","Radiant Dawn",129
+599,"Elice","Mystery of the Emblem / New Mystery of the Emblem",127
+600,"Sedgar","Mystery of the Emblem / New Mystery of the Emblem",127
+601,"Vaida","The Blazing Blade",126
+602,"Eremiya","Mystery of the Emblem / New Mystery of the Emblem",126
+603,"Clair","Gaiden",124
+604,"Nasir","Path of Radiance",124
+605,"Gareth","Radiant Dawn",122
+606,"Lena","Mystery of the Emblem / New Mystery of the Emblem",121
+607,"Aimee","Radiant Dawn",120
+608,"Murdock","The Binding Blade",119
+609,"Salem","Thracia 776",118
+610,"Ulki","Radiant Dawn",118
+611,"Barthe","The Binding Blade",117
+612,"Nyna","Mystery of the Emblem / New Mystery of the Emblem",115
+613,"Eda","Thracia 776",115
+614,"Gray","Gaiden",115
+615,"Ymir","Shadow Dragon and the Blade of Light / Shadow Dragon",114
+616,"Muirne","Genealogy of the Holy War",114
+617,"Marisha","Mystery of the Emblem / New Mystery of the Emblem",110
+618,"Bastian","Radiant Dawn",110
+619,"Annand","Genealogy of the Holy War",109
+620,"Juno","The Binding Blade",108
+621,"Ulki","Path of Radiance",108
+622,"Medeus","Shadow Dragon and the Blade of Light / Shadow Dragon",107
+623,"Ilios","Thracia 776",106
+624,"Reptor","Genealogy of the Holy War",106
+625,"Diarmuid","Genealogy of the Holy War",105
+626,"Fado","The Sacred Stones",104
+627,"Zephiel","The Blazing Blade",104
+628,"Hannibal","Genealogy of the Holy War",104
+629,"Luthier","Gaiden",104
+630,"Samson","Shadow Dragon and the Blade of Light / Shadow Dragon",102
+631,"Halvan","Thracia 776",102
+632,"Midia","Shadow Dragon and the Blade of Light / Shadow Dragon",102
+633,"Caesar","Mystery of the Emblem / New Mystery of the Emblem",102
+634,"Arion","Genealogy of the Holy War",101
+635,"Daisy","Genealogy of the Holy War",101
+636,"Lorenz","Mystery of the Emblem / New Mystery of the Emblem",100
+637,"Andrey","Genealogy of the Holy War",100
+638,"Kurthnaga","Path of Radiance",99
+639,"Est","Gaiden",98
+640,"Iucharba","Genealogy of the Holy War",98
+641,"Tobin","Gaiden",97
+642,"Palla","Gaiden",97
+643,"Nomah","Gaiden",97
+644,"Bertram","Path of Radiance",97
+645,"Dagdar","Thracia 776",97
+646,"Astram","Mystery of the Emblem / New Mystery of the Emblem",97
+647,"Beck","Shadow Dragon and the Blade of Light / Shadow Dragon",97
+648,"Fergus","Thracia 776",97
+649,"Ena","Radiant Dawn",96
+650,"Lang","Mystery of the Emblem / New Mystery of the Emblem",96
+651,"Rudolf","Gaiden",95
+652,"Gotoh","Shadow Dragon and the Blade of Light / Shadow Dragon",94
+653,"Almedha","Radiant Dawn",93
+654,"Nasir","Radiant Dawn",93
+655,"Iuchar","Genealogy of the Holy War",92
+656,"Giffca","Path of Radiance",89
+657,"Bord","Mystery of the Emblem / New Mystery of the Emblem",88
+658,"Giffca","Radiant Dawn",88
+659,"Python","Gaiden",86
+660,"Roshea","Mystery of the Emblem / New Mystery of the Emblem",86
+661,"Mycen","Gaiden",85
+662,"Makalov","Radiant Dawn",85
+663,"Renning","Radiant Dawn",85
+664,"Est","Mystery of the Emblem / New Mystery of the Emblem",84
+665,"Elffin","The Binding Blade",83
+666,"Boah","Shadow Dragon and the Blade of Light / Shadow Dragon",82
+667,"Tauroneo","Path of Radiance",82
+668,"Aida","Genealogy of the Holy War",82
+669,"Dice","Mystery of the Emblem / New Mystery of the Emblem",80
+670,"Bastian","Path of Radiance",80
+671,"Sephiran","Path of Radiance",80
+672,"Bantu","Mystery of the Emblem / New Mystery of the Emblem",78
+673,"Gareth","Path of Radiance",76
+674,"Hawk","Genealogy of the Holy War",75
+675,"Linda","Genealogy of the Holy War",75
+676,"Luke","Mystery of the Emblem / New Mystery of the Emblem",75
+677,"Clive","Gaiden",75
+678,"Lombard","Genealogy of the Holy War",73
+679,"Arran","Mystery of the Emblem / New Mystery of the Emblem",73
+680,"Matthis","Mystery of the Emblem / New Mystery of the Emblem",72
+681,"Dolph","Shadow Dragon and the Blade of Light / Shadow Dragon",72
+682,"Wade","The Binding Blade",71
+683,"Laylea","Genealogy of the Holy War",70
+684,"Manfroy","Genealogy of the Holy War",70
+685,"Roderick","Mystery of the Emblem / New Mystery of the Emblem",69
+686,"Radd","Mystery of the Emblem / New Mystery of the Emblem",69
+687,"Tomas","Shadow Dragon and the Blade of Light / Shadow Dragon",68
+688,"Renning","Path of Radiance",68
+689,"Tina","Thracia 776",68
+690,"Macellan","Shadow Dragon and the Blade of Light / Shadow Dragon",67
+691,"Atlas","Gaiden",67
+692,"Roger","Shadow Dragon and the Blade of Light / Shadow Dragon",66
+693,"Homer","Thracia 776",66
+694,"Deen","Gaiden",65
+695,"Creidne","Genealogy of the Holy War",65
+696,"Cord","Mystery of the Emblem / New Mystery of the Emblem",65
+697,"Gharnef","Mystery of the Emblem / New Mystery of the Emblem",65
+698,"Horace","Mystery of the Emblem / New Mystery of the Emblem",65
+699,"Sandima","Genealogy of the Holy War",64
+700,"Astolfo","The Binding Blade",64
+701,"Shannam","Thracia 776",63
+702,"Rickard","Shadow Dragon and the Blade of Light / Shadow Dragon",63
+703,"Perne","Thracia 776",63
+704,"Belf","Mystery of the Emblem / New Mystery of the Emblem",62
+705,"Medeus","Mystery of the Emblem / New Mystery of the Emblem",62
+706,"Brighton","Thracia 776",61
+707,"Ishtore","Genealogy of the Holy War",60
+708,"Jahn","The Binding Blade",60
+709,"Zelot","The Binding Blade",60
+710,"Midia","Mystery of the Emblem / New Mystery of the Emblem",60
+711,"Tatiana","Gaiden",59
+712,"Amalda","Thracia 776",59
+713,"Desaix","Gaiden",59
+714,"Selphina","Thracia 776",59
+715,"Samson","Mystery of the Emblem / New Mystery of the Emblem",58
+716,"Kutuzov","Genealogy of the Holy War",58
+717,"Alva","Thracia 776",57
+718,"Tomas","Mystery of the Emblem / New Mystery of the Emblem",57
+719,"Dheginsea","Path of Radiance",57
+720,"Wendell","Mystery of the Emblem / New Mystery of the Emblem",56
+721,"Deen","Thracia 776",56
+722,"Xavier","Thracia 776",55
+723,"Cain","Thracia 776",55
+724,"Valtome","Radiant Dawn",55
+725,"Forsyth","Gaiden",54
+726,"Jeanne","Genealogy of the Holy War",54
+727,"Ralf","Thracia 776",53
+728,"Leon","Gaiden",52
+729,"Garret","The Binding Blade",52
+730,"Yoder","The Binding Blade",52
+731,"Frey","Mystery of the Emblem / New Mystery of the Emblem",51
+732,"Raydrik","Thracia 776",50
+733,"Roberto","Mystery of the Emblem / New Mystery of the Emblem",50
+734,"Tristan","Genealogy of the Holy War",50
+735,"Jake","Mystery of the Emblem / New Mystery of the Emblem",49
+736,"Robert","Thracia 776",48
+737,"Riev","The Sacred Stones",48
+738,"Warren","Mystery of the Emblem / New Mystery of the Emblem",47
+739,"Nealuchi","Radiant Dawn",47
+740,"Largo","Radiant Dawn",46
+741,"Reiden","Mystery of the Emblem / New Mystery of the Emblem",46
+742,"Veld","Thracia 776",45
+743,"Byron","Genealogy of the Holy War",45
+744,"Nealuchi","Path of Radiance",45
+745,"Safy","Thracia 776",45
+746,"Munnir","Genealogy of the Holy War",44
+747,"Jesse","Gaiden",43
+748,"Grieth","Gaiden",43
+749,"Malledus","Shadow Dragon and the Blade of Light / Shadow Dragon",43
+750,"Diarmuid","Thracia 776",41
+751,"Hicks","Thracia 776",41
+752,"Edain","Genealogy of the Holy War",41
+753,"Claud","Genealogy of the Holy War",40
+754,"Brian","Genealogy of the Holy War",40
+755,"Dayan","The Binding Blade",39
+756,"Rickard","Mystery of the Emblem / New Mystery of the Emblem",39
+757,"Muston","Radiant Dawn",39
+758,"Jorge","Radiant Dawn",39
+759,"Dalsin","Thracia 776",39
+760,"Gotoh","Mystery of the Emblem / New Mystery of the Emblem",38
+761,"Dolph","Mystery of the Emblem / New Mystery of the Emblem",37
+762,"Asaello","Genealogy of the Holy War",36
+763,"Amid","Genealogy of the Holy War",36
+764,"Fred","Thracia 776",36
+765,"Boah","Mystery of the Emblem / New Mystery of the Emblem",36
+766,"Coirpre","Genealogy of the Holy War",36
+767,"Chagall","Genealogy of the Holy War",35
+768,"Dalvin","Genealogy of the Holy War",35
+769,"Hermina","Genealogy of the Holy War",34
+770,"Izuka","Radiant Dawn",33
+771,"Troude","Thracia 776",33
+772,"Hetzel","Radiant Dawn",33
+773,"Hilda","Genealogy of the Holy War",32
+774,"Lester","Genealogy of the Holy War",32
+775,"Hayden","The Sacred Stones",30
+776,"Sleuf","Thracia 776",30
+777,"Daniel","Radiant Dawn",29
+778,"Frost","Mystery of the Emblem / New Mystery of the Emblem",29
+779,"Charlot","Genealogy of the Holy War",28
+780,"Scipio","Genealogy of the Holy War",28
+781,"Deimne","Genealogy of the Holy War",27
+782,"Darros","Mystery of the Emblem / New Mystery of the Emblem",27
+783,"Cimbaeth","Genealogy of the Holy War",27
+784,"Conomor","Thracia 776",27
+785,"Ymir","Mystery of the Emblem / New Mystery of the Emblem",25
+786,"Beck","Mystery of the Emblem / New Mystery of the Emblem",22
+787,"Roger","Mystery of the Emblem / New Mystery of the Emblem",22
+788,"Macellan","Mystery of the Emblem / New Mystery of the Emblem",19
+789,"Danann","Genealogy of the Holy War",18
+790,"Bloom","Genealogy of the Holy War",18
+791,"Glade","Thracia 776",17

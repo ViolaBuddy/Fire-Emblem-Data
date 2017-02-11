@@ -14,64 +14,6 @@ from collections import OrderedDict
 	to the database, and the second line includes your password (If you have a weird username or
 	password, e.g. with newlines or something, you may need to do weirder things here)
 """
-
-	# SET m_small = 0;
-	# outerloop: LOOP
-	# 	SET k = m_small;
-	# 	innerloop1: LOOP
-	# 		SET result1 = NFactorial(N_u) / NFactorial(k) / NFactorial(N_u - k);
- #            SET result1  = 1 * POWER(1 - (u/100), N_u - k) * POWER(u/100, k);
-
-	# 		SET k = k + 1;
-	# 		IF k > N_u THEN
-	# 			LEAVE innerloop1;
-	# 		END IF;
-	# 	END LOOP innerloop1;
-
-	# 	SET overallresult = overallresult + result1;
-
-	# 	SET m_small = m_small+1;
-	# 	IF m_small > M THEN
-	# 		LEAVE outerloop;
-	# 	END IF;
-	# END LOOP outerloop;
-import math
-def fact(n):
-	if n <= 1:
-		return 1
-	else:
-		return n * fact(n-1)
-
-
-def AtLeastMLevelUps(M, N_u, N_p, u, p):
-	m_small = 0
-	overallresult = 0.0
-
-	while True:
-		k = m_small
-		while True:
-			result1 = fact(N_u) / fact(k) / fact(N_u - k)
-			try:
-				result1 = result1 * math.pow(1 - u/100, N_u - k) * math.pow(u/100, k)
-			except ValueError as e:
-				print(k, N_u)
-				raise e
-
-			k = k+1
-			if k > N_u:
-				break
-		overallresult = overallresult + result1
-
-		m_small = m_small+1
-		if m_small > M:
-			break
-	return overallresult
-
-print(AtLeastMLevelUps(3, 5, 0, 100, 0))
-
-
-exit()
-
 DATABASE_NAME = 'FireEmblemData'
 
 # read password file
@@ -89,9 +31,9 @@ BOOLEAN_T = 'BOOLEAN'
 CHAR_T = 'CHAR(1)'
 INT_T = 'INTEGER'
 
-SQL_FILES = [
+SQL_FILES_FE14 = [
 	{
-		'tableName': 'Classes',
+		'tableName': 'FE14_Classes',
 		'sourceFile': os.path.join('FE14', 'classes.csv'),
 		'schema': {
 			'types': OrderedDict([
@@ -110,7 +52,7 @@ SQL_FILES = [
 		'triggers': []
 	},
 	{
-		'tableName': 'Characters',
+		'tableName': 'FE14_Characters',
 		'sourceFile': os.path.join('FE14', 'characters.csv'),
 		'schema': {
 			'types': OrderedDict([
@@ -130,19 +72,19 @@ SQL_FILES = [
 				]),
 			'primaryKey': 'CharId',
 			'foreignKey': {
-				'ClassName': ('Classes', 'ClassName')
+				'ClassName': ('FE14_Classes', 'ClassName')
 			}
 		},
 		'triggers': [
-			'''CREATE TRIGGER Characters_oneGender
-				BEFORE INSERT ON Characters FOR EACH ROW
+			'''CREATE TRIGGER FE14_Characters_oneGender
+				BEFORE INSERT ON FE14_Characters FOR EACH ROW
 				IF NOT (NEW.isMale XOR NEW.isFemale)
-				THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Every character must have a single gender.';
+				THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'FE14_Every character must have a single gender.';
 				END IF;'''# only one gender at a time
 		]
 	},
 	{
-		'tableName': 'WeaponTypes',
+		'tableName': 'FE14_WeaponTypes',
 		'sourceFile': os.path.join('FE14', 'weapontypes.csv'),
 		'schema': {
 			'types': OrderedDict([
@@ -156,7 +98,7 @@ SQL_FILES = [
 		'triggers': []
 	},
 	{
-		'tableName': 'PersonalSkills',
+		'tableName': 'FE14_PersonalSkills',
 		'sourceFile': os.path.join('FE14', 'personalskill.csv'),
 		'schema': {
 			'types': OrderedDict([
@@ -166,13 +108,13 @@ SQL_FILES = [
 				]),
 			'primaryKey': 'CharId', # male and female avatars share a PersonalSkill, so that can't be the key
 			'foreignKey': {
-				'CharId': ('Characters', 'CharId')
+				'CharId': ('FE14_Characters', 'CharId')
 			}
 		},
 		'triggers': []
 	},
 	{
-		'tableName': 'Reclasses',
+		'tableName': 'FE14_Reclasses',
 		'sourceFile': os.path.join('FE14', 'reclasses.csv'),
 		'schema': {
 			'types': OrderedDict([
@@ -181,20 +123,20 @@ SQL_FILES = [
 				]),
 			'primaryKey': 'CharId,BaseClassName', # neither name nor class alone is unique
 			'foreignKey': {
-				'CharId': ('Characters', 'CharId'),
-				'BaseClassName': ('Classes',  'ClassName')
+				'CharId': ('FE14_Characters', 'CharId'),
+				'BaseClassName': ('FE14_Classes',  'ClassName')
 			}
 		},
 		'triggers': [
-			'''CREATE TRIGGER Reclasses_Baseclass
-				BEFORE INSERT ON Reclasses FOR EACH ROW
-				IF (SELECT NOT EXISTS(SELECT * FROM Classes C WHERE NOT C.isPromoted AND C.ClassName = NEW.BaseClassName))
-				THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Characters can only reclass to a base class.';
+			'''CREATE TRIGGER FE14_Reclasses_Baseclass
+				BEFORE INSERT ON FE14_Reclasses FOR EACH ROW
+				IF (SELECT NOT EXISTS(SELECT * FROM FE14_Classes C WHERE NOT C.isPromoted AND C.ClassName = NEW.BaseClassName))
+				THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'FE14_Characters can only reclass to a base class.';
 				END IF;'''# reclasses must be to a base class
 		]
 	},
 	{
-		'tableName': 'ClassPromotions',
+		'tableName': 'FE14_ClassPromotions',
 		'sourceFile': os.path.join('FE14', 'classpromotions.csv'),
 		'schema': {
 			'types': OrderedDict([
@@ -203,22 +145,22 @@ SQL_FILES = [
 				]),
 			'primaryKey': 'PromotedClass,BaseClass', # neither promoted nor base classes alone are unique
 			'foreignKey': {
-				'PromotedClass': ('Classes',  'ClassName'),
-				'BaseClass': ('Classes',  'ClassName')
+				'PromotedClass': ('FE14_Classes',  'ClassName'),
+				'BaseClass': ('FE14_Classes',  'ClassName')
 			}
 		},
 		'triggers': [
-			'''CREATE TRIGGER ClassPromotions_Baseclass
-				BEFORE INSERT ON ClassPromotions FOR EACH ROW
-				IF (SELECT NOT EXISTS(SELECT * FROM Classes C WHERE NOT C.isPromoted AND C.ClassName = NEW.BaseClass))
-				THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Characters can only promote from a base class.';
-				ELSEIF (SELECT NOT EXISTS(SELECT * FROM Classes C WHERE C.isPromoted AND C.ClassName = NEW.PromotedClass))
-				THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Characters can only promote to a promoted class.';
+			'''CREATE TRIGGER FE14_ClassPromotions_Baseclass
+				BEFORE INSERT ON FE14_ClassPromotions FOR EACH ROW
+				IF (SELECT NOT EXISTS(SELECT * FROM FE14_Classes C WHERE NOT C.isPromoted AND C.ClassName = NEW.BaseClass))
+				THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'FE14_Characters can only promote from a base class.';
+				ELSEIF (SELECT NOT EXISTS(SELECT * FROM FE14_Classes C WHERE C.isPromoted AND C.ClassName = NEW.PromotedClass))
+				THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'FE14_Characters can only promote to a promoted class.';
 				END IF;''',
 		]
 	},
 	{
-		'tableName': 'ClassStats',
+		'tableName': 'FE14_ClassStats',
 		'sourceFile': os.path.join('FE14', 'classstats.csv'),
 		'schema': {
 			'types': OrderedDict([
@@ -255,13 +197,13 @@ SQL_FILES = [
 				]),
 			'primaryKey': 'ClassName',
 			'foreignKey': {
-				'ClassName': ('Classes',  'ClassName')
+				'ClassName': ('FE14_Classes',  'ClassName')
 			}
 		},
 		'triggers': []
 	},
 	{
-		'tableName': 'ClassWeapons',
+		'tableName': 'FE14_ClassWeapons',
 		'sourceFile': os.path.join('FE14', 'classweapons.csv'),
 		'schema': {
 			'types': OrderedDict([
@@ -271,14 +213,14 @@ SQL_FILES = [
 				]),
 			'primaryKey': 'ClassName,WeaponType',
 			'foreignKey': {
-				'ClassName': ('Classes',  'ClassName'),
-				'WeaponType': ('WeaponTypes',  'WeaponType')
+				'ClassName': ('FE14_Classes',  'ClassName'),
+				'WeaponType': ('FE14_WeaponTypes',  'WeaponType')
 			}
 		},
 		'triggers': []
 	},
 	{
-		'tableName': 'CharacterStats',
+		'tableName': 'FE14_CharacterStats',
 		'sourceFile': os.path.join('FE14', 'characterstats.csv'),
 		'schema': {
 			'types': OrderedDict([
@@ -301,19 +243,19 @@ SQL_FILES = [
 				]),
 			'primaryKey': 'CharId',
 			'foreignKey': {
-				'CharId': ('Characters',  'CharId')
+				'CharId': ('FE14_Characters',  'CharId')
 			}
 		},
 		'triggers': [
-			'''CREATE TRIGGER CharacterStats_NoChildren
-				BEFORE INSERT ON CharacterStats FOR EACH ROW
-				IF (SELECT EXISTS(SELECT * FROM Characters C WHERE C.isChild AND C.CharId = NEW.CharId))
-				THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'CharacterStats can only hold non-child characters.';
+			'''CREATE TRIGGER FE14_CharacterStats_NoChildren
+				BEFORE INSERT ON FE14_CharacterStats FOR EACH ROW
+				IF (SELECT EXISTS(SELECT * FROM FE14_Characters C WHERE C.isChild AND C.CharId = NEW.CharId))
+				THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'FE14_CharacterStats can only hold non-child characters.';
 				END IF;''',
 		]
 	},
 	{
-		'tableName': 'ChildrenStats',
+		'tableName': 'FE14_ChildrenStats',
 		'sourceFile': os.path.join('FE14', 'childrenstats.csv'),
 		'schema': {
 			'types': OrderedDict([
@@ -329,19 +271,19 @@ SQL_FILES = [
 				]),
 			'primaryKey': 'CharId',
 			'foreignKey': {
-				'CharId': ('Characters',  'CharId')
+				'CharId': ('FE14_Characters',  'CharId')
 			}
 		},
 		'triggers': [
-			'''CREATE TRIGGER ChildrenStats_OnlyChildren
-				BEFORE INSERT ON ChildrenStats FOR EACH ROW
-				IF (SELECT NOT EXISTS(SELECT * FROM Characters C WHERE C.isChild AND C.CharId = NEW.CharId))
-				THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'ChildrenStats can only hold child characters.';
+			'''CREATE TRIGGER FE14_ChildrenStats_OnlyChildren
+				BEFORE INSERT ON FE14_ChildrenStats FOR EACH ROW
+				IF (SELECT NOT EXISTS(SELECT * FROM FE14_Characters C WHERE C.isChild AND C.CharId = NEW.CharId))
+				THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'FE14_ChildrenStats can only hold child characters.';
 				END IF;''',
 		]
 	},
 	{
-		'tableName': 'CharacterBaseStats',
+		'tableName': 'FE14_CharacterBaseStats',
 		'sourceFile': os.path.join('FE14', 'characterbasestats.csv'),
 		'schema': {
 			'types': OrderedDict([
@@ -363,20 +305,20 @@ SQL_FILES = [
 				]),
 			'primaryKey': 'CharId,inBirthright,inConquest,inRevelation,Chapter',
 			'foreignKey': {
-				'CharId': ('Characters',  'CharId'),
-				'Class': ('Classes',  'ClassName')
+				'CharId': ('FE14_Characters',  'CharId'),
+				'Class': ('FE14_Classes',  'ClassName')
 			}
 		},
 		'triggers': [
-			'''CREATE TRIGGER CharacterBaseStats_NoChildren
-				BEFORE INSERT ON CharacterBaseStats FOR EACH ROW
-				IF (SELECT EXISTS(SELECT * FROM Characters C WHERE C.isChild AND C.CharId = NEW.CharId))
-				THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'CharacterBaseStats can only hold non-child characters.';
+			'''CREATE TRIGGER FE14_CharacterBaseStats_NoChildren
+				BEFORE INSERT ON FE14_CharacterBaseStats FOR EACH ROW
+				IF (SELECT EXISTS(SELECT * FROM FE14_Characters C WHERE C.isChild AND C.CharId = NEW.CharId))
+				THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'FE14_CharacterBaseStats can only hold non-child characters.';
 				END IF;''',
 		]
 	},
 	{
-		'tableName': 'ChildrenBaseStats',
+		'tableName': 'FE14_ChildrenBaseStats',
 		'sourceFile': os.path.join('FE14', 'childrenbasestats.csv'),
 		'schema': {
 			'types': OrderedDict([
@@ -395,19 +337,55 @@ SQL_FILES = [
 				]),
 			'primaryKey': 'CharId',
 			'foreignKey': {
-				'CharId': ('Characters',  'CharId'),
-				'Class': ('Classes',  'ClassName')
+				'CharId': ('FE14_Characters',  'CharId'),
+				'Class': ('FE14_Classes',  'ClassName')
 			}
 		},
 		'triggers': [
-			'''CREATE TRIGGER ChildrenBaseStats_OnlyChildren
-				BEFORE INSERT ON ChildrenBaseStats FOR EACH ROW
-				IF (SELECT NOT EXISTS(SELECT * FROM Characters C WHERE C.isChild AND C.CharId = NEW.CharId))
-				THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'ChildrenBaseStats can only hold child characters.';
+			'''CREATE TRIGGER FE14_ChildrenBaseStats_OnlyChildren
+				BEFORE INSERT ON FE14_ChildrenBaseStats FOR EACH ROW
+				IF (SELECT NOT EXISTS(SELECT * FROM FE14_Characters C WHERE C.isChild AND C.CharId = NEW.CharId))
+				THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'FE14_ChildrenBaseStats can only hold child characters.';
 				END IF;''',
 		]
-	}
+	},
 ]
+SQL_FILES_HEROES = [
+	{
+		'tableName': 'Heroes_Votes',
+		'sourceFile': os.path.join('Heroes', 'HeroesVotes.csv'),
+		'schema': {
+			'types': OrderedDict([
+				('Ranking', (INT_T, 'NOT NULL') ),
+				('CharId', (STRING_T, 'NOT NULL') ),
+				('Game', (STRING_T, 'NOT NULL') ),
+				('Votes', (INT_T, 'NOT NULL') ),
+				]),
+			'primaryKey': 'CharId,Game',
+			'foreignKey': {}
+		},
+		'triggers': []
+	},
+	{
+		'tableName': 'Heroes_Gender',
+		'sourceFile': os.path.join('Heroes', 'HeroesGender.csv'),
+		'schema': {
+			'types': OrderedDict([
+				('CharId', (STRING_T, 'NOT NULL') ),
+				('Game', (STRING_T, 'NOT NULL') ),
+				('isMale', (BOOLEAN_T, 'NOT NULL') ),
+				('isFemale', (BOOLEAN_T, 'NOT NULL') ),
+				]),
+			'primaryKey': 'CharId,Game',
+			'foreignKey': {
+				'CharId,Game': ('Heroes_Votes', 'CharId,Game')
+			}
+		},
+		'triggers': []
+	},
+]
+
+SQL_FILES = SQL_FILES_HEROES
 
 def schema_to_SQL_query(tablename, schema):
 	"""take in an OrderedDict schema and returns a MYSQL query string that creates such a table
@@ -496,7 +474,9 @@ try:
 except Exception as e:
 	print("\n\nERROR!")
 	print("The last SQL command attempted was: %s" % sql)
+	print(repr(e))
 	print(e)
+	print(type(e))
 finally:
 	if con:
 		try:

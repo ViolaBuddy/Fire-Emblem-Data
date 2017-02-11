@@ -1,0 +1,792 @@
+CharId,Game,isMale,isFemale
+"Lyn","The Blazing Blade",0,1
+"Lucina","Awakening",0,1
+"Ike","Path of Radiance",1,0
+"Tharja","Awakening",0,1
+"Roy","The Binding Blade",1,0
+"Hector","The Blazing Blade",1,0
+"Camilla","Fates",0,1
+"Chrom","Awakening",1,0
+"Corrin (F)","Fates",0,1
+"Ike","Radiant Dawn",1,0
+"Eirika","The Sacred Stones",0,1
+"Marth","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Ephraim","The Sacred Stones",1,0
+"Cordelia","Awakening",0,1
+"Azura","Fates",0,1
+"Robin (M)","Awakening",1,0
+"Micaiah","Radiant Dawn",0,1
+"Takumi","Fates",1,0
+"Leo","Fates",1,0
+"Henry","Awakening",1,0
+"Dorcas","The Blazing Blade",1,0
+"Nowi","Awakening",0,1
+"Donnel","Awakening",1,0
+"Robin (F)","Awakening",0,1
+"Lon'qu","Awakening",1,0
+"Tiki","Awakening",0,1
+"Gaius","Awakening",1,0
+"Lute","The Sacred Stones",0,1
+"Felicia","Fates",0,1
+"Elise","Fates",0,1
+"Mia","Radiant Dawn",0,1
+"Niles","Fates",1,0
+"Marth","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Joshua","The Sacred Stones",1,0
+"Anna","Awakening",0,1
+"Eliwood","The Blazing Blade",1,0
+"Owain","Awakening",1,0
+"Nephenee","Path of Radiance",0,1
+"Nino","The Blazing Blade",0,1
+"Sakura","Fates",0,1
+"Corrin (M)","Fates",1,0
+"Xander","Fates",1,0
+"Ryoma","Fates",1,0
+"Hinoka","Fates",0,1
+"Soren","Path of Radiance",1,0
+"Morgan (F)","Awakening",0,1
+"Severa","Awakening",0,1
+"Olivia","Awakening",0,1
+"Lilina","The Binding Blade",0,1
+"Nephenee","Radiant Dawn",0,1
+"Caeda","Shadow Dragon and the Blade of Light / Shadow Dragon",0,1
+"Masked Marth","Awakening",0,0
+"Marisa","The Sacred Stones",0,1
+"Black Knight","Path of Radiance",1,0
+"Sigurd","Genealogy of the Holy War",1,0
+"Lissa","Awakening",0,1
+"Anna","Fates",0,1
+"Black Knight","Radiant Dawn",1,0
+"Selkie","Fates",0,1
+"Oboro","Fates",0,1
+"Selena","Fates",0,1
+"Jakob","Fates",1,0
+"Inigo","Awakening",1,0
+"Cherche","Awakening",0,1
+"Ayra","Genealogy of the Holy War",0,1
+"Tiki","Shadow Dragon and the Blade of Light / Shadow Dragon",0,1
+"Mia","Path of Radiance",0,1
+"Soleil","Fates",0,1
+"Laslow","Fates",1,0
+"Kaze","Fates",1,0
+"Florina","The Blazing Blade",0,1
+"Charlotte","Fates",0,1
+"Jaffar","The Blazing Blade",1,0
+"Frederick","Awakening",1,0
+"Peri","Fates",0,1
+"Kaden","Fates",1,0
+"Seth","The Sacred Stones",1,0
+"Keaton","Fates",1,0
+"Maribelle","Awakening",0,1
+"Ophelia","Fates",0,1
+"Matthew","The Blazing Blade",1,0
+"Soren","Radiant Dawn",1,0
+"Hana","Fates",0,1
+"Velouria","Fates",0,1
+"Setsuna","Fates",0,1
+"Kagero","Fates",0,1
+"Odin","Fates",0,1
+"Lot","The Binding Blade",1,0
+"Amelia","The Sacred Stones",0,1
+"Sophia","The Binding Blade",0,1
+"Caeldori","Fates",0,1
+"Rinkah","Fates",0,1
+"Arden","Genealogy of the Holy War",1,0
+"Panne","Awakening",0,1
+"Sumia","Awakening",0,1
+"Flora","Fates",0,1
+"Sothe","Radiant Dawn",1,0
+"Tana","The Sacred Stones",0,1
+"Kana (F)","Fates",0,1
+"Ninian","The Blazing Blade",0,1
+"Noire","Awakening",0,1
+"Seliph","Genealogy of the Holy War",1,0
+"Silas","Fates",1,0
+"Haar","Radiant Dawn",1,0
+"Rhajat","Fates",0,1
+"Stahl","Awakening",1,0
+"Titania","Path of Radiance",0,1
+"Nyx","Fates",0,1
+"Beruka","Fates",0,1
+"Minerva","Shadow Dragon and the Blade of Light / Shadow Dragon",0,1
+"Aversa","Awakening",0,1
+"Elincia","Radiant Dawn",0,1
+"Canas","The Blazing Blade",1,0
+"Navarre","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Lyon","The Sacred Stones",1,0
+"L'Arachel","The Sacred Stones",0,1
+"Rebecca","The Blazing Blade",0,1
+"Celica","Gaiden",0,1
+"Forrest","Fates",1,0
+"Wrys","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Grima","Awakening",1,1
+"Myrrh","The Sacred Stones",0,1
+"Tiki","Mystery of the Emblem / New Mystery of the Emblem",0,1
+"Rutger","The Binding Blade",1,0
+"Lilith","Fates",0,1
+"Eldigan","Genealogy of the Holy War",1,0
+"Ross","The Sacred Stones",1,0
+"Raven","The Blazing Blade",1,0
+"Ogma","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Saizo","Fates",1,0
+"Morgan (M)","Awakening",1,0
+"Lucius","The Blazing Blade",1,0
+"Serra","The Blazing Blade",0,1
+"Katarina","Mystery of the Emblem / New Mystery of the Emblem",0,1
+"Kellam","Awakening",1,0
+"Ishtar","Genealogy of the Holy War",0,1
+"Cynthia","Awakening",0,1
+"Dwyer","Fates",1,0
+"Sain","The Blazing Blade",1,0
+"Nah","Awakening",0,1
+"Mozu","Fates",0,1
+"Effie","Fates",0,1
+"Erk","The Blazing Blade",1,0
+"Sully","Awakening",0,1
+"Alm","Gaiden",1,0
+"Guy","The Blazing Blade",1,0
+"Larcei","Genealogy of the Holy War",0,1
+"Tibarn","Radiant Dawn",1,0
+"Gerome","Awakening",1,0
+"Ilyana","Path of Radiance",0,1
+"Scarlet","Fates",0,1
+"Fir","The Binding Blade",0,1
+"Nina","Fates",0,1
+"Lethe","Path of Radiance",0,1
+"Subaki","Fates",1,0
+"Say'ri","Awakening",0,1
+"Leif","Thracia 776",1,0
+"Caeda","Mystery of the Emblem / New Mystery of the Emblem",0,1
+"Arthur","Fates",1,0
+"Ilyana","Radiant Dawn",0,1
+"Libra","Awakening",1,0
+"Merric","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Lewyn","Genealogy of the Holy War",1,0
+"Orochi","Fates",0,1
+"Lloyd","The Blazing Blade",1,0
+"Shanna","The Binding Blade",0,1
+"Mist","Path of Radiance",0,1
+"Ranulf","Radiant Dawn",1,0
+"Priam","Awakening",1,0
+"Shinon","Radiant Dawn",1,0
+"Ranulf","Path of Radiance",1,0
+"Finn","Genealogy of the Holy War",1,0
+"Virion","Awakening",1,0
+"Rath","The Blazing Blade",1,0
+"Jill","Path of Radiance",0,1
+"Ursula","The Blazing Blade",0,1
+"Shigure","Fates",1,0
+"Innes","The Sacred Stones",1,0
+"Gerik","The Sacred Stones",1,0
+"Gregor","Awakening",1,0
+"Catria","Shadow Dragon and the Blade of Light / Shadow Dragon",0,1
+"Edward","Radiant Dawn",1,0
+"Jill","Radiant Dawn",0,1
+"Miriel","Awakening",0,1
+"Hinata","Fates",1,0
+"Yarne","Awakening",1,0
+"Linde","Shadow Dragon and the Blade of Light / Shadow Dragon",0,1
+"Lachesis","Genealogy of the Holy War",0,1
+"Mist","Radiant Dawn",0,1
+"Camus","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Kana (M)","Fates",1,0
+"Priscilla","The Blazing Blade",0,1
+"Midori","Fates",0,1
+"Fae","The Binding Blade",0,1
+"Pent","The Blazing Blade",1,0
+"Emmeryn","Awakening",0,1
+"Cormag","The Sacred Stones",1,0
+"Sanaki","Radiant Dawn",0,1
+"Anankos","Fates",1,0
+"Shura","Fates",1,0
+"Colm","The Sacred Stones",1,0
+"Fiora","The Blazing Blade",0,1
+"Ricken","Awakening",1,0
+"Mikoto","Fates",0,1
+"Nailah","Radiant Dawn",0,1
+"Zelgius","Radiant Dawn",1,0
+"Shinon","Path of Radiance",1,0
+"Azama","Fates",1,0
+"Dieck","The Binding Blade",1,0
+"Cain","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Titania","Radiant Dawn",0,1
+"Legault","The Blazing Blade",1,0
+"Naga","Awakening",0,1
+"Arvis","Genealogy of the Holy War",1,0
+"Gilliam","The Sacred Stones",1,0
+"Anna","Shadow Dragon and the Blade of Light / Shadow Dragon",0,1
+"Volke","Radiant Dawn",1,0
+"Naesala","Radiant Dawn",1,0
+"Lugh","The Binding Blade",1,0
+"Gangrel","Awakening",1,0
+"Vaike","Awakening",1,0
+"Garcia","The Sacred Stones",0,1
+"Layla","Fates",0,1
+"Catria","Mystery of the Emblem / New Mystery of the Emblem",0,1
+"Leila","The Blazing Blade",0,1
+"Narcian","The Binding Blade",1,0
+"Benny","Fates",1,0
+"Finn (2)","Genealogy of the Holy War",1,0
+"Mitama","Fates",0,1
+"Walhart","Awakening",1,0
+"Clarine","The Binding Blade",0,1
+"Ced","Genealogy of the Holy War",1,0
+"Brady","Awakening",1,0
+"Flavia","Awakening",0,1
+"Cecilia","The Binding Blade",0,1
+"Idunn","The Binding Blade",0,1
+"Mustafa","Awakening",1,0
+"Wil","The Blazing Blade",1,0
+"Finn","Thracia 776",1,0
+"Neimi","The Sacred Stones",0,1
+"Knoll","The Sacred Stones",1,0
+"Basilio","Awakening",1,0
+"Kent","The Blazing Blade",1,0
+"Zihark","Radiant Dawn",1,0
+"Wolt","The Binding Blade",1,0
+"Abel","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Ogma","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Raigh","The Binding Blade",1,0
+"Navarre","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Shiro","Fates",1,0
+"Reina","Fates",0,1
+"Ewan","The Sacred Stones",1,0
+"Sophie","Fates",0,1
+"Heath","The Blazing Blade",1,0
+"Oliver","Radiant Dawn",1,0
+"Olwen","Thracia 776",0,1
+"Kiragi","Fates",1,0
+"Haar","Path of Radiance",1,0
+"Cervantes","Awakening",1,0
+"Minerva","Mystery of the Emblem / New Mystery of the Emblem",0,1
+"Lucia","Radiant Dawn",0,1
+"Elincia","Path of Radiance",0,1
+"Merric","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Tibarn","Path of Radiance",1,0
+"Volug","Radiant Dawn",1,0
+"Lethe","Radiant Dawn",0,1
+"Mareeta","Thracia 776",0,1
+"Marcia","Path of Radiance",0,1
+"Asugi","Fates",1,0
+"Quan","Genealogy of the Holy War",1,0
+"Hector","The Binding Blade",1,0
+"Gunter","Fates",1,0
+"Jeorge","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Zephiel","The Binding Blade",1,0
+"Kjelle","Awakening",0,1
+"Izana","Fates",1,0
+"Leanne","Radiant Dawn",0,1
+"Vanessa","The Sacred Stones",0,1
+"Karel","The Blazing Blade",1,0
+"Gonzalez","The Binding Blade",1,0
+"Greil","Path of Radiance",1,0
+"Sirius","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Leif","Genealogy of the Holy War",1,0
+"Kris (M)","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Nils","The Blazing Blade",1,0
+"Jagen","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Farina","The Blazing Blade",0,1
+"Wolf","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Artur","The Sacred Stones",1,0
+"Arthur","Genealogy of the Holy War",1,0
+"Tailtiu","Genealogy of the Holy War",1,0
+"Astrid","Path of Radiance",0,1
+"Athena","Shadow Dragon and the Blade of Light / Shadow Dragon",0,1
+"Palla","Mystery of the Emblem / New Mystery of the Emblem",0,1
+"Limstella","The Blazing Blade",0,0
+"Garon","Fates",1,0
+"Xane","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Thite","The Binding Blade",0,1
+"Barst","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Vika","Radiant Dawn",0,1
+"Perceval","The Binding Blade",1,0
+"Stefan","Radiant Dawn",1,0
+"Tormod","Radiant Dawn",1,0
+"Sonia","The Blazing Blade",0,1
+"Echidna","The Binding Blade",0,1
+"Louise","The Blazing Blade",0,1
+"Karla","The Blazing Blade",0,1
+"Oscar","Path of Radiance",1,0
+"Leanne","Path of Radiance",0,1
+"Gwendolyn","The Binding Blade",0,1
+"Aran","Radiant Dawn",1,0
+"Hayato","Fates",1,0
+"Mordecai","Path of Radiance",1,0
+"Moulder","The Sacred Stones",1,0
+"Julia","Genealogy of the Holy War",0,1
+"Linde","Mystery of the Emblem / New Mystery of the Emblem",0,1
+"Valter","The Sacred Stones",1,0
+"Selena","The Sacred Stones",0,1
+"Caineghis","Radiant Dawn",1,0
+"Franz","The Sacred Stones",1,0
+"Boyd","Path of Radiance",1,0
+"Pelleas","Radiant Dawn",1,0
+"Heather","Radiant Dawn",0,1
+"Draug","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Oswin","The Blazing Blade",1,0
+"Athos","The Blazing Blade",1,0
+"Sheena","Mystery of the Emblem / New Mystery of the Emblem",0,1
+"Boyd","Radiant Dawn",1,0
+"Arete","Fates",0,1
+"Zihark","Path of Radiance",1,0
+"Laurent","Awakening",1,0
+"Nagi","Shadow Dragon and the Blade of Light / Shadow Dragon",0,1
+"Ares","Genealogy of the Holy War",1,0
+"Forde","The Sacred Stones",1,0
+"Sue","The Binding Blade",0,1
+"Stefan","Path of Radiance",1,0
+"Erinys","Genealogy of the Holy War",0,1
+"Melady","The Binding Blade",0,1
+"Azelle","Genealogy of the Holy War",1,0
+"Hugh","The Binding Blade",1,0
+"Shannan","Genealogy of the Holy War",1,0
+"Naesala","Path of Radiance",1,0
+"Gordin","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Palla","Shadow Dragon and the Blade of Light / Shadow Dragon",0,1
+"Anna","Radiant Dawn",0,1
+"Sanaki","Path of Radiance",0,1
+"Reyson","Path of Radiance",1,0
+"Sumeragi","Fates",1,0
+"Iago","Fates",1,0
+"Tethys","The Sacred Stones",0,1
+"Marcia","Radiant Dawn",0,1
+"Meg","Radiant Dawn",0,1
+"Julian","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Volke","Path of Radiance",1,0
+"Deirdre","Genealogy of the Holy War",0,1
+"Lucia","Path of Radiance",0,1
+"Cain","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Tine","Genealogy of the Holy War",0,1
+"Rolf","Path of Radiance",1,0
+"Rhys","Path of Radiance",1,0
+"Chad","The Binding Blade",1,0
+"Merlinus","The Blazing Blade",1,0
+"Dart","The Blazing Blade",1,0
+"Sothe","Path of Radiance",1,0
+"Ethlyn","Genealogy of the Holy War",1,0
+"Ashnard","Path of Radiance",1,0
+"Reyson","Radiant Dawn",1,0
+"Lyre","Radiant Dawn",0,1
+"Siegbert","Fates",1,0
+"Gordin","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Hawkeye","The Blazing Blade",1,0
+"Etzel","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Patty","Genealogy of the Holy War",0,1
+"Wallace","The Blazing Blade",1,0
+"Camus","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Yen'fay","Awakening",1,0
+"Rolf","Radiant Dawn",1,0
+"Marty","Thracia 776",1,0
+"Kieran","Path of Radiance",1,0
+"Ulster","Genealogy of the Holy War",1,0
+"Yune","Radiant Dawn",0,1
+"Rainbow Sage","Fates",1,0
+"Candace","Fates",0,1
+"Lex","Genealogy of the Holy War",1,0
+"Validar","Awakening",1,0
+"Geoffrey","Radiant Dawn",1,0
+"Natasha","The Sacred Stones",0,1
+"Marcus","The Blazing Blade",1,0
+"Nanna","Thracia 776",0,1
+"Duessel","The Sacred Stones",1,0
+"Vyland","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Jeorge","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Leonardo","Radiant Dawn",1,0
+"Dozla","The Sacred Stones",1,0
+"Malice","Mystery of the Emblem / New Mystery of the Emblem",0,1
+"Elice","Shadow Dragon and the Blade of Light / Shadow Dragon",0,1
+"Ced","Thracia 776",1,0
+"Hisame","Fates",1,0
+"Zola","Fates",1,0
+"Kris (F)","Mystery of the Emblem / New Mystery of the Emblem",0,1
+"Percy","Fates",1,0
+"Lena","Shadow Dragon and the Blade of Light / Shadow Dragon",0,1
+"Norne","Shadow Dragon and the Blade of Light / Shadow Dragon",0,1
+"Sephiran","Radiant Dawn",1,0
+"Guinivere","The Blazing Blade",0,1
+"Amy","Radiant Dawn",0,1
+"Michalis","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Hardin","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Julius","Genealogy of the Holy War",1,0
+"Lowen","The Blazing Blade",1,0
+"Noah","The Binding Blade",1,0
+"Tormod","Path of Radiance",1,0
+"Delthea","Gaiden",1,0
+"Caineghis","Path of Radiance",1,0
+"Xane","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Clarisse","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Wrys","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Nyna","Shadow Dragon and the Blade of Light / Shadow Dragon",0,1
+"Sara","Thracia 776",0,1
+"Dew","Genealogy of the Holy War",1,0
+"Petrine","Path of Radiance",0,1
+"Sigrun","Radiant Dawn",0,1
+"Igrene","The Binding Blade",0,1
+"Astrid","Radiant Dawn",0,1
+"Merlinus","The Binding Blade",1,0
+"Ashera","Radiant Dawn",0,1
+"Eliwood","The Binding Blade",1,0
+"Oscar","Radiant Dawn",1,0
+"Mathilda","Gaiden",0,1
+"Laura","Radiant Dawn",0,1
+"Yukimura","Fates",1,0
+"Ismaire","The Sacred Stones",0,1
+"Zeiss","The Binding Blade",1,0
+"Lance","The Binding Blade",1,0
+"Ephidel","The Blazing Blade",1,0
+"Cath","The Binding Blade",0,1
+"Harken","The Blazing Blade",1,0
+"Janaff","Path of Radiance",1,0
+"Nolan","Radiant Dawn",1,0
+"Muarim","Path of Radiance",1,0
+"Altena","Genealogy of the Holy War",0,1
+"Lorenz","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Saul","The Binding Blade",1,0
+"Alen","The Binding Blade",1,0
+"Anna","Mystery of the Emblem / New Mystery of the Emblem",0,1
+"Zelgius","Path of Radiance",1,0
+"Linus","The Blazing Blade",1,0
+"Gatrie","Radiant Dawn",1,0
+"Gharnef","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Brunnya","The Binding Blade",0,1
+"Gatrie","Path of Radiance",1,0
+"Asbel","Thracia 776",1,0
+"Muarim","Radiant Dawn",1,0
+"Maria","Shadow Dragon and the Blade of Light / Shadow Dragon",0,1
+"Sigrun","Path of Radiance",0,1
+"Isadora","The Blazing Blade",0,1
+"Galle","The Binding Blade",1,0
+"Hans","Fates",1,0
+"Saleh","The Sacred Stones",1,0
+"Nichol","Fates",1,0
+"Dorothy","The Binding Blade",0,1
+"Bantu","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Karel","The Binding Blade",1,0
+"Geese","The Binding Blade",1,0
+"Vyland","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Naoise","Genealogy of the Holy War",1,0
+"Nergal","The Blazing Blade",1,0
+"Kyle","The Sacred Stones",1,0
+"Arlen","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Klein","The Binding Blade",1,0
+"Rhys","Radiant Dawn",1,0
+"Chulainn","Genealogy of the Holy War",1,0
+"Michalis","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Machyua","Thracia 776",0,1
+"Orson","The Sacred Stones",1,0
+"Excellus","Awakening",1,0
+"Radd","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Mordecai","Radiant Dawn",1,0
+"Elena","Path of Radiance",0,1
+"Kurthnaga","Radiant Dawn",1,0
+"Valbar","Gaiden",1,0
+"Kieran","Radiant Dawn",1,0
+"Brom","Path of Radiance",1,0
+"Jamke","Genealogy of the Holy War",1,0
+"Castor","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Skrimir","Radiant Dawn",1,0
+"Glen","The Sacred Stones",1,0
+"Zeke","Gaiden",1,0
+"Osian","Thracia 776",1,0
+"Kliff","Gaiden",1,0
+"Miranda","Thracia 776",0,1
+"Sin","The Binding Blade",1,0
+"Norne","Mystery of the Emblem / New Mystery of the Emblem",0,1
+"Lara","Thracia 776",0,1
+"Marcus","The Binding Blade",1,0
+"Travant","Genealogy of the Holy War",1,0
+"Ogier","The Binding Blade",1,0
+"Tanith","Path of Radiance",0,1
+"Fee","Genealogy of the Holy War",0,1
+"Hardin","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Bartre","The Blazing Blade",1,0
+"Guinivere","The Binding Blade",0,1
+"Fuga","Fates",1,0
+"Carrion","Thracia 776",1,0
+"Linoan","Thracia 776",0,1
+"Athena","Mystery of the Emblem / New Mystery of the Emblem",0,1
+"Devdan","Path of Radiance",1,0
+"Brom","Radiant Dawn",1,0
+"Ashunera","Radiant Dawn",0,1
+"Draug","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Geitz","The Blazing Blade",1,0
+"Legion","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Febail","Genealogy of the Holy War",1,0
+"Est","Shadow Dragon and the Blade of Light / Shadow Dragon",0,1
+"Etzel","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Ignatius","Fates",1,0
+"Fiona","Radiant Dawn",0,1
+"Nagi","Mystery of the Emblem / New Mystery of the Emblem",0,1
+"Syrene","The Sacred Stones",0,1
+"Rennac","The Sacred Stones",1,0
+"Bors","The Binding Blade",1,0
+"Silvia","Genealogy of the Holy War",0,1
+"Catria","Gaiden",0,1
+"Sedgar","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Julian","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Lana","Genealogy of the Holy War",0,1
+"Frey","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Phina","Mystery of the Emblem / New Mystery of the Emblem",0,1
+"Trec","The Binding Blade",1,0
+"Wolf","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Janaff","Radiant Dawn",1,0
+"Cecil","Mystery of the Emblem / New Mystery of the Emblem",0,1
+"Nanna","Genealogy of the Holy War",0,1
+"Jagen","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Bord","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Lifis","Thracia 776",1,0
+"Wendell","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Dheginsea","Radiant Dawn",1,0
+"Abel","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Midir","Genealogy of the Holy War",1,0
+"Caellach","The Sacred Stones",1,0
+"Silque","Gaiden",0,1
+"Karin","Thracia 776",0,1
+"Cord","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Sonya","Gaiden",1,0
+"Niime","The Binding Blade",0,1
+"Misha","Thracia 776",0,1
+"Eyvel","Thracia 776",0,1
+"Oifey","Genealogy of the Holy War",1,0
+"Elen","The Binding Blade",0,1
+"Yuliya","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Geoffrey","Path of Radiance",1,0
+"Barst","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Jake","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Bartre","The Binding Blade",1,0
+"Brigid","Genealogy of the Holy War",0,1
+"Kempf","Thracia 776",1,0
+"Saber","Gaiden",1,0
+"Shiva","Thracia 776",1,0
+"Saias","Thracia 776",1,0
+"Roshea","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Douglas","The Binding Blade",1,0
+"Galzus","Thracia 776",1,0
+"Largo","Path of Radiance",1,0
+"Rafiel","Radiant Dawn",1,0
+"Samuel","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Kamui","Gaiden",1,0
+"Jarod","Radiant Dawn",1,0
+"Lukas","Gaiden",1,0
+"Renault","The Blazing Blade",1,0
+"Lene","Genealogy of the Holy War",0,1
+"Tanya","Thracia 776",0,1
+"Kyza","Radiant Dawn",1,0
+"Matthis","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Alec","Genealogy of the Holy War",1,0
+"Ryan","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Beowolf","Genealogy of the Holy War",1,0
+"Astram","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Danved","Radiant Dawn",1,0
+"Horace","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Boey","Gaiden",1,0
+"Arran","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Tauroneo","Radiant Dawn",1,0
+"Reinhardt","Thracia 776",1,0
+"Castor","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Genny","Gaiden",0,1
+"Ena","Path of Radiance",0,1
+"Jubelo","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Maria","Mystery of the Emblem / New Mystery of the Emblem",0,1
+"Ronan","Thracia 776",1,0
+"Calill","Path of Radiance",0,1
+"Mae","Gaiden",0,1
+"Makalov","Path of Radiance",1,0
+"Larum","The Binding Blade",0,1
+"Caesar","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Darros","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Tanith","Radiant Dawn",0,1
+"Calill","Radiant Dawn",0,1
+"Elice","Mystery of the Emblem / New Mystery of the Emblem",0,1
+"Sedgar","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Vaida","The Blazing Blade",0,1
+"Eremiya","Mystery of the Emblem / New Mystery of the Emblem",0,1
+"Clair","Gaiden",0,1
+"Nasir","Path of Radiance",1,0
+"Gareth","Radiant Dawn",1,0
+"Lena","Mystery of the Emblem / New Mystery of the Emblem",0,1
+"Aimee","Radiant Dawn",0,1
+"Murdock","The Binding Blade",1,0
+"Salem","Thracia 776",1,0
+"Ulki","Radiant Dawn",1,0
+"Barthe","The Binding Blade",1,0
+"Nyna","Mystery of the Emblem / New Mystery of the Emblem",0,1
+"Eda","Thracia 776",0,1
+"Gray","Gaiden",1,0
+"Ymir","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Muirne","Genealogy of the Holy War",0,1
+"Marisha","Mystery of the Emblem / New Mystery of the Emblem",0,1
+"Bastian","Radiant Dawn",1,0
+"Annand","Genealogy of the Holy War",0,1
+"Juno","The Binding Blade",0,1
+"Ulki","Path of Radiance",1,0
+"Medeus","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Ilios","Thracia 776",1,0
+"Reptor","Genealogy of the Holy War",1,0
+"Diarmuid","Genealogy of the Holy War",1,0
+"Fado","The Sacred Stones",1,0
+"Zephiel","The Blazing Blade",1,0
+"Hannibal","Genealogy of the Holy War",1,0
+"Luthier","Gaiden",1,0
+"Samson","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Halvan","Thracia 776",1,0
+"Midia","Shadow Dragon and the Blade of Light / Shadow Dragon",0,1
+"Caesar","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Arion","Genealogy of the Holy War",1,0
+"Daisy","Genealogy of the Holy War",0,1
+"Lorenz","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Andrey","Genealogy of the Holy War",1,0
+"Kurthnaga","Path of Radiance",1,0
+"Est","Gaiden",0,1
+"Iucharba","Genealogy of the Holy War",1,0
+"Tobin","Gaiden",1,0
+"Palla","Gaiden",0,1
+"Nomah","Gaiden",1,0
+"Bertram","Path of Radiance",1,0
+"Dagdar","Thracia 776",1,0
+"Astram","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Beck","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Fergus","Thracia 776",1,0
+"Ena","Radiant Dawn",0,1
+"Lang","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Rudolf","Gaiden",1,0
+"Gotoh","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Almedha","Radiant Dawn",0,1
+"Nasir","Radiant Dawn",1,0
+"Iuchar","Genealogy of the Holy War",1,0
+"Giffca","Path of Radiance",1,0
+"Bord","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Giffca","Radiant Dawn",1,0
+"Python","Gaiden",1,0
+"Roshea","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Mycen","Gaiden",1,0
+"Makalov","Radiant Dawn",1,0
+"Renning","Radiant Dawn",1,0
+"Est","Mystery of the Emblem / New Mystery of the Emblem",0,1
+"Elffin","The Binding Blade",1,0
+"Boah","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Tauroneo","Path of Radiance",1,0
+"Aida","Genealogy of the Holy War",0,1
+"Dice","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Bastian","Path of Radiance",1,0
+"Sephiran","Path of Radiance",1,0
+"Bantu","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Gareth","Path of Radiance",1,0
+"Hawk","Genealogy of the Holy War",1,0
+"Linda","Genealogy of the Holy War",0,1
+"Luke","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Clive","Gaiden",1,0
+"Lombard","Genealogy of the Holy War",1,0
+"Arran","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Matthis","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Dolph","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Wade","The Binding Blade",1,0
+"Laylea","Genealogy of the Holy War",0,1
+"Manfroy","Genealogy of the Holy War",1,0
+"Roderick","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Radd","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Tomas","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Renning","Path of Radiance",1,0
+"Tina","Thracia 776",0,1
+"Macellan","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Atlas","Gaiden",1,0
+"Roger","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Homer","Thracia 776",1,0
+"Deen","Gaiden",1,0
+"Creidne","Genealogy of the Holy War",0,1
+"Cord","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Gharnef","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Horace","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Sandima","Genealogy of the Holy War",1,0
+"Astolfo","The Binding Blade",1,0
+"Shannam","Thracia 776",1,0
+"Rickard","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Perne","Thracia 776",1,0
+"Belf","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Medeus","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Brighton","Thracia 776",1,0
+"Ishtore","Genealogy of the Holy War",1,0
+"Jahn","The Binding Blade",1,0
+"Zelot","The Binding Blade",1,0
+"Midia","Mystery of the Emblem / New Mystery of the Emblem",0,1
+"Tatiana","Gaiden",0,1
+"Amalda","Thracia 776",0,1
+"Desaix","Gaiden",1,0
+"Selphina","Thracia 776",0,1
+"Samson","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Kutuzov","Genealogy of the Holy War",1,0
+"Alva","Thracia 776",1,0
+"Tomas","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Dheginsea","Path of Radiance",1,0
+"Wendell","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Deen","Thracia 776",1,0
+"Xavier","Thracia 776",1,0
+"Cain","Thracia 776",1,0
+"Valtome","Radiant Dawn",1,0
+"Forsyth","Gaiden",1,0
+"Jeanne","Genealogy of the Holy War",0,1
+"Ralf","Thracia 776",1,0
+"Leon","Gaiden",1,0
+"Garret","The Binding Blade",1,0
+"Yoder","The Binding Blade",1,0
+"Frey","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Raydrik","Thracia 776",1,0
+"Roberto","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Tristan","Genealogy of the Holy War",1,0
+"Jake","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Robert","Thracia 776",1,0
+"Riev","The Sacred Stones",1,0
+"Warren","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Nealuchi","Radiant Dawn",1,0
+"Largo","Radiant Dawn",1,0
+"Reiden","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Veld","Thracia 776",1,0
+"Byron","Genealogy of the Holy War",1,0
+"Nealuchi","Path of Radiance",1,0
+"Safy","Thracia 776",0,1
+"Munnir","Genealogy of the Holy War",1,0
+"Jesse","Gaiden",1,0
+"Grieth","Gaiden",1,0
+"Malledus","Shadow Dragon and the Blade of Light / Shadow Dragon",1,0
+"Diarmuid","Thracia 776",1,0
+"Hicks","Thracia 776",1,0
+"Edain","Genealogy of the Holy War",0,1
+"Claud","Genealogy of the Holy War",1,0
+"Brian","Genealogy of the Holy War",1,0
+"Dayan","The Binding Blade",1,0
+"Rickard","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Muston","Radiant Dawn",1,0
+"Jorge","Radiant Dawn",1,0
+"Dalsin","Thracia 776",1,0
+"Gotoh","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Dolph","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Asaello","Genealogy of the Holy War",0,1
+"Amid","Genealogy of the Holy War",1,0
+"Fred","Thracia 776",1,0
+"Boah","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Coirpre","Genealogy of the Holy War",1,0
+"Chagall","Genealogy of the Holy War",1,0
+"Dalvin","Genealogy of the Holy War",1,0
+"Hermina","Genealogy of the Holy War",0,1
+"Izuka","Radiant Dawn",1,0
+"Troude","Thracia 776",1,0
+"Hetzel","Radiant Dawn",1,0
+"Hilda","Genealogy of the Holy War",0,1
+"Lester","Genealogy of the Holy War",1,0
+"Hayden","The Sacred Stones",1,0
+"Sleuf","Thracia 776",1,0
+"Daniel","Radiant Dawn",1,0
+"Frost","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Charlot","Genealogy of the Holy War",1,0
+"Scipio","Genealogy of the Holy War",1,0
+"Deimne","Genealogy of the Holy War",1,0
+"Darros","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Cimbaeth","Genealogy of the Holy War",1,0
+"Conomor","Thracia 776",1,0
+"Ymir","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Beck","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Roger","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Macellan","Mystery of the Emblem / New Mystery of the Emblem",1,0
+"Danann","Genealogy of the Holy War",1,0
+"Bloom","Genealogy of the Holy War",1,0
+"Glade","Thracia 776",1,0

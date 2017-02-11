@@ -1,32 +1,51 @@
 USE FireEmblemData;
 
-# Characters and all their reclasses, not just their base class
+# FE14: Characters and all their reclasses, not just their base class
 SELECT R.CharId, CP.PromotedClass as ClassName
-FROM Reclasses R, ClassPromotions CP
+FROM FE14_Reclasses R, FE14_ClassPromotions CP
 WHERE R.BaseClassName = CP.BaseClass
 UNION
 SELECT CharId, BaseClassName as ClassName
-FROM Reclasses R
+FROM FE14_Reclasses R
 ORDER BY CharId ASC, ClassName ASC;
 
-# The number of characters who can use each weapon type
+# FE14: The number of characters who can use each weapon type
 SELECT WeaponType, COUNT(DISTINCT CharId) AS NumberOfCharacters FROM
 	(SELECT R.CharId, CP.PromotedClass as ClassName
-	FROM Reclasses R, ClassPromotions CP
+	FROM FE14_Reclasses R, FE14_ClassPromotions CP
 	WHERE R.BaseClassName = CP.BaseClass
 	UNION
 	SELECT CharId, BaseClassName as ClassName
-	FROM Reclasses R
+	FROM FE14_Reclasses R
 	ORDER BY CharId ASC, ClassName ASC) R,
 	ClassWeapons CW WHERE
 R.ClassName = CW.ClassName GROUP BY CW.WeaponType ORDER BY Count(DISTINCT CharId) DESC;
 
 
+# FE Heroes: Pairing Generator!
+SELECT females.Ranking, males.CharId AS `Male Character`, males.Game AS `Male Character Game`, females.CharID AS `Female Character`, females.Game AS `Male Character Game` FROM
+(
+	SELECT @row1 := @row1 + 1 AS `Ranking`, CharID, Game, Ranking AS `Overall Ranking`, Votes FROM
+	(SELECT V.* FROM
+	fireemblemdata.heroes_gender G, fireemblemdata.heroes_votes V
+	WHERE G.isMale AND NOT G.isFemale AND G.CharId=V.CharId AND G.Game=V.Game 
+	ORDER BY V.Ranking
+	) mainquery, (SELECT @row1 := 0) rownumber
+) males LEFT JOIN 
+(
+	SELECT @row2 := @row2 + 1 AS `Ranking`, CharID, Game, Ranking AS `Overall Ranking`, Votes FROM
+	(SELECT V.* FROM
+	fireemblemdata.heroes_gender G, fireemblemdata.heroes_votes V
+	WHERE G.isFemale AND NOT G.isMale AND G.CharId=V.CharId AND G.Game=V.Game 
+	ORDER BY V.Ranking
+	) mainquery, (SELECT @row2 := 0) rownumber
+) females
+ON males.Ranking = females.Ranking;
 
 
 
 
-### The following works in theory cannot be represented with a native MYSQL DOUBLE, which
+### The following works in theory but often cannot be represented with a native MYSQL DOUBLE, which
 ### is what POW returns.
 
 DELIMITER $$
@@ -143,12 +162,12 @@ SELECT
 	(Cl1.BaseLck - ClBase.BaseLck + CBS.BaseLck) + (Cl1.GrowthLck+Ch.GrowthLck) * (19 - CBS.BaseLevel) / 100 +
 	 (Cl2.BaseLck - ClBase.BaseLck + CBS.BaseLck) + (Cl2.GrowthLck+Ch.GrowthLck) * (19) / 100  AS 'Average Level 20 Luck (Promoted Class)'
 
-FROM classstats AS Cl1,
-	classstats AS Cl2,
-	classstats AS ClBase,
-	characterstats AS Ch,
-	characterbasestats AS CBS,
-	classpromotions AS CP
+FROM FE14_classstats AS Cl1,
+	FE14_classstats AS Cl2,
+	FE14_classstats AS ClBase,
+	FE14_characterstats AS Ch,
+	FE14_characterbasestats AS CBS,
+	FE14_classpromotions AS CP
 
 WHERE Ch.CharId = CBS.CharId AND CBS.CharId = 'Arthur' AND 
 
@@ -156,6 +175,127 @@ Cl1.ClassName = CP.BaseClass AND
 Cl2.ClassName = CP.PromotedClass AND
 ClBase.ClassName = CBS.Class
 
-AND (Cl2.MaxLck+Ch.ModifierMaxLck) > (Cl2.BaseLck - ClBase.BaseLck + CBS.BaseLck) + (39 - CBS.BaseLevel) #Filter out where reaching the cap is impossible
+ORDER BY `Average Level 20 Luck (Promoted Class)` DESC, `Luck Cap (Promoted Class)` ASC;
+
+
+
+
+
+
+
+
+
+
+
+
+SELECT
+	Ch.CharId, CBS.BaseSpd AS 'Speed Character Base',CBS.BaseLevel,
+	
+	Cl1.ClassName AS 'Unpromoted Class Name',
+	19 - CBS.BaseLevel AS 'Level Ups Left (Unpromoted Class)',
+	Cl1.MaxSpd+Ch.ModifierMaxSpd AS 'Speed Cap (Unpromoted Class)',
+	Cl1.BaseSpd - ClBase.BaseSpd + CBS.BaseSpd AS 'Speed Base (Unpromoted Class)',
+	Cl1.GrowthSpd+Ch.GrowthSpd AS 'Speed Growth (Unpromoted Class)',
+	(Cl1.BaseSpd - ClBase.BaseSpd + CBS.BaseSpd) + (Cl1.GrowthSpd+Ch.GrowthSpd) * (19 - CBS.BaseLevel) / 100  AS 'Average Level 20 Speed (Unpromoted Class)',
+
+	Cl2.ClassName AS 'Promoted Class Name',
+	19 AS 'Level Ups Left (Promoted Class)',
+	Cl2.MaxSpd+Ch.ModifierMaxSpd AS 'Speed Cap (Promoted Class)',
+	Cl2.BaseSpd - ClBase.BaseSpd + CBS.BaseSpd AS 'Speed Base (Promoted Class)',
+	Cl2.GrowthSpd+Ch.GrowthSpd AS 'Speed Growth (Promoted Class)',
+	(Cl1.BaseSpd - ClBase.BaseSpd + CBS.BaseSpd) + (Cl1.GrowthSpd+Ch.GrowthSpd) * (19 - CBS.BaseLevel) / 100 +
+	 (Cl2.BaseSpd - ClBase.BaseSpd + CBS.BaseSpd) + (Cl2.GrowthSpd+Ch.GrowthSpd) * (19) / 100  AS 'Average Level 20 Speed (Promoted Class)'
+
+FROM FE14_classstats AS Cl1,
+	FE14_classstats AS Cl2,
+	FE14_classstats AS ClBase,
+	FE14_characterstats AS Ch,
+	FE14_characterbasestats AS CBS,
+	FE14_classpromotions AS CP
+
+WHERE Ch.CharId = CBS.CharId AND CBS.CharId = 'Benny' AND 
+
+Cl1.ClassName = CP.BaseClass AND
+Cl2.ClassName = CP.PromotedClass AND
+ClBase.ClassName = CBS.Class
+
+ORDER BY `Average Level 20 Speed (Promoted Class)` DESC, `Speed Cap (Promoted Class)` ASC;
+
+
+
+SELECT
+	Ch.CharId, CBS.BaseLck AS 'Luck Character Base',CBS.BaseLevel,
+	
+	Cl1.ClassName AS 'Unpromoted Class Name',
+	19 - CBS.BaseLevel AS 'Level Ups Left (Unpromoted Class)',
+	Cl1.MaxLck+Ch.ModifierMaxLck AS 'Luck Cap (Unpromoted Class)',
+	Cl1.BaseLck - ClBase.BaseLck + CBS.BaseLck AS 'Luck Base (Unpromoted Class)',
+	Cl1.GrowthLck+Ch.GrowthLck AS 'Luck Growth (Unpromoted Class)',
+	(Cl1.BaseLck - ClBase.BaseLck + CBS.BaseLck) + (Cl1.GrowthLck+Ch.GrowthLck) * (19 - CBS.BaseLevel) / 100  AS 'Average Level 20 Luck (Unpromoted Class)',
+
+	Cl2.ClassName AS 'Promoted Class Name',
+	19 AS 'Level Ups Left (Promoted Class)',
+	Cl2.MaxLck+Ch.ModifierMaxLck AS 'Luck Cap (Promoted Class)',
+	Cl2.BaseLck - ClBase.BaseLck + CBS.BaseLck AS 'Luck Base (Promoted Class)',
+	Cl2.GrowthLck+Ch.GrowthLck AS 'Luck Growth (Promoted Class)',
+	(Cl1.BaseLck - ClBase.BaseLck + CBS.BaseLck) + (Cl1.GrowthLck+Ch.GrowthLck) * (19 - CBS.BaseLevel) / 100 +
+	 (Cl2.BaseLck - ClBase.BaseLck + CBS.BaseLck) + (Cl2.GrowthLck+Ch.GrowthLck) * (19) / 100  AS 'Average Level 20 Luck (Promoted Class)'
+
+FROM FE14_classstats AS Cl1,
+	FE14_classstats AS Cl2,
+	FE14_classstats AS ClBase,
+	FE14_characterstats AS Ch,
+	FE14_characterbasestats AS CBS,
+	FE14_classpromotions AS CP
+
+WHERE Ch.CharId = CBS.CharId AND CBS.CharId = 'Arthur' AND 
+
+Cl1.ClassName = CP.BaseClass AND
+Cl2.ClassName = CP.PromotedClass AND
+ClBase.ClassName = CBS.Class
 
 ORDER BY `Average Level 20 Luck (Promoted Class)` DESC, `Luck Cap (Promoted Class)` ASC;
+
+
+
+
+
+
+
+
+
+
+
+
+SELECT
+	Ch.CharId, CBS.BaseMag AS 'Magic Character Base',CBS.BaseLevel,
+	
+	Cl1.ClassName AS 'Unpromoted Class Name',
+	19 - CBS.BaseLevel AS 'Level Ups Left (Unpromoted Class)',
+	Cl1.MaxMag+Ch.ModifierMaxMag AS 'Magic Cap (Unpromoted Class)',
+	Cl1.BaseMag - ClBase.BaseMag + CBS.BaseMag AS 'Magic Base (Unpromoted Class)',
+	Cl1.GrowthMag+Ch.GrowthMag AS 'Magic Growth (Unpromoted Class)',
+	(Cl1.BaseMag - ClBase.BaseMag + CBS.BaseMag) + (Cl1.GrowthMag+Ch.GrowthMag) * (19 - CBS.BaseLevel) / 100  AS 'Average Level 20 Magic (Unpromoted Class)',
+
+	Cl2.ClassName AS 'Promoted Class Name',
+	19 AS 'Level Ups Left (Promoted Class)',
+	Cl2.MaxMag+Ch.ModifierMaxMag AS 'Magic Cap (Promoted Class)',
+	Cl2.BaseMag - ClBase.BaseMag + CBS.BaseMag AS 'Magic Base (Promoted Class)',
+	Cl2.GrowthMag+Ch.GrowthMag AS 'Magic Growth (Promoted Class)',
+	(Cl1.BaseMag - ClBase.BaseMag + CBS.BaseMag) + (Cl1.GrowthMag+Ch.GrowthMag) * (19 - CBS.BaseLevel) / 100 +
+	 (Cl2.BaseMag - ClBase.BaseMag + CBS.BaseMag) + (Cl2.GrowthMag+Ch.GrowthMag) * (19) / 100  AS 'Average Level 20 Magic (Promoted Class)'
+
+FROM FE14_classstats AS Cl1,
+	FE14_classstats AS Cl2,
+	FE14_classstats AS ClBase,
+	FE14_characterstats AS Ch,
+	FE14_characterbasestats AS CBS,
+	FE14_classpromotions AS CP
+
+WHERE Ch.CharId = CBS.CharId AND CBS.CharId = 'Takumi' AND 
+
+Cl1.ClassName = CP.BaseClass AND
+Cl2.ClassName = CP.PromotedClass AND
+ClBase.ClassName = CBS.Class
+
+ORDER BY `Average Level 20 Magic (Promoted Class)` DESC, `Magic Cap (Promoted Class)` ASC;

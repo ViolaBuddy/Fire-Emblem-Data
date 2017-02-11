@@ -1,6 +1,6 @@
 CharId,PersonalSkill,Description
-"Avatar (M)","Supportive","When user is the support unit, if the lead unit has a C Support or higher, the lead unit’s Hit Rate +10, damage +2 and damage received -2"
-"Avatar (F)","Supportive","When user is the support unit, if the lead unit has a C Support or higher, the lead unit’s Hit Rate +10, damage +2 and damage received -2"
+"Corrin (M)","Supportive","When user is the support unit, if the lead unit has a C Support or higher, the lead unit’s Hit Rate +10, damage +2 and damage received -2"
+"Corrin (F)","Supportive","When user is the support unit, if the lead unit has a C Support or higher, the lead unit’s Hit Rate +10, damage +2 and damage received -2"
 "Gunter","Forceful Partner","If the Avatar is the lead unit, Avatar’s Hit rate +15, damage +3"
 "Felicia","Devoted Partner","If the Avatar is the lead unit, Avatar’s damage +2, damage received -2"
 "Jakob","Evasive Partner","If the Avatar is the lead unit, Avatar’s Avoid +15, damage received -3"

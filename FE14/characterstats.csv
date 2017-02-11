@@ -1,6 +1,6 @@
 CharId,GrowthHP,GrowthStr,GrowthMag,GrowthSkl,GrowthSpd,GrowthLck,GrowthDef,GrowthRes,ModifierMaxStr,ModifierMaxMag,ModifierMaxSkl,ModifierMaxSpd,ModifierMaxLck,ModifierMaxDef,ModifierMaxRes
-Avatar (M),45,45,30,40,45,45,35,25,0,0,0,0,0,0,0
-Avatar (F),45,45,30,40,45,45,35,25,0,0,0,0,0,0,0
+Corrin (M),45,45,30,40,45,45,35,25,0,0,0,0,0,0,0
+Corrin (F),45,45,30,40,45,45,35,25,0,0,0,0,0,0,0
 Gunter,15,5,0,5,0,15,5,5,2,0,1,-2,0,2,-2
 Felicia,40,10,35,30,40,55,15,35,-2,2,0,1,0,-1,1
 Jakob,50,30,15,40,35,45,25,25,2,-2,2,0,-1,0,-1
